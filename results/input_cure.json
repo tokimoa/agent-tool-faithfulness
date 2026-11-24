@@ -1,0 +1,402 @@
+[
+  {
+    "model": "Phi-4-mini",
+    "lever": "orig",
+    "n": 60,
+    "confab": 0.483,
+    "wilson": [
+      0.362,
+      0.607
+    ]
+  },
+  {
+    "model": "Phi-4-mini",
+    "lever": "cite",
+    "n": 60,
+    "confab": 0.267,
+    "wilson": [
+      0.171,
+      0.39
+    ]
+  },
+  {
+    "model": "Phi-4-mini",
+    "lever": "absence",
+    "n": 60,
+    "confab": 0.183,
+    "wilson": [
+      0.106,
+      0.299
+    ]
+  },
+  {
+    "model": "Phi-4-mini",
+    "lever": "tags",
+    "n": 60,
+    "confab": 0.317,
+    "wilson": [
+      0.213,
+      0.442
+    ]
+  },
+  {
+    "model": "Phi-4-mini",
+    "lever": "isolate",
+    "n": 60,
+    "confab": 0.017,
+    "wilson": [
+      0.003,
+      0.089
+    ]
+  },
+  {
+    "model": "aya-expanse-8b",
+    "lever": "orig",
+    "n": 60,
+    "confab": 0.567,
+    "wilson": [
+      0.441,
+      0.684
+    ]
+  },
+  {
+    "model": "aya-expanse-8b",
+    "lever": "cite",
+    "n": 60,
+    "confab": 0.75,
+    "wilson": [
+      0.628,
+      0.842
+    ]
+  },
+  {
+    "model": "aya-expanse-8b",
+    "lever": "absence",
+    "n": 60,
+    "confab": 0.0,
+    "wilson": [
+      0.0,
+      0.06
+    ]
+  },
+  {
+    "model": "aya-expanse-8b",
+    "lever": "tags",
+    "n": 60,
+    "confab": 0.117,
+    "wilson": [
+      0.058,
+      0.222
+    ]
+  },
+  {
+    "model": "aya-expanse-8b",
+    "lever": "isolate",
+    "n": 60,
+    "confab": 0.0,
+    "wilson": [
+      0.0,
+      0.06
+    ]
+  },
+  {
+    "model": "gemma-3-12b",
+    "lever": "orig",
+    "n": 60,
+    "confab": 0.633,
+    "wilson": [
+      0.507,
+      0.744
+    ]
+  },
+  {
+    "model": "gemma-3-12b",
+    "lever": "cite",
+    "n": 60,
+    "confab": 0.667,
+    "wilson": [
+      0.541,
+      0.773
+    ]
+  },
+  {
+    "model": "gemma-3-12b",
+    "lever": "absence",
+    "n": 60,
+    "confab": 0.017,
+    "wilson": [
+      0.003,
+      0.089
+    ]
+  },
+  {
+    "model": "gemma-3-12b",
+    "lever": "tags",
+    "n": 60,
+    "confab": 0.25,
+    "wilson": [
+      0.158,
+      0.372
+    ]
+  },
+  {
+    "model": "gemma-3-12b",
+    "lever": "isolate",
+    "n": 60,
+    "confab": 0.0,
+    "wilson": [
+      0.0,
+      0.06
+    ]
+  },
+  {
+    "model": "gemma-4-26b",
+    "lever": "orig",
+    "n": 60,
+    "confab": 0.167,
+    "wilson": [
+      0.093,
+      0.28
+    ]
+  },
+  {
+    "model": "gemma-4-26b",
+    "lever": "cite",
+    "n": 60,
+    "confab": 0.0,
+    "wilson": [
+      0.0,
+      0.06
+    ]
+  },
+  {
+    "model": "gemma-4-26b",
+    "lever": "absence",
+    "n": 60,
+    "confab": 0.0,
+    "wilson": [
+      0.0,
+      0.06
+    ]
+  },
+  {
+    "model": "gemma-4-26b",
+    "lever": "tags",
+    "n": 60,
+    "confab": 0.0,
+    "wilson": [
+      0.0,
+      0.06
+    ]
+  },
+  {
+    "model": "gemma-4-26b",
+    "lever": "isolate",
+    "n": 60,
+    "confab": 0.0,
+    "wilson": [
+      0.0,
+      0.06
+    ]
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "lever": "orig",
+    "n": 60,
+    "confab": 0.05,
+    "wilson": [
+      0.017,
+      0.137
+    ]
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "lever": "cite",
+    "n": 60,
+    "confab": 0.0,
+    "wilson": [
+      0.0,
+      0.06
+    ]
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "lever": "absence",
+    "n": 60,
+    "confab": 0.0,
+    "wilson": [
+      0.0,
+      0.06
+    ]
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "lever": "tags",
+    "n": 60,
+    "confab": 0.0,
+    "wilson": [
+      0.0,
+      0.06
+    ]
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "lever": "isolate",
+    "n": 60,
+    "confab": 0.0,
+    "wilson": [
+      0.0,
+      0.06
+    ]
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "lever": "orig",
+    "n": 60,
+    "confab": 0.2,
+    "wilson": [
+      0.118,
+      0.318
+    ]
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "lever": "cite",
+    "n": 60,
+    "confab": 0.017,
+    "wilson": [
+      0.003,
+      0.089
+    ]
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "lever": "absence",
+    "n": 60,
+    "confab": 0.0,
+    "wilson": [
+      0.0,
+      0.06
+    ]
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "lever": "tags",
+    "n": 60,
+    "confab": 0.0,
+    "wilson": [
+      0.0,
+      0.06
+    ]
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "lever": "isolate",
+    "n": 60,
+    "confab": 0.0,
+    "wilson": [
+      0.0,
+      0.06
+    ]
+  },
+  {
+    "model": "Phi-4",
+    "lever": "orig",
+    "n": 60,
+    "confab": 0.383,
+    "wilson": [
+      0.271,
+      0.51
+    ]
+  },
+  {
+    "model": "Phi-4",
+    "lever": "cite",
+    "n": 60,
+    "confab": 0.133,
+    "wilson": [
+      0.069,
+      0.242
+    ]
+  },
+  {
+    "model": "Phi-4",
+    "lever": "absence",
+    "n": 60,
+    "confab": 0.017,
+    "wilson": [
+      0.003,
+      0.089
+    ]
+  },
+  {
+    "model": "Phi-4",
+    "lever": "tags",
+    "n": 60,
+    "confab": 0.033,
+    "wilson": [
+      0.009,
+      0.114
+    ]
+  },
+  {
+    "model": "Phi-4",
+    "lever": "isolate",
+    "n": 60,
+    "confab": 0.0,
+    "wilson": [
+      0.0,
+      0.06
+    ]
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "lever": "orig",
+    "n": 60,
+    "confab": 0.117,
+    "wilson": [
+      0.058,
+      0.222
+    ]
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "lever": "cite",
+    "n": 60,
+    "confab": 0.033,
+    "wilson": [
+      0.009,
+      0.114
+    ]
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "lever": "absence",
+    "n": 60,
+    "confab": 0.0,
+    "wilson": [
+      0.0,
+      0.06
+    ]
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "lever": "tags",
+    "n": 60,
+    "confab": 0.0,
+    "wilson": [
+      0.0,
+      0.06
+    ]
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "lever": "isolate",
+    "n": 60,
+    "confab": 0.0,
+    "wilson": [
+      0.0,
+      0.06
+    ]
+  }
+]

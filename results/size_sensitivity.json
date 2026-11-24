@@ -1,0 +1,17 @@
+{
+ "total_params_n8": {
+  "entity": -0.63,
+  "attribute": -0.79,
+  "recency": -0.08
+ },
+ "active_params_n8": {
+  "entity": -0.45,
+  "attribute": -0.59,
+  "recency": -0.71
+ },
+ "dense_only_n6": {
+  "entity": -0.72,
+  "attribute": -0.92,
+  "recency": -0.62
+ }
+}

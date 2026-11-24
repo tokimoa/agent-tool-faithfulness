@@ -1,0 +1,250 @@
+{
+  "config": {
+    "N": 8,
+    "K": 12,
+    "n_instances": 15
+  },
+  "elapsed_sec": 5415.6,
+  "rows": [
+    {
+      "n_facts": 120,
+      "n_instances": 15,
+      "uptake_rate": 1.0,
+      "coverage": 1.0,
+      "ond_share": {
+        "omission": 0.0,
+        "neglect": 0.0,
+        "distraction": 0.0
+      },
+      "contradiction_following_rate": null,
+      "contradiction": null,
+      "mode": "passive",
+      "k": 12,
+      "avg_tokens": 1049.3,
+      "avg_steps": 1.0,
+      "model": "aya-expanse-8b",
+      "size_b": 8.0,
+      "family": "Aya"
+    },
+    {
+      "n_facts": 120,
+      "n_instances": 15,
+      "uptake_rate": 0.9,
+      "coverage": 0.5333,
+      "ond_share": {
+        "omission": 0.1,
+        "neglect": 0.0,
+        "distraction": 0.0
+      },
+      "contradiction_following_rate": null,
+      "contradiction": null,
+      "mode": "agentic",
+      "k": 12,
+      "avg_tokens": 3175.9,
+      "avg_steps": 3.0,
+      "model": "aya-expanse-8b",
+      "size_b": 8.0,
+      "family": "Aya"
+    },
+    {
+      "n_facts": 120,
+      "n_instances": 15,
+      "uptake_rate": 1.0,
+      "coverage": 1.0,
+      "ond_share": {
+        "omission": 0.0,
+        "neglect": 0.0,
+        "distraction": 0.0
+      },
+      "contradiction_following_rate": null,
+      "contradiction": null,
+      "mode": "passive",
+      "k": 12,
+      "avg_tokens": 964.7,
+      "avg_steps": 1.0,
+      "model": "Ministral-3-3B",
+      "size_b": 3.0,
+      "family": "Mistral3"
+    },
+    {
+      "n_facts": 120,
+      "n_instances": 15,
+      "uptake_rate": 0.8,
+      "coverage": 0.8,
+      "ond_share": {
+        "omission": 0.0,
+        "neglect": 0.2,
+        "distraction": 0.0
+      },
+      "contradiction_following_rate": null,
+      "contradiction": null,
+      "mode": "agentic",
+      "k": 12,
+      "avg_tokens": 20920.9,
+      "avg_steps": 14.47,
+      "model": "Ministral-3-3B",
+      "size_b": 3.0,
+      "family": "Mistral3"
+    },
+    {
+      "n_facts": 120,
+      "n_instances": 15,
+      "uptake_rate": 0.9917,
+      "coverage": 0.9333,
+      "ond_share": {
+        "omission": 0.0,
+        "neglect": 0.0083,
+        "distraction": 0.0
+      },
+      "contradiction_following_rate": null,
+      "contradiction": null,
+      "mode": "passive",
+      "k": 12,
+      "avg_tokens": 847.7,
+      "avg_steps": 1.0,
+      "model": "Llama-3.2-3B",
+      "size_b": 3.0,
+      "family": "Llama3.2"
+    },
+    {
+      "n_facts": 120,
+      "n_instances": 15,
+      "uptake_rate": 0.0,
+      "coverage": 0.0,
+      "ond_share": {
+        "omission": 1.0,
+        "neglect": 0.0,
+        "distraction": 0.0
+      },
+      "contradiction_following_rate": null,
+      "contradiction": null,
+      "mode": "agentic",
+      "k": 12,
+      "avg_tokens": 116343.3,
+      "avg_steps": 28.0,
+      "model": "Llama-3.2-3B",
+      "size_b": 3.0,
+      "family": "Llama3.2"
+    },
+    {
+      "n_facts": 120,
+      "n_instances": 15,
+      "uptake_rate": 1.0,
+      "coverage": 1.0,
+      "ond_share": {
+        "omission": 0.0,
+        "neglect": 0.0,
+        "distraction": 0.0
+      },
+      "contradiction_following_rate": null,
+      "contradiction": null,
+      "mode": "passive",
+      "k": 12,
+      "avg_tokens": 947.1,
+      "avg_steps": 1.0,
+      "model": "gemma-3-4b",
+      "size_b": 4.0,
+      "family": "Gemma3"
+    },
+    {
+      "n_facts": 120,
+      "n_instances": 15,
+      "uptake_rate": 0.1417,
+      "coverage": 0.0,
+      "ond_share": {
+        "omission": 0.8583,
+        "neglect": 0.0,
+        "distraction": 0.0
+      },
+      "contradiction_following_rate": null,
+      "contradiction": null,
+      "mode": "agentic",
+      "k": 12,
+      "avg_tokens": 2897.7,
+      "avg_steps": 3.13,
+      "model": "gemma-3-4b",
+      "size_b": 4.0,
+      "family": "Gemma3"
+    },
+    {
+      "n_facts": 120,
+      "n_instances": 15,
+      "uptake_rate": 1.0,
+      "coverage": 1.0,
+      "ond_share": {
+        "omission": 0.0,
+        "neglect": 0.0,
+        "distraction": 0.0
+      },
+      "contradiction_following_rate": null,
+      "contradiction": null,
+      "mode": "passive",
+      "k": 12,
+      "avg_tokens": 915.3,
+      "avg_steps": 1.0,
+      "model": "Qwen3-8B",
+      "size_b": 8.0,
+      "family": "Qwen3"
+    },
+    {
+      "n_facts": 120,
+      "n_instances": 15,
+      "uptake_rate": 0.975,
+      "coverage": 0.8,
+      "ond_share": {
+        "omission": 0.025,
+        "neglect": 0.0,
+        "distraction": 0.0
+      },
+      "contradiction_following_rate": null,
+      "contradiction": null,
+      "mode": "agentic",
+      "k": 12,
+      "avg_tokens": 12847.1,
+      "avg_steps": 9.8,
+      "model": "Qwen3-8B",
+      "size_b": 8.0,
+      "family": "Qwen3"
+    },
+    {
+      "n_facts": 120,
+      "n_instances": 15,
+      "uptake_rate": 1.0,
+      "coverage": 1.0,
+      "ond_share": {
+        "omission": 0.0,
+        "neglect": 0.0,
+        "distraction": 0.0
+      },
+      "contradiction_following_rate": null,
+      "contradiction": null,
+      "mode": "passive",
+      "k": 12,
+      "avg_tokens": 1051.3,
+      "avg_steps": 1.0,
+      "model": "Ministral-8B",
+      "size_b": 8.0,
+      "family": "Mistral"
+    },
+    {
+      "n_facts": 120,
+      "n_instances": 15,
+      "uptake_rate": 0.5167,
+      "coverage": 0.0,
+      "ond_share": {
+        "omission": 0.4833,
+        "neglect": 0.0,
+        "distraction": 0.0
+      },
+      "contradiction_following_rate": null,
+      "contradiction": null,
+      "mode": "agentic",
+      "k": 12,
+      "avg_tokens": 7260.8,
+      "avg_steps": 6.13,
+      "model": "Ministral-8B",
+      "size_b": 8.0,
+      "family": "Mistral"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "catch": {
+    "gemma-3-12b": {
+      "gemma-3-12b": 0.0,
+      "aya-expanse-8b": 0.818,
+      "Phi-4-mini": 0.0,
+      "Ministral-8B": 0.0
+    },
+    "aya-expanse-8b": {
+      "gemma-3-12b": 0.0,
+      "aya-expanse-8b": 0.636,
+      "Phi-4-mini": 0.0,
+      "Ministral-8B": 0.167
+    },
+    "Phi-4-mini": {
+      "gemma-3-12b": 0.0,
+      "aya-expanse-8b": 0.818,
+      "Phi-4-mini": 0.0,
+      "Ministral-8B": 0.167
+    },
+    "Ministral-8B": {
+      "gemma-3-12b": 0.2,
+      "aya-expanse-8b": 0.818,
+      "Phi-4-mini": 0.286,
+      "Ministral-8B": 0.0
+    },
+    "Qwen3.5-9B": {
+      "gemma-3-12b": 1.0,
+      "aya-expanse-8b": 1.0,
+      "Phi-4-mini": 1.0,
+      "Ministral-8B": 1.0
+    }
+  },
+  "false_alarm": {
+    "gemma-3-12b": 0.0,
+    "aya-expanse-8b": 0.0,
+    "Phi-4-mini": 0.0,
+    "Ministral-8B": 0.0
+  },
+  "n_confab": {
+    "gemma-3-12b": 10,
+    "aya-expanse-8b": 11,
+    "Phi-4-mini": 7,
+    "Ministral-8B": 6
+  }
+}

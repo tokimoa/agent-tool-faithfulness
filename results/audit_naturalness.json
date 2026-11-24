@@ -1,0 +1,12 @@
+{
+  "auditor": "mlx-community/Qwen3.5-27B-4bit",
+  "n": 132,
+  "natural_rate": 0.992,
+  "by_domain": {
+    "devops": 1.0,
+    "logistics": 1.0,
+    "payments": 1.0,
+    "support": 0.97
+  },
+  "n_flagged": 1
+}

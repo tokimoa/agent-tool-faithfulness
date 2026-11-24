@@ -1,0 +1,90 @@
+[
+  {
+    "model": "Phi-4-mini",
+    "size_b": 3.8,
+    "confab_off": 0.9,
+    "confab_on": 0.76,
+    "good_off": 0.96,
+    "good_on": 0.84
+  },
+  {
+    "model": "aya-expanse-8b",
+    "size_b": 8.0,
+    "confab_off": 0.46,
+    "confab_on": 0.2,
+    "good_off": 1.0,
+    "good_on": 1.0
+  },
+  {
+    "model": "Qwen3.5-9B",
+    "size_b": 9.0,
+    "confab_off": 0.0,
+    "confab_on": 0.0,
+    "good_off": 1.0,
+    "good_on": 1.0
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "confab_off": 0.96,
+    "confab_on": 0.96,
+    "good_off": 1.0,
+    "good_on": 1.0
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "confab_off": 0.22,
+    "confab_on": 0.06,
+    "good_off": 1.0,
+    "good_on": 1.0
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "confab_off": 0.08,
+    "confab_on": 0.0,
+    "good_off": 1.0,
+    "good_on": 1.0
+  },
+  {
+    "model": "gemma-4-26b",
+    "size_b": 26.0,
+    "confab_off": 0.0,
+    "confab_on": 0.0,
+    "good_off": 1.0,
+    "good_on": 1.0
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "confab_off": 0.0,
+    "confab_on": 0.0,
+    "good_off": 1.0,
+    "good_on": 1.0
+  },
+  {
+    "model": "Qwen3-32B",
+    "size_b": 32.0,
+    "confab_off": 0.22,
+    "confab_on": 0.0,
+    "good_off": 1.0,
+    "good_on": 1.0
+  },
+  {
+    "model": "Yi-1.5-34B",
+    "size_b": 34.0,
+    "confab_off": 0.82,
+    "confab_on": 0.22,
+    "good_off": 1.0,
+    "good_on": 1.0
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "size_b": 35.0,
+    "confab_off": 0.06,
+    "confab_on": 0.0,
+    "good_off": 1.0,
+    "good_on": 1.0
+  }
+]

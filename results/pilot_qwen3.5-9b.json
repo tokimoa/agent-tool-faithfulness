@@ -1,0 +1,118 @@
+{
+  "backend": "Qwen3.5-9B-MLX-4bit",
+  "config": {
+    "ks": [
+      1,
+      4,
+      8
+    ],
+    "modes": [
+      "passive",
+      "agentic"
+    ],
+    "n_instances": 20,
+    "n_necessary": 1,
+    "position": "center",
+    "include_contradictory": true,
+    "base_seed": 1000
+  },
+  "elapsed_sec": 230.184,
+  "cells": [
+    {
+      "n_facts": 20,
+      "n_instances": 20,
+      "uptake_rate": 1.0,
+      "coverage": 1.0,
+      "ond_share": {
+        "omission": 0.0,
+        "neglect": 0.0,
+        "distraction": 0.0
+      },
+      "contradiction_following_rate": null,
+      "mode": "passive",
+      "k": 1,
+      "avg_tokens": 138.6,
+      "avg_steps": 1.0
+    },
+    {
+      "n_facts": 20,
+      "n_instances": 20,
+      "uptake_rate": 1.0,
+      "coverage": 1.0,
+      "ond_share": {
+        "omission": 0.0,
+        "neglect": 0.0,
+        "distraction": 0.0
+      },
+      "contradiction_following_rate": 0.0,
+      "mode": "passive",
+      "k": 4,
+      "avg_tokens": 378.4,
+      "avg_steps": 1.0
+    },
+    {
+      "n_facts": 20,
+      "n_instances": 20,
+      "uptake_rate": 1.0,
+      "coverage": 1.0,
+      "ond_share": {
+        "omission": 0.0,
+        "neglect": 0.0,
+        "distraction": 0.0
+      },
+      "contradiction_following_rate": 0.0,
+      "mode": "passive",
+      "k": 8,
+      "avg_tokens": 603.5,
+      "avg_steps": 1.0
+    },
+    {
+      "n_facts": 20,
+      "n_instances": 20,
+      "uptake_rate": 1.0,
+      "coverage": 1.0,
+      "ond_share": {
+        "omission": 0.0,
+        "neglect": 0.0,
+        "distraction": 0.0
+      },
+      "contradiction_following_rate": null,
+      "mode": "agentic",
+      "k": 1,
+      "avg_tokens": 544.4,
+      "avg_steps": 3.0
+    },
+    {
+      "n_facts": 20,
+      "n_instances": 20,
+      "uptake_rate": 1.0,
+      "coverage": 1.0,
+      "ond_share": {
+        "omission": 0.0,
+        "neglect": 0.0,
+        "distraction": 0.0
+      },
+      "contradiction_following_rate": 0.0,
+      "mode": "agentic",
+      "k": 4,
+      "avg_tokens": 687.6,
+      "avg_steps": 3.0
+    },
+    {
+      "n_facts": 20,
+      "n_instances": 20,
+      "uptake_rate": 1.0,
+      "coverage": 1.0,
+      "ond_share": {
+        "omission": 0.0,
+        "neglect": 0.0,
+        "distraction": 0.0
+      },
+      "contradiction_following_rate": 0.0,
+      "mode": "agentic",
+      "k": 8,
+      "avg_tokens": 873.4,
+      "avg_steps": 3.0
+    }
+  ]
+}

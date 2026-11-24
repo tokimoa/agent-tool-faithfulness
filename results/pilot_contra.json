@@ -1,0 +1,85 @@
+{
+  "backend": "mock",
+  "config": {
+    "ks": [
+      4,
+      8
+    ],
+    "modes": [
+      "passive",
+      "agentic"
+    ],
+    "n_instances": 80,
+    "n_necessary": 1,
+    "position": "center",
+    "include_contradictory": true,
+    "base_seed": 1000
+  },
+  "elapsed_sec": 0.032,
+  "cells": [
+    {
+      "n_facts": 80,
+      "n_instances": 80,
+      "uptake_rate": 0.3125,
+      "coverage": 0.3125,
+      "ond_share": {
+        "omission": 0.0,
+        "neglect": 0.3125,
+        "distraction": 0.375
+      },
+      "contradiction_following_rate": 0.375,
+      "mode": "passive",
+      "k": 4,
+      "avg_tokens": 224.9,
+      "avg_steps": 1.0
+    },
+    {
+      "n_facts": 80,
+      "n_instances": 80,
+      "uptake_rate": 0.2125,
+      "coverage": 0.2125,
+      "ond_share": {
+        "omission": 0.0,
+        "neglect": 0.4125,
+        "distraction": 0.375
+      },
+      "contradiction_following_rate": 0.375,
+      "mode": "passive",
+      "k": 8,
+      "avg_tokens": 374.1,
+      "avg_steps": 1.0
+    },
+    {
+      "n_facts": 80,
+      "n_instances": 80,
+      "uptake_rate": 0.3875,
+      "coverage": 0.3875,
+      "ond_share": {
+        "omission": 0.3625,
+        "neglect": 0.0375,
+        "distraction": 0.2125
+      },
+      "contradiction_following_rate": 0.2125,
+      "mode": "agentic",
+      "k": 4,
+      "avg_tokens": 496.7,
+      "avg_steps": 3.12
+    },
+    {
+      "n_facts": 80,
+      "n_instances": 80,
+      "uptake_rate": 0.25,
+      "coverage": 0.25,
+      "ond_share": {
+        "omission": 0.5,
+        "neglect": 0.0375,
+        "distraction": 0.2125
+      },
+      "contradiction_following_rate": 0.2125,
+      "mode": "agentic",
+      "k": 8,
+      "avg_tokens": 549.4,
+      "avg_steps": 2.95
+    }
+  ]
+}

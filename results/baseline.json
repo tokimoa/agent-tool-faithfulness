@@ -1,0 +1,6829 @@
+[
+  {
+    "model": "Phi-4-mini",
+    "size_b": 3.8,
+    "condition": "good",
+    "domain": "access",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 0.96,
+    "wilson_lo": 0.805,
+    "wilson_hi": 0.993,
+    "dist": {
+      "used": 24,
+      "missed": 1
+    }
+  },
+  {
+    "model": "Phi-4-mini",
+    "size_b": 3.8,
+    "condition": "good",
+    "domain": "devops",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "used": 25
+    }
+  },
+  {
+    "model": "Phi-4-mini",
+    "size_b": 3.8,
+    "condition": "good",
+    "domain": "logistics",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "used": 25
+    }
+  },
+  {
+    "model": "Phi-4-mini",
+    "size_b": 3.8,
+    "condition": "good",
+    "domain": "payments",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 0.96,
+    "wilson_lo": 0.805,
+    "wilson_hi": 0.993,
+    "dist": {
+      "used": 24,
+      "missed": 1
+    }
+  },
+  {
+    "model": "Phi-4-mini",
+    "size_b": 3.8,
+    "condition": "good",
+    "domain": "support",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 0.76,
+    "wilson_lo": 0.566,
+    "wilson_hi": 0.885,
+    "dist": {
+      "used": 19,
+      "missed": 6
+    }
+  },
+  {
+    "model": "Phi-4-mini",
+    "size_b": 3.8,
+    "condition": "error",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "abstain_explicit": 20,
+      "vague": 5
+    }
+  },
+  {
+    "model": "Phi-4-mini",
+    "size_b": 3.8,
+    "condition": "empty",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "abstain_explicit": 13,
+      "vague": 12
+    }
+  },
+  {
+    "model": "Phi-4-mini",
+    "size_b": 3.8,
+    "condition": "redacted",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "vague": 4,
+      "abstain_explicit": 21
+    }
+  },
+  {
+    "model": "Phi-4-mini",
+    "size_b": 3.8,
+    "condition": "irrelevant",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.96,
+    "wilson_lo": 0.805,
+    "wilson_hi": 0.993,
+    "dist": {
+      "confab": 24,
+      "vague": 1
+    }
+  },
+  {
+    "model": "Phi-4-mini",
+    "size_b": 3.8,
+    "condition": "irrelevant",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.92,
+    "wilson_lo": 0.75,
+    "wilson_hi": 0.978,
+    "dist": {
+      "confab": 23,
+      "vague": 2
+    }
+  },
+  {
+    "model": "Phi-4-mini",
+    "size_b": 3.8,
+    "condition": "irrelevant",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "Phi-4-mini",
+    "size_b": 3.8,
+    "condition": "irrelevant",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.8,
+    "wilson_lo": 0.609,
+    "wilson_hi": 0.911,
+    "dist": {
+      "confab": 20,
+      "vague": 5
+    }
+  },
+  {
+    "model": "Phi-4-mini",
+    "size_b": 3.8,
+    "condition": "irrelevant",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.72,
+    "wilson_lo": 0.524,
+    "wilson_hi": 0.857,
+    "dist": {
+      "confab": 18,
+      "vague": 7
+    }
+  },
+  {
+    "model": "Phi-4-mini",
+    "size_b": 3.8,
+    "condition": "irrelevant_near",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.92,
+    "wilson_lo": 0.75,
+    "wilson_hi": 0.978,
+    "dist": {
+      "confab": 23,
+      "abstain_explicit": 1,
+      "vague": 1
+    }
+  },
+  {
+    "model": "Phi-4-mini",
+    "size_b": 3.8,
+    "condition": "irrelevant_near",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.96,
+    "wilson_lo": 0.805,
+    "wilson_hi": 0.993,
+    "dist": {
+      "confab": 24,
+      "vague": 1
+    }
+  },
+  {
+    "model": "Phi-4-mini",
+    "size_b": 3.8,
+    "condition": "irrelevant_near",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.96,
+    "wilson_lo": 0.805,
+    "wilson_hi": 0.993,
+    "dist": {
+      "confab": 24,
+      "vague": 1
+    }
+  },
+  {
+    "model": "Phi-4-mini",
+    "size_b": 3.8,
+    "condition": "irrelevant_near",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.88,
+    "wilson_lo": 0.7,
+    "wilson_hi": 0.958,
+    "dist": {
+      "vague": 3,
+      "confab": 22
+    }
+  },
+  {
+    "model": "Phi-4-mini",
+    "size_b": 3.8,
+    "condition": "irrelevant_near",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.68,
+    "wilson_lo": 0.484,
+    "wilson_hi": 0.828,
+    "dist": {
+      "confab": 17,
+      "vague": 8
+    }
+  },
+  {
+    "model": "Phi-4-mini",
+    "size_b": 3.8,
+    "condition": "irrelevant_far",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.64,
+    "wilson_lo": 0.445,
+    "wilson_hi": 0.798,
+    "dist": {
+      "vague": 9,
+      "confab": 16
+    }
+  },
+  {
+    "model": "Phi-4-mini",
+    "size_b": 3.8,
+    "condition": "irrelevant_far",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.92,
+    "wilson_lo": 0.75,
+    "wilson_hi": 0.978,
+    "dist": {
+      "confab": 23,
+      "vague": 2
+    }
+  },
+  {
+    "model": "Phi-4-mini",
+    "size_b": 3.8,
+    "condition": "irrelevant_far",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.96,
+    "wilson_lo": 0.805,
+    "wilson_hi": 0.993,
+    "dist": {
+      "confab": 24,
+      "vague": 1
+    }
+  },
+  {
+    "model": "Phi-4-mini",
+    "size_b": 3.8,
+    "condition": "irrelevant_far",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.88,
+    "wilson_lo": 0.7,
+    "wilson_hi": 0.958,
+    "dist": {
+      "confab": 22,
+      "vague": 3
+    }
+  },
+  {
+    "model": "Phi-4-mini",
+    "size_b": 3.8,
+    "condition": "irrelevant_far",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.6,
+    "wilson_lo": 0.407,
+    "wilson_hi": 0.766,
+    "dist": {
+      "confab": 15,
+      "vague": 10
+    }
+  },
+  {
+    "model": "Phi-4-mini",
+    "size_b": 3.8,
+    "condition": "attr_mismatch",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.96,
+    "wilson_lo": 0.805,
+    "wilson_hi": 0.993,
+    "dist": {
+      "confab": 24,
+      "vague": 1
+    }
+  },
+  {
+    "model": "Phi-4-mini",
+    "size_b": 3.8,
+    "condition": "attr_mismatch",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.68,
+    "wilson_lo": 0.484,
+    "wilson_hi": 0.828,
+    "dist": {
+      "confab": 17,
+      "vague": 8
+    }
+  },
+  {
+    "model": "Phi-4-mini",
+    "size_b": 3.8,
+    "condition": "attr_mismatch",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.44,
+    "wilson_lo": 0.267,
+    "wilson_hi": 0.629,
+    "dist": {
+      "confab": 11,
+      "vague": 14
+    }
+  },
+  {
+    "model": "Phi-4-mini",
+    "size_b": 3.8,
+    "condition": "attr_mismatch",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.56,
+    "wilson_lo": 0.371,
+    "wilson_hi": 0.733,
+    "dist": {
+      "confab": 14,
+      "vague": 11
+    }
+  },
+  {
+    "model": "Phi-4-mini",
+    "size_b": 3.8,
+    "condition": "attr_mismatch",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.32,
+    "wilson_lo": 0.172,
+    "wilson_hi": 0.516,
+    "dist": {
+      "confab": 8,
+      "vague": 17
+    }
+  },
+  {
+    "model": "Phi-4-mini",
+    "size_b": 3.8,
+    "condition": "stale",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "abstain_explicit": 24,
+      "vague": 1
+    }
+  },
+  {
+    "model": "Phi-4-mini",
+    "size_b": 3.8,
+    "condition": "stale",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.88,
+    "wilson_lo": 0.7,
+    "wilson_hi": 0.958,
+    "dist": {
+      "confab": 22,
+      "abstain_explicit": 1,
+      "vague": 2
+    }
+  },
+  {
+    "model": "Phi-4-mini",
+    "size_b": 3.8,
+    "condition": "stale",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.92,
+    "wilson_lo": 0.75,
+    "wilson_hi": 0.978,
+    "dist": {
+      "vague": 2,
+      "confab": 23
+    }
+  },
+  {
+    "model": "Phi-4-mini",
+    "size_b": 3.8,
+    "condition": "stale",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "Phi-4-mini",
+    "size_b": 3.8,
+    "condition": "stale",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.56,
+    "wilson_lo": 0.371,
+    "wilson_hi": 0.733,
+    "dist": {
+      "confab": 14,
+      "vague": 11
+    }
+  },
+  {
+    "model": "Phi-4-mini",
+    "size_b": 3.8,
+    "condition": "partial",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "abstain_explicit": 6,
+      "vague": 19
+    }
+  },
+  {
+    "model": "Phi-4-mini",
+    "size_b": 3.8,
+    "condition": "partial",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "vague": 21,
+      "abstain_explicit": 4
+    }
+  },
+  {
+    "model": "Phi-4-mini",
+    "size_b": 3.8,
+    "condition": "partial",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "vague": 22,
+      "abstain_explicit": 3
+    }
+  },
+  {
+    "model": "Phi-4-mini",
+    "size_b": 3.8,
+    "condition": "partial",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "vague": 25
+    }
+  },
+  {
+    "model": "Phi-4-mini",
+    "size_b": 3.8,
+    "condition": "partial",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "vague": 20,
+      "abstain_explicit": 5
+    }
+  },
+  {
+    "model": "Phi-4-mini",
+    "size_b": 3.8,
+    "condition": "irrelevant_verify",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.68,
+    "wilson_lo": 0.484,
+    "wilson_hi": 0.828,
+    "dist": {
+      "confab": 17,
+      "vague": 8
+    }
+  },
+  {
+    "model": "Phi-4-mini",
+    "size_b": 3.8,
+    "condition": "irrelevant_verify",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.84,
+    "wilson_lo": 0.653,
+    "wilson_hi": 0.936,
+    "dist": {
+      "confab": 21,
+      "vague": 4
+    }
+  },
+  {
+    "model": "Phi-4-mini",
+    "size_b": 3.8,
+    "condition": "irrelevant_verify",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.56,
+    "wilson_lo": 0.371,
+    "wilson_hi": 0.733,
+    "dist": {
+      "confab": 14,
+      "vague": 11
+    }
+  },
+  {
+    "model": "Phi-4-mini",
+    "size_b": 3.8,
+    "condition": "irrelevant_verify",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.68,
+    "wilson_lo": 0.484,
+    "wilson_hi": 0.828,
+    "dist": {
+      "confab": 17,
+      "vague": 8
+    }
+  },
+  {
+    "model": "Phi-4-mini",
+    "size_b": 3.8,
+    "condition": "irrelevant_verify",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.48,
+    "wilson_lo": 0.3,
+    "wilson_hi": 0.665,
+    "dist": {
+      "confab": 12,
+      "vague": 13
+    }
+  },
+  {
+    "model": "Phi-4-mini",
+    "size_b": 3.8,
+    "condition": "irrelevant_sig_soft",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.8,
+    "wilson_lo": 0.609,
+    "wilson_hi": 0.911,
+    "dist": {
+      "confab": 20,
+      "vague": 4,
+      "abstain_explicit": 1
+    }
+  },
+  {
+    "model": "Phi-4-mini",
+    "size_b": 3.8,
+    "condition": "irrelevant_sig_soft",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.96,
+    "wilson_lo": 0.805,
+    "wilson_hi": 0.993,
+    "dist": {
+      "confab": 24,
+      "vague": 1
+    }
+  },
+  {
+    "model": "Phi-4-mini",
+    "size_b": 3.8,
+    "condition": "irrelevant_sig_soft",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "Phi-4-mini",
+    "size_b": 3.8,
+    "condition": "irrelevant_sig_soft",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.8,
+    "wilson_lo": 0.609,
+    "wilson_hi": 0.911,
+    "dist": {
+      "confab": 20,
+      "vague": 5
+    }
+  },
+  {
+    "model": "Phi-4-mini",
+    "size_b": 3.8,
+    "condition": "irrelevant_sig_soft",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.92,
+    "wilson_lo": 0.75,
+    "wilson_hi": 0.978,
+    "dist": {
+      "confab": 23,
+      "vague": 2
+    }
+  },
+  {
+    "model": "Phi-4-mini",
+    "size_b": 3.8,
+    "condition": "irrelevant_sig_hard",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.88,
+    "wilson_lo": 0.7,
+    "wilson_hi": 0.958,
+    "dist": {
+      "confab": 22,
+      "vague": 3
+    }
+  },
+  {
+    "model": "Phi-4-mini",
+    "size_b": 3.8,
+    "condition": "irrelevant_sig_hard",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.96,
+    "wilson_lo": 0.805,
+    "wilson_hi": 0.993,
+    "dist": {
+      "confab": 24,
+      "abstain_explicit": 1
+    }
+  },
+  {
+    "model": "Phi-4-mini",
+    "size_b": 3.8,
+    "condition": "irrelevant_sig_hard",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.84,
+    "wilson_lo": 0.653,
+    "wilson_hi": 0.936,
+    "dist": {
+      "confab": 21,
+      "vague": 4
+    }
+  },
+  {
+    "model": "Phi-4-mini",
+    "size_b": 3.8,
+    "condition": "irrelevant_sig_hard",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.84,
+    "wilson_lo": 0.653,
+    "wilson_hi": 0.936,
+    "dist": {
+      "confab": 21,
+      "vague": 3,
+      "abstain_explicit": 1
+    }
+  },
+  {
+    "model": "Phi-4-mini",
+    "size_b": 3.8,
+    "condition": "irrelevant_sig_hard",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.52,
+    "wilson_lo": 0.335,
+    "wilson_hi": 0.7,
+    "dist": {
+      "vague": 12,
+      "confab": 13
+    }
+  },
+  {
+    "model": "Phi-4-mini",
+    "size_b": 3.8,
+    "condition": "good_verify",
+    "domain": "access",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 0.56,
+    "wilson_lo": 0.371,
+    "wilson_hi": 0.733,
+    "dist": {
+      "missed": 11,
+      "used": 14
+    }
+  },
+  {
+    "model": "Phi-4-mini",
+    "size_b": 3.8,
+    "condition": "good_verify",
+    "domain": "devops",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 0.96,
+    "wilson_lo": 0.805,
+    "wilson_hi": 0.993,
+    "dist": {
+      "used": 24,
+      "missed": 1
+    }
+  },
+  {
+    "model": "Phi-4-mini",
+    "size_b": 3.8,
+    "condition": "good_verify",
+    "domain": "logistics",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 0.72,
+    "wilson_lo": 0.524,
+    "wilson_hi": 0.857,
+    "dist": {
+      "used": 18,
+      "missed": 7
+    }
+  },
+  {
+    "model": "Phi-4-mini",
+    "size_b": 3.8,
+    "condition": "good_verify",
+    "domain": "payments",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 0.64,
+    "wilson_lo": 0.445,
+    "wilson_hi": 0.798,
+    "dist": {
+      "missed": 9,
+      "used": 16
+    }
+  },
+  {
+    "model": "Phi-4-mini",
+    "size_b": 3.8,
+    "condition": "good_verify",
+    "domain": "support",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 0.52,
+    "wilson_lo": 0.335,
+    "wilson_hi": 0.7,
+    "dist": {
+      "used": 13,
+      "missed": 12
+    }
+  },
+  {
+    "model": "aya-expanse-8b",
+    "size_b": 8.0,
+    "condition": "good",
+    "domain": "access",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "used": 25
+    }
+  },
+  {
+    "model": "aya-expanse-8b",
+    "size_b": 8.0,
+    "condition": "good",
+    "domain": "devops",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "used": 25
+    }
+  },
+  {
+    "model": "aya-expanse-8b",
+    "size_b": 8.0,
+    "condition": "good",
+    "domain": "logistics",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "used": 25
+    }
+  },
+  {
+    "model": "aya-expanse-8b",
+    "size_b": 8.0,
+    "condition": "good",
+    "domain": "payments",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 0.96,
+    "wilson_lo": 0.805,
+    "wilson_hi": 0.993,
+    "dist": {
+      "used": 24,
+      "missed": 1
+    }
+  },
+  {
+    "model": "aya-expanse-8b",
+    "size_b": 8.0,
+    "condition": "good",
+    "domain": "support",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 0.96,
+    "wilson_lo": 0.805,
+    "wilson_hi": 0.993,
+    "dist": {
+      "used": 24,
+      "missed": 1
+    }
+  },
+  {
+    "model": "aya-expanse-8b",
+    "size_b": 8.0,
+    "condition": "error",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "abstain_explicit": 9,
+      "vague": 16
+    }
+  },
+  {
+    "model": "aya-expanse-8b",
+    "size_b": 8.0,
+    "condition": "empty",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "abstain_explicit": 21,
+      "vague": 4
+    }
+  },
+  {
+    "model": "aya-expanse-8b",
+    "size_b": 8.0,
+    "condition": "redacted",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "abstain_explicit": 25
+    }
+  },
+  {
+    "model": "aya-expanse-8b",
+    "size_b": 8.0,
+    "condition": "irrelevant",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.48,
+    "wilson_lo": 0.3,
+    "wilson_hi": 0.665,
+    "dist": {
+      "confab": 12,
+      "abstain_explicit": 13
+    }
+  },
+  {
+    "model": "aya-expanse-8b",
+    "size_b": 8.0,
+    "condition": "irrelevant",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "aya-expanse-8b",
+    "size_b": 8.0,
+    "condition": "irrelevant",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "aya-expanse-8b",
+    "size_b": 8.0,
+    "condition": "irrelevant",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "aya-expanse-8b",
+    "size_b": 8.0,
+    "condition": "irrelevant",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "aya-expanse-8b",
+    "size_b": 8.0,
+    "condition": "irrelevant_near",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.92,
+    "wilson_lo": 0.75,
+    "wilson_hi": 0.978,
+    "dist": {
+      "abstain_explicit": 2,
+      "confab": 23
+    }
+  },
+  {
+    "model": "aya-expanse-8b",
+    "size_b": 8.0,
+    "condition": "irrelevant_near",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "aya-expanse-8b",
+    "size_b": 8.0,
+    "condition": "irrelevant_near",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "aya-expanse-8b",
+    "size_b": 8.0,
+    "condition": "irrelevant_near",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.96,
+    "wilson_lo": 0.805,
+    "wilson_hi": 0.993,
+    "dist": {
+      "confab": 24,
+      "abstain_explicit": 1
+    }
+  },
+  {
+    "model": "aya-expanse-8b",
+    "size_b": 8.0,
+    "condition": "irrelevant_near",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "aya-expanse-8b",
+    "size_b": 8.0,
+    "condition": "irrelevant_far",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.28,
+    "wilson_lo": 0.143,
+    "wilson_hi": 0.476,
+    "dist": {
+      "confab": 7,
+      "abstain_explicit": 13,
+      "vague": 5
+    }
+  },
+  {
+    "model": "aya-expanse-8b",
+    "size_b": 8.0,
+    "condition": "irrelevant_far",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "aya-expanse-8b",
+    "size_b": 8.0,
+    "condition": "irrelevant_far",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "aya-expanse-8b",
+    "size_b": 8.0,
+    "condition": "irrelevant_far",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "aya-expanse-8b",
+    "size_b": 8.0,
+    "condition": "irrelevant_far",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "aya-expanse-8b",
+    "size_b": 8.0,
+    "condition": "attr_mismatch",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.76,
+    "wilson_lo": 0.566,
+    "wilson_hi": 0.885,
+    "dist": {
+      "confab": 19,
+      "abstain_explicit": 6
+    }
+  },
+  {
+    "model": "aya-expanse-8b",
+    "size_b": 8.0,
+    "condition": "attr_mismatch",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.68,
+    "wilson_lo": 0.484,
+    "wilson_hi": 0.828,
+    "dist": {
+      "confab": 17,
+      "vague": 3,
+      "abstain_explicit": 5
+    }
+  },
+  {
+    "model": "aya-expanse-8b",
+    "size_b": 8.0,
+    "condition": "attr_mismatch",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.4,
+    "wilson_lo": 0.234,
+    "wilson_hi": 0.593,
+    "dist": {
+      "confab": 10,
+      "vague": 12,
+      "abstain_explicit": 3
+    }
+  },
+  {
+    "model": "aya-expanse-8b",
+    "size_b": 8.0,
+    "condition": "attr_mismatch",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.6,
+    "wilson_lo": 0.407,
+    "wilson_hi": 0.766,
+    "dist": {
+      "confab": 15,
+      "vague": 9,
+      "abstain_explicit": 1
+    }
+  },
+  {
+    "model": "aya-expanse-8b",
+    "size_b": 8.0,
+    "condition": "attr_mismatch",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.56,
+    "wilson_lo": 0.371,
+    "wilson_hi": 0.733,
+    "dist": {
+      "abstain_explicit": 4,
+      "confab": 14,
+      "vague": 7
+    }
+  },
+  {
+    "model": "aya-expanse-8b",
+    "size_b": 8.0,
+    "condition": "stale",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "abstain_explicit": 25
+    }
+  },
+  {
+    "model": "aya-expanse-8b",
+    "size_b": 8.0,
+    "condition": "stale",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.96,
+    "wilson_lo": 0.805,
+    "wilson_hi": 0.993,
+    "dist": {
+      "confab": 24,
+      "abstain_explicit": 1
+    }
+  },
+  {
+    "model": "aya-expanse-8b",
+    "size_b": 8.0,
+    "condition": "stale",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "aya-expanse-8b",
+    "size_b": 8.0,
+    "condition": "stale",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.96,
+    "wilson_lo": 0.805,
+    "wilson_hi": 0.993,
+    "dist": {
+      "confab": 24,
+      "abstain_explicit": 1
+    }
+  },
+  {
+    "model": "aya-expanse-8b",
+    "size_b": 8.0,
+    "condition": "stale",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.96,
+    "wilson_lo": 0.805,
+    "wilson_hi": 0.993,
+    "dist": {
+      "confab": 24,
+      "abstain_explicit": 1
+    }
+  },
+  {
+    "model": "aya-expanse-8b",
+    "size_b": 8.0,
+    "condition": "partial",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "vague": 25
+    }
+  },
+  {
+    "model": "aya-expanse-8b",
+    "size_b": 8.0,
+    "condition": "partial",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "vague": 17,
+      "abstain_explicit": 8
+    }
+  },
+  {
+    "model": "aya-expanse-8b",
+    "size_b": 8.0,
+    "condition": "partial",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "vague": 16,
+      "abstain_explicit": 9
+    }
+  },
+  {
+    "model": "aya-expanse-8b",
+    "size_b": 8.0,
+    "condition": "partial",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "vague": 22,
+      "abstain_explicit": 3
+    }
+  },
+  {
+    "model": "aya-expanse-8b",
+    "size_b": 8.0,
+    "condition": "partial",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "vague": 19,
+      "abstain_explicit": 6
+    }
+  },
+  {
+    "model": "aya-expanse-8b",
+    "size_b": 8.0,
+    "condition": "irrelevant_verify",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.2,
+    "wilson_lo": 0.089,
+    "wilson_hi": 0.391,
+    "dist": {
+      "abstain_explicit": 20,
+      "confab": 5
+    }
+  },
+  {
+    "model": "aya-expanse-8b",
+    "size_b": 8.0,
+    "condition": "irrelevant_verify",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "aya-expanse-8b",
+    "size_b": 8.0,
+    "condition": "irrelevant_verify",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "aya-expanse-8b",
+    "size_b": 8.0,
+    "condition": "irrelevant_verify",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "aya-expanse-8b",
+    "size_b": 8.0,
+    "condition": "irrelevant_verify",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.96,
+    "wilson_lo": 0.805,
+    "wilson_hi": 0.993,
+    "dist": {
+      "confab": 24,
+      "abstain_explicit": 1
+    }
+  },
+  {
+    "model": "aya-expanse-8b",
+    "size_b": 8.0,
+    "condition": "irrelevant_sig_soft",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.08,
+    "wilson_lo": 0.022,
+    "wilson_hi": 0.25,
+    "dist": {
+      "abstain_explicit": 23,
+      "confab": 2
+    }
+  },
+  {
+    "model": "aya-expanse-8b",
+    "size_b": 8.0,
+    "condition": "irrelevant_sig_soft",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "aya-expanse-8b",
+    "size_b": 8.0,
+    "condition": "irrelevant_sig_soft",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.96,
+    "wilson_lo": 0.805,
+    "wilson_hi": 0.993,
+    "dist": {
+      "confab": 24,
+      "abstain_explicit": 1
+    }
+  },
+  {
+    "model": "aya-expanse-8b",
+    "size_b": 8.0,
+    "condition": "irrelevant_sig_soft",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.96,
+    "wilson_lo": 0.805,
+    "wilson_hi": 0.993,
+    "dist": {
+      "confab": 24,
+      "abstain_explicit": 1
+    }
+  },
+  {
+    "model": "aya-expanse-8b",
+    "size_b": 8.0,
+    "condition": "irrelevant_sig_soft",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "aya-expanse-8b",
+    "size_b": 8.0,
+    "condition": "irrelevant_sig_hard",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.12,
+    "wilson_lo": 0.042,
+    "wilson_hi": 0.3,
+    "dist": {
+      "abstain_explicit": 22,
+      "confab": 3
+    }
+  },
+  {
+    "model": "aya-expanse-8b",
+    "size_b": 8.0,
+    "condition": "irrelevant_sig_hard",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.92,
+    "wilson_lo": 0.75,
+    "wilson_hi": 0.978,
+    "dist": {
+      "confab": 23,
+      "abstain_explicit": 2
+    }
+  },
+  {
+    "model": "aya-expanse-8b",
+    "size_b": 8.0,
+    "condition": "irrelevant_sig_hard",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.84,
+    "wilson_lo": 0.653,
+    "wilson_hi": 0.936,
+    "dist": {
+      "confab": 21,
+      "abstain_explicit": 4
+    }
+  },
+  {
+    "model": "aya-expanse-8b",
+    "size_b": 8.0,
+    "condition": "irrelevant_sig_hard",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.84,
+    "wilson_lo": 0.653,
+    "wilson_hi": 0.936,
+    "dist": {
+      "confab": 21,
+      "abstain_explicit": 4
+    }
+  },
+  {
+    "model": "aya-expanse-8b",
+    "size_b": 8.0,
+    "condition": "irrelevant_sig_hard",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.92,
+    "wilson_lo": 0.75,
+    "wilson_hi": 0.978,
+    "dist": {
+      "confab": 23,
+      "abstain_explicit": 2
+    }
+  },
+  {
+    "model": "aya-expanse-8b",
+    "size_b": 8.0,
+    "condition": "good_verify",
+    "domain": "access",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "used": 25
+    }
+  },
+  {
+    "model": "aya-expanse-8b",
+    "size_b": 8.0,
+    "condition": "good_verify",
+    "domain": "devops",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "used": 25
+    }
+  },
+  {
+    "model": "aya-expanse-8b",
+    "size_b": 8.0,
+    "condition": "good_verify",
+    "domain": "logistics",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "used": 25
+    }
+  },
+  {
+    "model": "aya-expanse-8b",
+    "size_b": 8.0,
+    "condition": "good_verify",
+    "domain": "payments",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "used": 25
+    }
+  },
+  {
+    "model": "aya-expanse-8b",
+    "size_b": 8.0,
+    "condition": "good_verify",
+    "domain": "support",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "used": 25
+    }
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "condition": "good",
+    "domain": "access",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "used": 25
+    }
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "condition": "good",
+    "domain": "devops",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "used": 25
+    }
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "condition": "good",
+    "domain": "logistics",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "used": 25
+    }
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "condition": "good",
+    "domain": "payments",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "used": 25
+    }
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "condition": "good",
+    "domain": "support",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "used": 25
+    }
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "condition": "error",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "vague": 9,
+      "abstain_explicit": 16
+    }
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "condition": "empty",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "vague": 11,
+      "abstain_explicit": 14
+    }
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "condition": "redacted",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "abstain_explicit": 25
+    }
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "condition": "irrelevant",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "condition": "irrelevant",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "condition": "irrelevant",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "condition": "irrelevant",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "condition": "irrelevant",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "condition": "irrelevant_near",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "condition": "irrelevant_near",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "condition": "irrelevant_near",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "condition": "irrelevant_near",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "condition": "irrelevant_near",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "condition": "irrelevant_far",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.56,
+    "wilson_lo": 0.371,
+    "wilson_hi": 0.733,
+    "dist": {
+      "confab": 14,
+      "vague": 10,
+      "abstain_explicit": 1
+    }
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "condition": "irrelevant_far",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "condition": "irrelevant_far",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "condition": "irrelevant_far",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "condition": "irrelevant_far",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "condition": "attr_mismatch",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.96,
+    "wilson_lo": 0.805,
+    "wilson_hi": 0.993,
+    "dist": {
+      "confab": 24,
+      "vague": 1
+    }
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "condition": "attr_mismatch",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.92,
+    "wilson_lo": 0.75,
+    "wilson_hi": 0.978,
+    "dist": {
+      "confab": 23,
+      "abstain_explicit": 1,
+      "vague": 1
+    }
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "condition": "attr_mismatch",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.44,
+    "wilson_lo": 0.267,
+    "wilson_hi": 0.629,
+    "dist": {
+      "vague": 14,
+      "confab": 11
+    }
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "condition": "attr_mismatch",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.4,
+    "wilson_lo": 0.234,
+    "wilson_hi": 0.593,
+    "dist": {
+      "vague": 15,
+      "confab": 10
+    }
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "condition": "attr_mismatch",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.56,
+    "wilson_lo": 0.371,
+    "wilson_hi": 0.733,
+    "dist": {
+      "vague": 11,
+      "confab": 14
+    }
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "condition": "stale",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.96,
+    "wilson_lo": 0.805,
+    "wilson_hi": 0.993,
+    "dist": {
+      "confab": 24,
+      "abstain_explicit": 1
+    }
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "condition": "stale",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "condition": "stale",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "condition": "stale",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "condition": "stale",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "condition": "partial",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "vague": 25
+    }
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "condition": "partial",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "vague": 20,
+      "abstain_explicit": 5
+    }
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "condition": "partial",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "vague": 21,
+      "abstain_explicit": 4
+    }
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "condition": "partial",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "vague": 25
+    }
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "condition": "partial",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "vague": 19,
+      "abstain_explicit": 6
+    }
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "condition": "irrelevant_verify",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.92,
+    "wilson_lo": 0.75,
+    "wilson_hi": 0.978,
+    "dist": {
+      "confab": 23,
+      "abstain_explicit": 2
+    }
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "condition": "irrelevant_verify",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "condition": "irrelevant_verify",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "condition": "irrelevant_verify",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "condition": "irrelevant_verify",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "condition": "irrelevant_sig_soft",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "condition": "irrelevant_sig_soft",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "condition": "irrelevant_sig_soft",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "condition": "irrelevant_sig_soft",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "condition": "irrelevant_sig_soft",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "condition": "irrelevant_sig_hard",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "condition": "irrelevant_sig_hard",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "condition": "irrelevant_sig_hard",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "condition": "irrelevant_sig_hard",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "condition": "irrelevant_sig_hard",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "condition": "good_verify",
+    "domain": "access",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "used": 25
+    }
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "condition": "good_verify",
+    "domain": "devops",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "used": 25
+    }
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "condition": "good_verify",
+    "domain": "logistics",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "used": 25
+    }
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "condition": "good_verify",
+    "domain": "payments",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "used": 25
+    }
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "condition": "good_verify",
+    "domain": "support",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "used": 25
+    }
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "condition": "good",
+    "domain": "access",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "used": 25
+    }
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "condition": "good",
+    "domain": "devops",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "used": 25
+    }
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "condition": "good",
+    "domain": "logistics",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "used": 25
+    }
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "condition": "good",
+    "domain": "payments",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "used": 25
+    }
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "condition": "good",
+    "domain": "support",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "used": 25
+    }
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "condition": "error",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "abstain_explicit": 25
+    }
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "condition": "empty",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "abstain_explicit": 23,
+      "vague": 2
+    }
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "condition": "redacted",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "abstain_explicit": 18,
+      "vague": 7
+    }
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "condition": "irrelevant",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.32,
+    "wilson_lo": 0.172,
+    "wilson_hi": 0.516,
+    "dist": {
+      "confab": 8,
+      "abstain_silent": 14,
+      "abstain_explicit": 3
+    }
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "condition": "irrelevant",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.88,
+    "wilson_lo": 0.7,
+    "wilson_hi": 0.958,
+    "dist": {
+      "abstain_silent": 3,
+      "confab": 22
+    }
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "condition": "irrelevant",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.84,
+    "wilson_lo": 0.653,
+    "wilson_hi": 0.936,
+    "dist": {
+      "confab": 21,
+      "abstain_silent": 4
+    }
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "condition": "irrelevant",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.92,
+    "wilson_lo": 0.75,
+    "wilson_hi": 0.978,
+    "dist": {
+      "confab": 23,
+      "abstain_silent": 2
+    }
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "condition": "irrelevant",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.92,
+    "wilson_lo": 0.75,
+    "wilson_hi": 0.978,
+    "dist": {
+      "confab": 23,
+      "abstain_silent": 2
+    }
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "condition": "irrelevant_near",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.16,
+    "wilson_lo": 0.064,
+    "wilson_hi": 0.347,
+    "dist": {
+      "abstain_silent": 17,
+      "confab": 4,
+      "abstain_explicit": 4
+    }
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "condition": "irrelevant_near",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.92,
+    "wilson_lo": 0.75,
+    "wilson_hi": 0.978,
+    "dist": {
+      "confab": 23,
+      "abstain_silent": 2
+    }
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "condition": "irrelevant_near",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.36,
+    "wilson_lo": 0.202,
+    "wilson_hi": 0.555,
+    "dist": {
+      "abstain_silent": 16,
+      "confab": 9
+    }
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "condition": "irrelevant_near",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.48,
+    "wilson_lo": 0.3,
+    "wilson_hi": 0.665,
+    "dist": {
+      "confab": 12,
+      "abstain_silent": 13
+    }
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "condition": "irrelevant_near",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.92,
+    "wilson_lo": 0.75,
+    "wilson_hi": 0.978,
+    "dist": {
+      "confab": 23,
+      "abstain_silent": 2
+    }
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "condition": "irrelevant_far",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.2,
+    "wilson_lo": 0.089,
+    "wilson_hi": 0.391,
+    "dist": {
+      "confab": 5,
+      "abstain_explicit": 16,
+      "abstain_silent": 4
+    }
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "condition": "irrelevant_far",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.96,
+    "wilson_lo": 0.805,
+    "wilson_hi": 0.993,
+    "dist": {
+      "confab": 24,
+      "abstain_silent": 1
+    }
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "condition": "irrelevant_far",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.72,
+    "wilson_lo": 0.524,
+    "wilson_hi": 0.857,
+    "dist": {
+      "confab": 18,
+      "abstain_silent": 7
+    }
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "condition": "irrelevant_far",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.76,
+    "wilson_lo": 0.566,
+    "wilson_hi": 0.885,
+    "dist": {
+      "confab": 19,
+      "abstain_silent": 4,
+      "abstain_explicit": 2
+    }
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "condition": "irrelevant_far",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.96,
+    "wilson_lo": 0.805,
+    "wilson_hi": 0.993,
+    "dist": {
+      "confab": 24,
+      "abstain_silent": 1
+    }
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "condition": "attr_mismatch",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.96,
+    "wilson_lo": 0.805,
+    "wilson_hi": 0.993,
+    "dist": {
+      "confab": 24,
+      "abstain_explicit": 1
+    }
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "condition": "attr_mismatch",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.32,
+    "wilson_lo": 0.172,
+    "wilson_hi": 0.516,
+    "dist": {
+      "confab": 8,
+      "abstain_explicit": 17
+    }
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "condition": "attr_mismatch",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.08,
+    "wilson_lo": 0.022,
+    "wilson_hi": 0.25,
+    "dist": {
+      "confab": 2,
+      "abstain_explicit": 21,
+      "vague": 2
+    }
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "condition": "attr_mismatch",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.28,
+    "wilson_lo": 0.143,
+    "wilson_hi": 0.476,
+    "dist": {
+      "confab": 7,
+      "abstain_explicit": 15,
+      "vague": 3
+    }
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "condition": "attr_mismatch",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.32,
+    "wilson_lo": 0.172,
+    "wilson_hi": 0.516,
+    "dist": {
+      "confab": 8,
+      "abstain_explicit": 12,
+      "vague": 5
+    }
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "condition": "stale",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.28,
+    "wilson_lo": 0.143,
+    "wilson_hi": 0.476,
+    "dist": {
+      "abstain_explicit": 18,
+      "confab": 7
+    }
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "condition": "stale",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.2,
+    "wilson_lo": 0.089,
+    "wilson_hi": 0.391,
+    "dist": {
+      "abstain_explicit": 17,
+      "confab": 5,
+      "vague": 1,
+      "abstain_silent": 2
+    }
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "condition": "stale",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.12,
+    "wilson_lo": 0.042,
+    "wilson_hi": 0.3,
+    "dist": {
+      "abstain_explicit": 18,
+      "abstain_silent": 4,
+      "confab": 3
+    }
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "condition": "stale",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.52,
+    "wilson_lo": 0.335,
+    "wilson_hi": 0.7,
+    "dist": {
+      "abstain_silent": 1,
+      "abstain_explicit": 10,
+      "confab": 13,
+      "vague": 1
+    }
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "condition": "stale",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.32,
+    "wilson_lo": 0.172,
+    "wilson_hi": 0.516,
+    "dist": {
+      "abstain_silent": 5,
+      "abstain_explicit": 12,
+      "confab": 8
+    }
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "condition": "partial",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "vague": 22,
+      "abstain_explicit": 3
+    }
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "condition": "partial",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "abstain_explicit": 10,
+      "vague": 15
+    }
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "condition": "partial",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "abstain_explicit": 10,
+      "vague": 15
+    }
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "condition": "partial",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "abstain_explicit": 7,
+      "vague": 18
+    }
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "condition": "partial",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "vague": 14,
+      "abstain_explicit": 11
+    }
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "condition": "irrelevant_verify",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.12,
+    "wilson_lo": 0.042,
+    "wilson_hi": 0.3,
+    "dist": {
+      "abstain_explicit": 22,
+      "confab": 3
+    }
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "condition": "irrelevant_verify",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.72,
+    "wilson_lo": 0.524,
+    "wilson_hi": 0.857,
+    "dist": {
+      "confab": 18,
+      "abstain_explicit": 7
+    }
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "condition": "irrelevant_verify",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.68,
+    "wilson_lo": 0.484,
+    "wilson_hi": 0.828,
+    "dist": {
+      "confab": 17,
+      "abstain_explicit": 6,
+      "abstain_silent": 2
+    }
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "condition": "irrelevant_verify",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.72,
+    "wilson_lo": 0.524,
+    "wilson_hi": 0.857,
+    "dist": {
+      "abstain_explicit": 6,
+      "confab": 18,
+      "abstain_silent": 1
+    }
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "condition": "irrelevant_verify",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.76,
+    "wilson_lo": 0.566,
+    "wilson_hi": 0.885,
+    "dist": {
+      "confab": 19,
+      "abstain_explicit": 4,
+      "abstain_silent": 2
+    }
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "condition": "irrelevant_sig_soft",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.04,
+    "wilson_lo": 0.007,
+    "wilson_hi": 0.195,
+    "dist": {
+      "abstain_explicit": 22,
+      "vague": 1,
+      "confab": 1,
+      "abstain_silent": 1
+    }
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "condition": "irrelevant_sig_soft",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.96,
+    "wilson_lo": 0.805,
+    "wilson_hi": 0.993,
+    "dist": {
+      "confab": 24,
+      "abstain_explicit": 1
+    }
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "condition": "irrelevant_sig_soft",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.4,
+    "wilson_lo": 0.234,
+    "wilson_hi": 0.593,
+    "dist": {
+      "confab": 10,
+      "abstain_explicit": 5,
+      "abstain_silent": 10
+    }
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "condition": "irrelevant_sig_soft",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.8,
+    "wilson_lo": 0.609,
+    "wilson_hi": 0.911,
+    "dist": {
+      "confab": 20,
+      "abstain_silent": 1,
+      "abstain_explicit": 3,
+      "vague": 1
+    }
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "condition": "irrelevant_sig_soft",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.88,
+    "wilson_lo": 0.7,
+    "wilson_hi": 0.958,
+    "dist": {
+      "confab": 22,
+      "vague": 1,
+      "abstain_silent": 2
+    }
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "condition": "irrelevant_sig_hard",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "abstain_explicit": 25
+    }
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "condition": "irrelevant_sig_hard",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.76,
+    "wilson_lo": 0.566,
+    "wilson_hi": 0.885,
+    "dist": {
+      "abstain_explicit": 6,
+      "confab": 19
+    }
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "condition": "irrelevant_sig_hard",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.28,
+    "wilson_lo": 0.143,
+    "wilson_hi": 0.476,
+    "dist": {
+      "confab": 7,
+      "abstain_explicit": 17,
+      "vague": 1
+    }
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "condition": "irrelevant_sig_hard",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.72,
+    "wilson_lo": 0.524,
+    "wilson_hi": 0.857,
+    "dist": {
+      "abstain_explicit": 7,
+      "confab": 18
+    }
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "condition": "irrelevant_sig_hard",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.84,
+    "wilson_lo": 0.653,
+    "wilson_hi": 0.936,
+    "dist": {
+      "confab": 21,
+      "abstain_explicit": 4
+    }
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "condition": "good_verify",
+    "domain": "access",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "used": 25
+    }
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "condition": "good_verify",
+    "domain": "devops",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "used": 25
+    }
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "condition": "good_verify",
+    "domain": "logistics",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "used": 25
+    }
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "condition": "good_verify",
+    "domain": "payments",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "used": 25
+    }
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "condition": "good_verify",
+    "domain": "support",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "used": 25
+    }
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "condition": "good",
+    "domain": "access",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "used": 25
+    }
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "condition": "good",
+    "domain": "devops",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "used": 25
+    }
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "condition": "good",
+    "domain": "logistics",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "used": 25
+    }
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "condition": "good",
+    "domain": "payments",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "used": 25
+    }
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "condition": "good",
+    "domain": "support",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "used": 25
+    }
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "condition": "error",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "vague": 3,
+      "abstain_explicit": 22
+    }
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "condition": "empty",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "vague": 1,
+      "abstain_explicit": 24
+    }
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "condition": "redacted",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "abstain_explicit": 25
+    }
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "condition": "irrelevant",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.12,
+    "wilson_lo": 0.042,
+    "wilson_hi": 0.3,
+    "dist": {
+      "abstain_explicit": 22,
+      "confab": 3
+    }
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "condition": "irrelevant",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.88,
+    "wilson_lo": 0.7,
+    "wilson_hi": 0.958,
+    "dist": {
+      "abstain_explicit": 2,
+      "confab": 22,
+      "vague": 1
+    }
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "condition": "irrelevant",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "condition": "irrelevant",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "condition": "irrelevant",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.96,
+    "wilson_lo": 0.805,
+    "wilson_hi": 0.993,
+    "dist": {
+      "confab": 24,
+      "abstain_explicit": 1
+    }
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "condition": "irrelevant_near",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.52,
+    "wilson_lo": 0.335,
+    "wilson_hi": 0.7,
+    "dist": {
+      "abstain_explicit": 12,
+      "confab": 13
+    }
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "condition": "irrelevant_near",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.92,
+    "wilson_lo": 0.75,
+    "wilson_hi": 0.978,
+    "dist": {
+      "confab": 23,
+      "abstain_explicit": 2
+    }
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "condition": "irrelevant_near",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "condition": "irrelevant_near",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.84,
+    "wilson_lo": 0.653,
+    "wilson_hi": 0.936,
+    "dist": {
+      "confab": 21,
+      "abstain_explicit": 4
+    }
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "condition": "irrelevant_near",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.96,
+    "wilson_lo": 0.805,
+    "wilson_hi": 0.993,
+    "dist": {
+      "confab": 24,
+      "abstain_explicit": 1
+    }
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "condition": "irrelevant_far",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "abstain_explicit": 25
+    }
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "condition": "irrelevant_far",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "condition": "irrelevant_far",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.96,
+    "wilson_lo": 0.805,
+    "wilson_hi": 0.993,
+    "dist": {
+      "confab": 24,
+      "abstain_explicit": 1
+    }
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "condition": "irrelevant_far",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "condition": "irrelevant_far",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "condition": "attr_mismatch",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.52,
+    "wilson_lo": 0.335,
+    "wilson_hi": 0.7,
+    "dist": {
+      "confab": 13,
+      "abstain_explicit": 12
+    }
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "condition": "attr_mismatch",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.04,
+    "wilson_lo": 0.007,
+    "wilson_hi": 0.195,
+    "dist": {
+      "confab": 1,
+      "abstain_explicit": 24
+    }
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "condition": "attr_mismatch",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.04,
+    "wilson_lo": 0.007,
+    "wilson_hi": 0.195,
+    "dist": {
+      "abstain_explicit": 22,
+      "confab": 1,
+      "vague": 2
+    }
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "condition": "attr_mismatch",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.08,
+    "wilson_lo": 0.022,
+    "wilson_hi": 0.25,
+    "dist": {
+      "abstain_explicit": 20,
+      "vague": 3,
+      "confab": 2
+    }
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "condition": "attr_mismatch",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.24,
+    "wilson_lo": 0.115,
+    "wilson_hi": 0.434,
+    "dist": {
+      "vague": 7,
+      "abstain_explicit": 12,
+      "confab": 6
+    }
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "condition": "stale",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.28,
+    "wilson_lo": 0.143,
+    "wilson_hi": 0.476,
+    "dist": {
+      "confab": 7,
+      "abstain_explicit": 18
+    }
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "condition": "stale",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.48,
+    "wilson_lo": 0.3,
+    "wilson_hi": 0.665,
+    "dist": {
+      "abstain_explicit": 13,
+      "confab": 12
+    }
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "condition": "stale",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.68,
+    "wilson_lo": 0.484,
+    "wilson_hi": 0.828,
+    "dist": {
+      "confab": 17,
+      "abstain_explicit": 8
+    }
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "condition": "stale",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.68,
+    "wilson_lo": 0.484,
+    "wilson_hi": 0.828,
+    "dist": {
+      "abstain_explicit": 8,
+      "confab": 17
+    }
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "condition": "stale",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.76,
+    "wilson_lo": 0.566,
+    "wilson_hi": 0.885,
+    "dist": {
+      "confab": 19,
+      "abstain_explicit": 6
+    }
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "condition": "partial",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "vague": 25
+    }
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "condition": "partial",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "vague": 17,
+      "abstain_explicit": 8
+    }
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "condition": "partial",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "vague": 16,
+      "abstain_explicit": 9
+    }
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "condition": "partial",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "vague": 22,
+      "abstain_explicit": 3
+    }
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "condition": "partial",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.04,
+    "wilson_lo": 0.007,
+    "wilson_hi": 0.195,
+    "dist": {
+      "vague": 18,
+      "abstain_explicit": 6,
+      "confab": 1
+    }
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "condition": "irrelevant_verify",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "abstain_explicit": 25
+    }
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "condition": "irrelevant_verify",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.92,
+    "wilson_lo": 0.75,
+    "wilson_hi": 0.978,
+    "dist": {
+      "confab": 23,
+      "abstain_explicit": 2
+    }
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "condition": "irrelevant_verify",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.88,
+    "wilson_lo": 0.7,
+    "wilson_hi": 0.958,
+    "dist": {
+      "confab": 22,
+      "abstain_explicit": 3
+    }
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "condition": "irrelevant_verify",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.76,
+    "wilson_lo": 0.566,
+    "wilson_hi": 0.885,
+    "dist": {
+      "abstain_explicit": 6,
+      "confab": 19
+    }
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "condition": "irrelevant_verify",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.8,
+    "wilson_lo": 0.609,
+    "wilson_hi": 0.911,
+    "dist": {
+      "confab": 20,
+      "abstain_explicit": 5
+    }
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "condition": "irrelevant_sig_soft",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "abstain_explicit": 25
+    }
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "condition": "irrelevant_sig_soft",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "condition": "irrelevant_sig_soft",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "condition": "irrelevant_sig_soft",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "condition": "irrelevant_sig_soft",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "condition": "irrelevant_sig_hard",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.08,
+    "wilson_lo": 0.022,
+    "wilson_hi": 0.25,
+    "dist": {
+      "abstain_explicit": 23,
+      "confab": 2
+    }
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "condition": "irrelevant_sig_hard",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.76,
+    "wilson_lo": 0.566,
+    "wilson_hi": 0.885,
+    "dist": {
+      "confab": 19,
+      "abstain_explicit": 6
+    }
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "condition": "irrelevant_sig_hard",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.88,
+    "wilson_lo": 0.7,
+    "wilson_hi": 0.958,
+    "dist": {
+      "confab": 22,
+      "abstain_explicit": 3
+    }
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "condition": "irrelevant_sig_hard",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "condition": "irrelevant_sig_hard",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.92,
+    "wilson_lo": 0.75,
+    "wilson_hi": 0.978,
+    "dist": {
+      "confab": 23,
+      "abstain_explicit": 2
+    }
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "condition": "good_verify",
+    "domain": "access",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "used": 25
+    }
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "condition": "good_verify",
+    "domain": "devops",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "used": 25
+    }
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "condition": "good_verify",
+    "domain": "logistics",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "used": 25
+    }
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "condition": "good_verify",
+    "domain": "payments",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "used": 25
+    }
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "condition": "good_verify",
+    "domain": "support",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "used": 25
+    }
+  },
+  {
+    "model": "gemma-4-26b",
+    "size_b": 26.0,
+    "condition": "good",
+    "domain": "access",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "used": 25
+    }
+  },
+  {
+    "model": "gemma-4-26b",
+    "size_b": 26.0,
+    "condition": "good",
+    "domain": "devops",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "used": 25
+    }
+  },
+  {
+    "model": "gemma-4-26b",
+    "size_b": 26.0,
+    "condition": "good",
+    "domain": "logistics",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "used": 25
+    }
+  },
+  {
+    "model": "gemma-4-26b",
+    "size_b": 26.0,
+    "condition": "good",
+    "domain": "payments",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "used": 25
+    }
+  },
+  {
+    "model": "gemma-4-26b",
+    "size_b": 26.0,
+    "condition": "good",
+    "domain": "support",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 0.96,
+    "wilson_lo": 0.805,
+    "wilson_hi": 0.993,
+    "dist": {
+      "used": 24,
+      "missed": 1
+    }
+  },
+  {
+    "model": "gemma-4-26b",
+    "size_b": 26.0,
+    "condition": "error",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "abstain_explicit": 24,
+      "vague": 1
+    }
+  },
+  {
+    "model": "gemma-4-26b",
+    "size_b": 26.0,
+    "condition": "empty",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "vague": 15,
+      "abstain_explicit": 10
+    }
+  },
+  {
+    "model": "gemma-4-26b",
+    "size_b": 26.0,
+    "condition": "redacted",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "abstain_explicit": 25
+    }
+  },
+  {
+    "model": "gemma-4-26b",
+    "size_b": 26.0,
+    "condition": "irrelevant",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "abstain_explicit": 25
+    }
+  },
+  {
+    "model": "gemma-4-26b",
+    "size_b": 26.0,
+    "condition": "irrelevant",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.96,
+    "wilson_lo": 0.805,
+    "wilson_hi": 0.993,
+    "dist": {
+      "confab": 24,
+      "abstain_explicit": 1
+    }
+  },
+  {
+    "model": "gemma-4-26b",
+    "size_b": 26.0,
+    "condition": "irrelevant",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.96,
+    "wilson_lo": 0.805,
+    "wilson_hi": 0.993,
+    "dist": {
+      "confab": 24,
+      "abstain_explicit": 1
+    }
+  },
+  {
+    "model": "gemma-4-26b",
+    "size_b": 26.0,
+    "condition": "irrelevant",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.96,
+    "wilson_lo": 0.805,
+    "wilson_hi": 0.993,
+    "dist": {
+      "confab": 24,
+      "vague": 1
+    }
+  },
+  {
+    "model": "gemma-4-26b",
+    "size_b": 26.0,
+    "condition": "irrelevant",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "gemma-4-26b",
+    "size_b": 26.0,
+    "condition": "irrelevant_near",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "abstain_explicit": 24,
+      "vague": 1
+    }
+  },
+  {
+    "model": "gemma-4-26b",
+    "size_b": 26.0,
+    "condition": "irrelevant_near",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.88,
+    "wilson_lo": 0.7,
+    "wilson_hi": 0.958,
+    "dist": {
+      "confab": 22,
+      "abstain_explicit": 3
+    }
+  },
+  {
+    "model": "gemma-4-26b",
+    "size_b": 26.0,
+    "condition": "irrelevant_near",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "gemma-4-26b",
+    "size_b": 26.0,
+    "condition": "irrelevant_near",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.76,
+    "wilson_lo": 0.566,
+    "wilson_hi": 0.885,
+    "dist": {
+      "confab": 19,
+      "abstain_explicit": 6
+    }
+  },
+  {
+    "model": "gemma-4-26b",
+    "size_b": 26.0,
+    "condition": "irrelevant_near",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.88,
+    "wilson_lo": 0.7,
+    "wilson_hi": 0.958,
+    "dist": {
+      "confab": 22,
+      "vague": 2,
+      "abstain_explicit": 1
+    }
+  },
+  {
+    "model": "gemma-4-26b",
+    "size_b": 26.0,
+    "condition": "irrelevant_far",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.04,
+    "wilson_lo": 0.007,
+    "wilson_hi": 0.195,
+    "dist": {
+      "abstain_explicit": 24,
+      "confab": 1
+    }
+  },
+  {
+    "model": "gemma-4-26b",
+    "size_b": 26.0,
+    "condition": "irrelevant_far",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.96,
+    "wilson_lo": 0.805,
+    "wilson_hi": 0.993,
+    "dist": {
+      "confab": 24,
+      "abstain_explicit": 1
+    }
+  },
+  {
+    "model": "gemma-4-26b",
+    "size_b": 26.0,
+    "condition": "irrelevant_far",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "gemma-4-26b",
+    "size_b": 26.0,
+    "condition": "irrelevant_far",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.88,
+    "wilson_lo": 0.7,
+    "wilson_hi": 0.958,
+    "dist": {
+      "confab": 22,
+      "abstain_explicit": 3
+    }
+  },
+  {
+    "model": "gemma-4-26b",
+    "size_b": 26.0,
+    "condition": "irrelevant_far",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.96,
+    "wilson_lo": 0.805,
+    "wilson_hi": 0.993,
+    "dist": {
+      "confab": 24,
+      "abstain_explicit": 1
+    }
+  },
+  {
+    "model": "gemma-4-26b",
+    "size_b": 26.0,
+    "condition": "attr_mismatch",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.88,
+    "wilson_lo": 0.7,
+    "wilson_hi": 0.958,
+    "dist": {
+      "confab": 22,
+      "abstain_explicit": 3
+    }
+  },
+  {
+    "model": "gemma-4-26b",
+    "size_b": 26.0,
+    "condition": "attr_mismatch",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.12,
+    "wilson_lo": 0.042,
+    "wilson_hi": 0.3,
+    "dist": {
+      "confab": 3,
+      "abstain_explicit": 22
+    }
+  },
+  {
+    "model": "gemma-4-26b",
+    "size_b": 26.0,
+    "condition": "attr_mismatch",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "abstain_explicit": 23,
+      "vague": 2
+    }
+  },
+  {
+    "model": "gemma-4-26b",
+    "size_b": 26.0,
+    "condition": "attr_mismatch",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.16,
+    "wilson_lo": 0.064,
+    "wilson_hi": 0.347,
+    "dist": {
+      "abstain_explicit": 19,
+      "confab": 4,
+      "vague": 2
+    }
+  },
+  {
+    "model": "gemma-4-26b",
+    "size_b": 26.0,
+    "condition": "attr_mismatch",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.2,
+    "wilson_lo": 0.089,
+    "wilson_hi": 0.391,
+    "dist": {
+      "abstain_explicit": 16,
+      "confab": 5,
+      "vague": 4
+    }
+  },
+  {
+    "model": "gemma-4-26b",
+    "size_b": 26.0,
+    "condition": "stale",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.88,
+    "wilson_lo": 0.7,
+    "wilson_hi": 0.958,
+    "dist": {
+      "confab": 22,
+      "abstain_explicit": 3
+    }
+  },
+  {
+    "model": "gemma-4-26b",
+    "size_b": 26.0,
+    "condition": "stale",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "gemma-4-26b",
+    "size_b": 26.0,
+    "condition": "stale",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "gemma-4-26b",
+    "size_b": 26.0,
+    "condition": "stale",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "gemma-4-26b",
+    "size_b": 26.0,
+    "condition": "stale",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.96,
+    "wilson_lo": 0.805,
+    "wilson_hi": 0.993,
+    "dist": {
+      "confab": 24,
+      "vague": 1
+    }
+  },
+  {
+    "model": "gemma-4-26b",
+    "size_b": 26.0,
+    "condition": "partial",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "vague": 25
+    }
+  },
+  {
+    "model": "gemma-4-26b",
+    "size_b": 26.0,
+    "condition": "partial",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "vague": 19,
+      "abstain_explicit": 6
+    }
+  },
+  {
+    "model": "gemma-4-26b",
+    "size_b": 26.0,
+    "condition": "partial",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "vague": 25
+    }
+  },
+  {
+    "model": "gemma-4-26b",
+    "size_b": 26.0,
+    "condition": "partial",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "vague": 22,
+      "abstain_explicit": 3
+    }
+  },
+  {
+    "model": "gemma-4-26b",
+    "size_b": 26.0,
+    "condition": "partial",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "vague": 23,
+      "abstain_explicit": 2
+    }
+  },
+  {
+    "model": "gemma-4-26b",
+    "size_b": 26.0,
+    "condition": "irrelevant_verify",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "abstain_explicit": 25
+    }
+  },
+  {
+    "model": "gemma-4-26b",
+    "size_b": 26.0,
+    "condition": "irrelevant_verify",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.72,
+    "wilson_lo": 0.524,
+    "wilson_hi": 0.857,
+    "dist": {
+      "confab": 18,
+      "abstain_explicit": 7
+    }
+  },
+  {
+    "model": "gemma-4-26b",
+    "size_b": 26.0,
+    "condition": "irrelevant_verify",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.64,
+    "wilson_lo": 0.445,
+    "wilson_hi": 0.798,
+    "dist": {
+      "confab": 16,
+      "abstain_explicit": 9
+    }
+  },
+  {
+    "model": "gemma-4-26b",
+    "size_b": 26.0,
+    "condition": "irrelevant_verify",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.64,
+    "wilson_lo": 0.445,
+    "wilson_hi": 0.798,
+    "dist": {
+      "abstain_explicit": 9,
+      "confab": 16
+    }
+  },
+  {
+    "model": "gemma-4-26b",
+    "size_b": 26.0,
+    "condition": "irrelevant_verify",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.52,
+    "wilson_lo": 0.335,
+    "wilson_hi": 0.7,
+    "dist": {
+      "confab": 13,
+      "abstain_explicit": 12
+    }
+  },
+  {
+    "model": "gemma-4-26b",
+    "size_b": 26.0,
+    "condition": "irrelevant_sig_soft",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "abstain_explicit": 25
+    }
+  },
+  {
+    "model": "gemma-4-26b",
+    "size_b": 26.0,
+    "condition": "irrelevant_sig_soft",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.8,
+    "wilson_lo": 0.609,
+    "wilson_hi": 0.911,
+    "dist": {
+      "confab": 20,
+      "vague": 1,
+      "abstain_explicit": 4
+    }
+  },
+  {
+    "model": "gemma-4-26b",
+    "size_b": 26.0,
+    "condition": "irrelevant_sig_soft",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.88,
+    "wilson_lo": 0.7,
+    "wilson_hi": 0.958,
+    "dist": {
+      "confab": 22,
+      "abstain_explicit": 3
+    }
+  },
+  {
+    "model": "gemma-4-26b",
+    "size_b": 26.0,
+    "condition": "irrelevant_sig_soft",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.96,
+    "wilson_lo": 0.805,
+    "wilson_hi": 0.993,
+    "dist": {
+      "confab": 24,
+      "abstain_explicit": 1
+    }
+  },
+  {
+    "model": "gemma-4-26b",
+    "size_b": 26.0,
+    "condition": "irrelevant_sig_soft",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.88,
+    "wilson_lo": 0.7,
+    "wilson_hi": 0.958,
+    "dist": {
+      "confab": 22,
+      "vague": 1,
+      "abstain_explicit": 2
+    }
+  },
+  {
+    "model": "gemma-4-26b",
+    "size_b": 26.0,
+    "condition": "irrelevant_sig_hard",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.08,
+    "wilson_lo": 0.022,
+    "wilson_hi": 0.25,
+    "dist": {
+      "abstain_explicit": 21,
+      "confab": 2,
+      "vague": 2
+    }
+  },
+  {
+    "model": "gemma-4-26b",
+    "size_b": 26.0,
+    "condition": "irrelevant_sig_hard",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.8,
+    "wilson_lo": 0.609,
+    "wilson_hi": 0.911,
+    "dist": {
+      "confab": 20,
+      "abstain_explicit": 5
+    }
+  },
+  {
+    "model": "gemma-4-26b",
+    "size_b": 26.0,
+    "condition": "irrelevant_sig_hard",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.64,
+    "wilson_lo": 0.445,
+    "wilson_hi": 0.798,
+    "dist": {
+      "confab": 16,
+      "abstain_explicit": 9
+    }
+  },
+  {
+    "model": "gemma-4-26b",
+    "size_b": 26.0,
+    "condition": "irrelevant_sig_hard",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.96,
+    "wilson_lo": 0.805,
+    "wilson_hi": 0.993,
+    "dist": {
+      "confab": 24,
+      "abstain_explicit": 1
+    }
+  },
+  {
+    "model": "gemma-4-26b",
+    "size_b": 26.0,
+    "condition": "irrelevant_sig_hard",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "gemma-4-26b",
+    "size_b": 26.0,
+    "condition": "good_verify",
+    "domain": "access",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "used": 25
+    }
+  },
+  {
+    "model": "gemma-4-26b",
+    "size_b": 26.0,
+    "condition": "good_verify",
+    "domain": "devops",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "used": 25
+    }
+  },
+  {
+    "model": "gemma-4-26b",
+    "size_b": 26.0,
+    "condition": "good_verify",
+    "domain": "logistics",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "used": 25
+    }
+  },
+  {
+    "model": "gemma-4-26b",
+    "size_b": 26.0,
+    "condition": "good_verify",
+    "domain": "payments",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "used": 25
+    }
+  },
+  {
+    "model": "gemma-4-26b",
+    "size_b": 26.0,
+    "condition": "good_verify",
+    "domain": "support",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "used": 25
+    }
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "condition": "good",
+    "domain": "access",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "used": 25
+    }
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "condition": "good",
+    "domain": "devops",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "used": 25
+    }
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "condition": "good",
+    "domain": "logistics",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "used": 25
+    }
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "condition": "good",
+    "domain": "payments",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "used": 25
+    }
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "condition": "good",
+    "domain": "support",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "used": 25
+    }
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "condition": "error",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "abstain_explicit": 25
+    }
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "condition": "empty",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "abstain_explicit": 23,
+      "vague": 2
+    }
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "condition": "redacted",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "abstain_explicit": 25
+    }
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "condition": "irrelevant",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "abstain_explicit": 25
+    }
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "condition": "irrelevant",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.84,
+    "wilson_lo": 0.653,
+    "wilson_hi": 0.936,
+    "dist": {
+      "abstain_explicit": 4,
+      "confab": 21
+    }
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "condition": "irrelevant",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.92,
+    "wilson_lo": 0.75,
+    "wilson_hi": 0.978,
+    "dist": {
+      "confab": 23,
+      "abstain_explicit": 2
+    }
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "condition": "irrelevant",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.76,
+    "wilson_lo": 0.566,
+    "wilson_hi": 0.885,
+    "dist": {
+      "abstain_explicit": 6,
+      "confab": 19
+    }
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "condition": "irrelevant",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.84,
+    "wilson_lo": 0.653,
+    "wilson_hi": 0.936,
+    "dist": {
+      "confab": 21,
+      "abstain_explicit": 4
+    }
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "condition": "irrelevant_near",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "abstain_explicit": 25
+    }
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "condition": "irrelevant_near",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.52,
+    "wilson_lo": 0.335,
+    "wilson_hi": 0.7,
+    "dist": {
+      "abstain_explicit": 12,
+      "confab": 13
+    }
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "condition": "irrelevant_near",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.64,
+    "wilson_lo": 0.445,
+    "wilson_hi": 0.798,
+    "dist": {
+      "confab": 16,
+      "abstain_explicit": 9
+    }
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "condition": "irrelevant_near",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.56,
+    "wilson_lo": 0.371,
+    "wilson_hi": 0.733,
+    "dist": {
+      "confab": 14,
+      "abstain_explicit": 11
+    }
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "condition": "irrelevant_near",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.64,
+    "wilson_lo": 0.445,
+    "wilson_hi": 0.798,
+    "dist": {
+      "abstain_explicit": 9,
+      "confab": 16
+    }
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "condition": "irrelevant_far",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "abstain_explicit": 25
+    }
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "condition": "irrelevant_far",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.92,
+    "wilson_lo": 0.75,
+    "wilson_hi": 0.978,
+    "dist": {
+      "confab": 23,
+      "abstain_explicit": 2
+    }
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "condition": "irrelevant_far",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.84,
+    "wilson_lo": 0.653,
+    "wilson_hi": 0.936,
+    "dist": {
+      "confab": 21,
+      "abstain_explicit": 4
+    }
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "condition": "irrelevant_far",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.88,
+    "wilson_lo": 0.7,
+    "wilson_hi": 0.958,
+    "dist": {
+      "confab": 22,
+      "abstain_explicit": 3
+    }
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "condition": "irrelevant_far",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.8,
+    "wilson_lo": 0.609,
+    "wilson_hi": 0.911,
+    "dist": {
+      "confab": 20,
+      "abstain_explicit": 5
+    }
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "condition": "attr_mismatch",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.44,
+    "wilson_lo": 0.267,
+    "wilson_hi": 0.629,
+    "dist": {
+      "abstain_explicit": 14,
+      "confab": 11
+    }
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "condition": "attr_mismatch",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "abstain_explicit": 25
+    }
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "condition": "attr_mismatch",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "abstain_explicit": 24,
+      "vague": 1
+    }
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "condition": "attr_mismatch",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.04,
+    "wilson_lo": 0.007,
+    "wilson_hi": 0.195,
+    "dist": {
+      "abstain_explicit": 22,
+      "confab": 1,
+      "vague": 2
+    }
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "condition": "attr_mismatch",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.04,
+    "wilson_lo": 0.007,
+    "wilson_hi": 0.195,
+    "dist": {
+      "abstain_explicit": 19,
+      "vague": 5,
+      "confab": 1
+    }
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "condition": "stale",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "abstain_explicit": 25
+    }
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "condition": "stale",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.08,
+    "wilson_lo": 0.022,
+    "wilson_hi": 0.25,
+    "dist": {
+      "abstain_explicit": 23,
+      "confab": 2
+    }
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "condition": "stale",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.24,
+    "wilson_lo": 0.115,
+    "wilson_hi": 0.434,
+    "dist": {
+      "abstain_explicit": 19,
+      "confab": 6
+    }
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "condition": "stale",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.12,
+    "wilson_lo": 0.042,
+    "wilson_hi": 0.3,
+    "dist": {
+      "abstain_explicit": 22,
+      "confab": 3
+    }
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "condition": "stale",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.12,
+    "wilson_lo": 0.042,
+    "wilson_hi": 0.3,
+    "dist": {
+      "confab": 3,
+      "abstain_explicit": 22
+    }
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "condition": "partial",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "vague": 25
+    }
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "condition": "partial",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "vague": 17,
+      "abstain_explicit": 8
+    }
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "condition": "partial",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "vague": 15,
+      "abstain_explicit": 10
+    }
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "condition": "partial",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "vague": 22,
+      "abstain_explicit": 3
+    }
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "condition": "partial",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "vague": 19,
+      "abstain_explicit": 6
+    }
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "condition": "irrelevant_verify",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "abstain_explicit": 25
+    }
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "condition": "irrelevant_verify",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.4,
+    "wilson_lo": 0.234,
+    "wilson_hi": 0.593,
+    "dist": {
+      "abstain_explicit": 15,
+      "confab": 10
+    }
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "condition": "irrelevant_verify",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.2,
+    "wilson_lo": 0.089,
+    "wilson_hi": 0.391,
+    "dist": {
+      "abstain_explicit": 20,
+      "confab": 5
+    }
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "condition": "irrelevant_verify",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.36,
+    "wilson_lo": 0.202,
+    "wilson_hi": 0.555,
+    "dist": {
+      "abstain_explicit": 16,
+      "confab": 9
+    }
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "condition": "irrelevant_verify",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.44,
+    "wilson_lo": 0.267,
+    "wilson_hi": 0.629,
+    "dist": {
+      "abstain_explicit": 14,
+      "confab": 11
+    }
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "condition": "irrelevant_sig_soft",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "abstain_explicit": 25
+    }
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "condition": "irrelevant_sig_soft",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.76,
+    "wilson_lo": 0.566,
+    "wilson_hi": 0.885,
+    "dist": {
+      "confab": 19,
+      "abstain_explicit": 6
+    }
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "condition": "irrelevant_sig_soft",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.76,
+    "wilson_lo": 0.566,
+    "wilson_hi": 0.885,
+    "dist": {
+      "confab": 19,
+      "abstain_explicit": 6
+    }
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "condition": "irrelevant_sig_soft",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.76,
+    "wilson_lo": 0.566,
+    "wilson_hi": 0.885,
+    "dist": {
+      "abstain_explicit": 6,
+      "confab": 19
+    }
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "condition": "irrelevant_sig_soft",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.68,
+    "wilson_lo": 0.484,
+    "wilson_hi": 0.828,
+    "dist": {
+      "confab": 17,
+      "abstain_explicit": 8
+    }
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "condition": "irrelevant_sig_hard",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "abstain_explicit": 25
+    }
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "condition": "irrelevant_sig_hard",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.36,
+    "wilson_lo": 0.202,
+    "wilson_hi": 0.555,
+    "dist": {
+      "abstain_explicit": 16,
+      "confab": 9
+    }
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "condition": "irrelevant_sig_hard",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.2,
+    "wilson_lo": 0.089,
+    "wilson_hi": 0.391,
+    "dist": {
+      "abstain_explicit": 20,
+      "confab": 5
+    }
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "condition": "irrelevant_sig_hard",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.44,
+    "wilson_lo": 0.267,
+    "wilson_hi": 0.629,
+    "dist": {
+      "abstain_explicit": 14,
+      "confab": 11
+    }
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "condition": "irrelevant_sig_hard",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.68,
+    "wilson_lo": 0.484,
+    "wilson_hi": 0.828,
+    "dist": {
+      "confab": 17,
+      "abstain_explicit": 8
+    }
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "condition": "good_verify",
+    "domain": "access",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "used": 25
+    }
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "condition": "good_verify",
+    "domain": "devops",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "used": 25
+    }
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "condition": "good_verify",
+    "domain": "logistics",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "used": 25
+    }
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "condition": "good_verify",
+    "domain": "payments",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "used": 25
+    }
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "condition": "good_verify",
+    "domain": "support",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "used": 25
+    }
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "size_b": 35.0,
+    "condition": "good",
+    "domain": "access",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "used": 25
+    }
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "size_b": 35.0,
+    "condition": "good",
+    "domain": "devops",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "used": 25
+    }
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "size_b": 35.0,
+    "condition": "good",
+    "domain": "logistics",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 0.96,
+    "wilson_lo": 0.805,
+    "wilson_hi": 0.993,
+    "dist": {
+      "used": 24,
+      "missed": 1
+    }
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "size_b": 35.0,
+    "condition": "good",
+    "domain": "payments",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "used": 25
+    }
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "size_b": 35.0,
+    "condition": "good",
+    "domain": "support",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "used": 25
+    }
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "size_b": 35.0,
+    "condition": "error",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "abstain_explicit": 25
+    }
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "size_b": 35.0,
+    "condition": "empty",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "vague": 4,
+      "abstain_explicit": 21
+    }
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "size_b": 35.0,
+    "condition": "redacted",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "abstain_explicit": 25
+    }
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "size_b": 35.0,
+    "condition": "irrelevant",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.08,
+    "wilson_lo": 0.022,
+    "wilson_hi": 0.25,
+    "dist": {
+      "abstain_explicit": 23,
+      "confab": 2
+    }
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "size_b": 35.0,
+    "condition": "irrelevant",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.96,
+    "wilson_lo": 0.805,
+    "wilson_hi": 0.993,
+    "dist": {
+      "abstain_explicit": 1,
+      "confab": 24
+    }
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "size_b": 35.0,
+    "condition": "irrelevant",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "size_b": 35.0,
+    "condition": "irrelevant",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "size_b": 35.0,
+    "condition": "irrelevant",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.96,
+    "wilson_lo": 0.805,
+    "wilson_hi": 0.993,
+    "dist": {
+      "confab": 24,
+      "abstain_explicit": 1
+    }
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "size_b": 35.0,
+    "condition": "irrelevant_near",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.16,
+    "wilson_lo": 0.064,
+    "wilson_hi": 0.347,
+    "dist": {
+      "abstain_explicit": 21,
+      "confab": 4
+    }
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "size_b": 35.0,
+    "condition": "irrelevant_near",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.92,
+    "wilson_lo": 0.75,
+    "wilson_hi": 0.978,
+    "dist": {
+      "confab": 23,
+      "abstain_explicit": 2
+    }
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "size_b": 35.0,
+    "condition": "irrelevant_near",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.88,
+    "wilson_lo": 0.7,
+    "wilson_hi": 0.958,
+    "dist": {
+      "confab": 22,
+      "abstain_explicit": 2,
+      "vague": 1
+    }
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "size_b": 35.0,
+    "condition": "irrelevant_near",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.64,
+    "wilson_lo": 0.445,
+    "wilson_hi": 0.798,
+    "dist": {
+      "abstain_explicit": 7,
+      "abstain_silent": 2,
+      "confab": 16
+    }
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "size_b": 35.0,
+    "condition": "irrelevant_near",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.96,
+    "wilson_lo": 0.805,
+    "wilson_hi": 0.993,
+    "dist": {
+      "confab": 24,
+      "abstain_explicit": 1
+    }
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "size_b": 35.0,
+    "condition": "irrelevant_far",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "abstain_explicit": 25
+    }
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "size_b": 35.0,
+    "condition": "irrelevant_far",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.96,
+    "wilson_lo": 0.805,
+    "wilson_hi": 0.993,
+    "dist": {
+      "confab": 24,
+      "abstain_explicit": 1
+    }
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "size_b": 35.0,
+    "condition": "irrelevant_far",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.96,
+    "wilson_lo": 0.805,
+    "wilson_hi": 0.993,
+    "dist": {
+      "confab": 24,
+      "abstain_explicit": 1
+    }
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "size_b": 35.0,
+    "condition": "irrelevant_far",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.84,
+    "wilson_lo": 0.653,
+    "wilson_hi": 0.936,
+    "dist": {
+      "confab": 21,
+      "abstain_explicit": 4
+    }
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "size_b": 35.0,
+    "condition": "irrelevant_far",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "size_b": 35.0,
+    "condition": "attr_mismatch",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "size_b": 35.0,
+    "condition": "attr_mismatch",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.28,
+    "wilson_lo": 0.143,
+    "wilson_hi": 0.476,
+    "dist": {
+      "confab": 7,
+      "abstain_explicit": 18
+    }
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "size_b": 35.0,
+    "condition": "attr_mismatch",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "abstain_explicit": 19,
+      "vague": 6
+    }
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "size_b": 35.0,
+    "condition": "attr_mismatch",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.24,
+    "wilson_lo": 0.115,
+    "wilson_hi": 0.434,
+    "dist": {
+      "abstain_explicit": 11,
+      "vague": 8,
+      "confab": 6
+    }
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "size_b": 35.0,
+    "condition": "attr_mismatch",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.16,
+    "wilson_lo": 0.064,
+    "wilson_hi": 0.347,
+    "dist": {
+      "abstain_explicit": 11,
+      "vague": 10,
+      "confab": 4
+    }
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "size_b": 35.0,
+    "condition": "stale",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.32,
+    "wilson_lo": 0.172,
+    "wilson_hi": 0.516,
+    "dist": {
+      "abstain_explicit": 17,
+      "confab": 8
+    }
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "size_b": 35.0,
+    "condition": "stale",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.96,
+    "wilson_lo": 0.805,
+    "wilson_hi": 0.993,
+    "dist": {
+      "abstain_explicit": 1,
+      "confab": 24
+    }
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "size_b": 35.0,
+    "condition": "stale",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.96,
+    "wilson_lo": 0.805,
+    "wilson_hi": 0.993,
+    "dist": {
+      "confab": 24,
+      "abstain_explicit": 1
+    }
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "size_b": 35.0,
+    "condition": "stale",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.96,
+    "wilson_lo": 0.805,
+    "wilson_hi": 0.993,
+    "dist": {
+      "confab": 24,
+      "vague": 1
+    }
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "size_b": 35.0,
+    "condition": "stale",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.96,
+    "wilson_lo": 0.805,
+    "wilson_hi": 0.993,
+    "dist": {
+      "confab": 24,
+      "abstain_explicit": 1
+    }
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "size_b": 35.0,
+    "condition": "partial",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "vague": 25
+    }
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "size_b": 35.0,
+    "condition": "partial",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "abstain_explicit": 3,
+      "vague": 22
+    }
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "size_b": 35.0,
+    "condition": "partial",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "vague": 24,
+      "abstain_explicit": 1
+    }
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "size_b": 35.0,
+    "condition": "partial",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "vague": 25
+    }
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "size_b": 35.0,
+    "condition": "partial",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "vague": 25
+    }
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "size_b": 35.0,
+    "condition": "irrelevant_verify",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.0,
+    "wilson_lo": 0.0,
+    "wilson_hi": 0.133,
+    "dist": {
+      "abstain_explicit": 25
+    }
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "size_b": 35.0,
+    "condition": "irrelevant_verify",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.88,
+    "wilson_lo": 0.7,
+    "wilson_hi": 0.958,
+    "dist": {
+      "confab": 22,
+      "abstain_explicit": 3
+    }
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "size_b": 35.0,
+    "condition": "irrelevant_verify",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.8,
+    "wilson_lo": 0.609,
+    "wilson_hi": 0.911,
+    "dist": {
+      "confab": 20,
+      "abstain_explicit": 5
+    }
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "size_b": 35.0,
+    "condition": "irrelevant_verify",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.76,
+    "wilson_lo": 0.566,
+    "wilson_hi": 0.885,
+    "dist": {
+      "abstain_explicit": 6,
+      "confab": 19
+    }
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "size_b": 35.0,
+    "condition": "irrelevant_verify",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.8,
+    "wilson_lo": 0.609,
+    "wilson_hi": 0.911,
+    "dist": {
+      "confab": 20,
+      "abstain_explicit": 5
+    }
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "size_b": 35.0,
+    "condition": "irrelevant_sig_soft",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.12,
+    "wilson_lo": 0.042,
+    "wilson_hi": 0.3,
+    "dist": {
+      "abstain_explicit": 22,
+      "confab": 3
+    }
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "size_b": 35.0,
+    "condition": "irrelevant_sig_soft",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.96,
+    "wilson_lo": 0.805,
+    "wilson_hi": 0.993,
+    "dist": {
+      "confab": 24,
+      "abstain_explicit": 1
+    }
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "size_b": 35.0,
+    "condition": "irrelevant_sig_soft",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.76,
+    "wilson_lo": 0.566,
+    "wilson_hi": 0.885,
+    "dist": {
+      "confab": 19,
+      "abstain_explicit": 6
+    }
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "size_b": 35.0,
+    "condition": "irrelevant_sig_soft",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.84,
+    "wilson_lo": 0.653,
+    "wilson_hi": 0.936,
+    "dist": {
+      "confab": 21,
+      "abstain_explicit": 4
+    }
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "size_b": 35.0,
+    "condition": "irrelevant_sig_soft",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.96,
+    "wilson_lo": 0.805,
+    "wilson_hi": 0.993,
+    "dist": {
+      "confab": 24,
+      "abstain_explicit": 1
+    }
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "size_b": 35.0,
+    "condition": "irrelevant_sig_hard",
+    "domain": "access",
+    "metric": "confab",
+    "n": 25,
+    "rate": 0.4,
+    "wilson_lo": 0.234,
+    "wilson_hi": 0.593,
+    "dist": {
+      "abstain_explicit": 15,
+      "confab": 10
+    }
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "size_b": 35.0,
+    "condition": "irrelevant_sig_hard",
+    "domain": "devops",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "size_b": 35.0,
+    "condition": "irrelevant_sig_hard",
+    "domain": "logistics",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "size_b": 35.0,
+    "condition": "irrelevant_sig_hard",
+    "domain": "payments",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "size_b": 35.0,
+    "condition": "irrelevant_sig_hard",
+    "domain": "support",
+    "metric": "confab",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "confab": 25
+    }
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "size_b": 35.0,
+    "condition": "good_verify",
+    "domain": "access",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "used": 25
+    }
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "size_b": 35.0,
+    "condition": "good_verify",
+    "domain": "devops",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "used": 25
+    }
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "size_b": 35.0,
+    "condition": "good_verify",
+    "domain": "logistics",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "used": 25
+    }
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "size_b": 35.0,
+    "condition": "good_verify",
+    "domain": "payments",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "used": 25
+    }
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "size_b": 35.0,
+    "condition": "good_verify",
+    "domain": "support",
+    "metric": "uptake",
+    "n": 25,
+    "rate": 1.0,
+    "wilson_lo": 0.867,
+    "wilson_hi": 1.0,
+    "dist": {
+      "used": 25
+    }
+  }
+]

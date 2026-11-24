@@ -1,0 +1,770 @@
+[
+  {
+    "model": "Phi-4-mini",
+    "cond": "irrelevant",
+    "lever": "orig",
+    "n": 60,
+    "confab": 0.9,
+    "wilson": [
+      0.799,
+      0.953
+    ],
+    "code_present": 0.9
+  },
+  {
+    "model": "Phi-4-mini",
+    "cond": "irrelevant",
+    "lever": "absence",
+    "n": 60,
+    "confab": 0.9,
+    "wilson": [
+      0.799,
+      0.953
+    ],
+    "code_present": 0.9
+  },
+  {
+    "model": "Phi-4-mini",
+    "cond": "irrelevant",
+    "lever": "isolate",
+    "n": 60,
+    "confab": 0.0,
+    "wilson": [
+      0.0,
+      0.06
+    ],
+    "code_present": 0.0
+  },
+  {
+    "model": "aya-expanse-8b",
+    "cond": "irrelevant",
+    "lever": "orig",
+    "n": 60,
+    "confab": 1.0,
+    "wilson": [
+      0.94,
+      1.0
+    ],
+    "code_present": 1.0
+  },
+  {
+    "model": "aya-expanse-8b",
+    "cond": "irrelevant",
+    "lever": "absence",
+    "n": 60,
+    "confab": 0.767,
+    "wilson": [
+      0.646,
+      0.856
+    ],
+    "code_present": 0.783
+  },
+  {
+    "model": "aya-expanse-8b",
+    "cond": "irrelevant",
+    "lever": "isolate",
+    "n": 60,
+    "confab": 0.0,
+    "wilson": [
+      0.0,
+      0.06
+    ],
+    "code_present": 0.0
+  },
+  {
+    "model": "gemma-3-12b",
+    "cond": "irrelevant",
+    "lever": "orig",
+    "n": 60,
+    "confab": 1.0,
+    "wilson": [
+      0.94,
+      1.0
+    ],
+    "code_present": 1.0
+  },
+  {
+    "model": "gemma-3-12b",
+    "cond": "irrelevant",
+    "lever": "absence",
+    "n": 60,
+    "confab": 0.933,
+    "wilson": [
+      0.841,
+      0.974
+    ],
+    "code_present": 0.95
+  },
+  {
+    "model": "gemma-3-12b",
+    "cond": "irrelevant",
+    "lever": "isolate",
+    "n": 60,
+    "confab": 0.0,
+    "wilson": [
+      0.0,
+      0.06
+    ],
+    "code_present": 0.0
+  },
+  {
+    "model": "gemma-4-26b",
+    "cond": "irrelevant",
+    "lever": "orig",
+    "n": 60,
+    "confab": 0.933,
+    "wilson": [
+      0.841,
+      0.974
+    ],
+    "code_present": 0.933
+  },
+  {
+    "model": "gemma-4-26b",
+    "cond": "irrelevant",
+    "lever": "absence",
+    "n": 60,
+    "confab": 0.383,
+    "wilson": [
+      0.271,
+      0.51
+    ],
+    "code_present": 0.383
+  },
+  {
+    "model": "gemma-4-26b",
+    "cond": "irrelevant",
+    "lever": "isolate",
+    "n": 60,
+    "confab": 0.0,
+    "wilson": [
+      0.0,
+      0.06
+    ],
+    "code_present": 0.0
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "cond": "irrelevant",
+    "lever": "orig",
+    "n": 60,
+    "confab": 0.9,
+    "wilson": [
+      0.799,
+      0.953
+    ],
+    "code_present": 0.95
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "cond": "irrelevant",
+    "lever": "absence",
+    "n": 60,
+    "confab": 0.0,
+    "wilson": [
+      0.0,
+      0.06
+    ],
+    "code_present": 0.05
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "cond": "irrelevant",
+    "lever": "isolate",
+    "n": 60,
+    "confab": 0.0,
+    "wilson": [
+      0.0,
+      0.06
+    ],
+    "code_present": 0.0
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "cond": "irrelevant",
+    "lever": "orig",
+    "n": 60,
+    "confab": 0.983,
+    "wilson": [
+      0.911,
+      0.997
+    ],
+    "code_present": 0.983
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "cond": "irrelevant",
+    "lever": "absence",
+    "n": 60,
+    "confab": 0.017,
+    "wilson": [
+      0.003,
+      0.089
+    ],
+    "code_present": 0.033
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "cond": "irrelevant",
+    "lever": "isolate",
+    "n": 60,
+    "confab": 0.0,
+    "wilson": [
+      0.0,
+      0.06
+    ],
+    "code_present": 0.0
+  },
+  {
+    "model": "Phi-4",
+    "cond": "irrelevant",
+    "lever": "orig",
+    "n": 60,
+    "confab": 0.933,
+    "wilson": [
+      0.841,
+      0.974
+    ],
+    "code_present": 0.933
+  },
+  {
+    "model": "Phi-4",
+    "cond": "irrelevant",
+    "lever": "absence",
+    "n": 60,
+    "confab": 0.0,
+    "wilson": [
+      0.0,
+      0.06
+    ],
+    "code_present": 0.0
+  },
+  {
+    "model": "Phi-4",
+    "cond": "irrelevant",
+    "lever": "isolate",
+    "n": 60,
+    "confab": 0.0,
+    "wilson": [
+      0.0,
+      0.06
+    ],
+    "code_present": 0.0
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "cond": "irrelevant",
+    "lever": "orig",
+    "n": 60,
+    "confab": 0.983,
+    "wilson": [
+      0.911,
+      0.997
+    ],
+    "code_present": 0.983
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "cond": "irrelevant",
+    "lever": "absence",
+    "n": 60,
+    "confab": 0.1,
+    "wilson": [
+      0.047,
+      0.201
+    ],
+    "code_present": 0.1
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "cond": "irrelevant",
+    "lever": "isolate",
+    "n": 60,
+    "confab": 0.0,
+    "wilson": [
+      0.0,
+      0.06
+    ],
+    "code_present": 0.0
+  },
+  {
+    "model": "Phi-4-mini",
+    "cond": "stale",
+    "lever": "orig",
+    "n": 60,
+    "confab": 0.883,
+    "wilson": [
+      0.778,
+      0.942
+    ],
+    "code_present": 0.9
+  },
+  {
+    "model": "Phi-4-mini",
+    "cond": "stale",
+    "lever": "absence",
+    "n": 60,
+    "confab": 0.667,
+    "wilson": [
+      0.541,
+      0.773
+    ],
+    "code_present": 0.9
+  },
+  {
+    "model": "Phi-4-mini",
+    "cond": "stale",
+    "lever": "isolate",
+    "n": 60,
+    "confab": 0.0,
+    "wilson": [
+      0.0,
+      0.06
+    ],
+    "code_present": 0.0
+  },
+  {
+    "model": "aya-expanse-8b",
+    "cond": "stale",
+    "lever": "orig",
+    "n": 60,
+    "confab": 0.983,
+    "wilson": [
+      0.911,
+      0.997
+    ],
+    "code_present": 1.0
+  },
+  {
+    "model": "aya-expanse-8b",
+    "cond": "stale",
+    "lever": "absence",
+    "n": 60,
+    "confab": 0.55,
+    "wilson": [
+      0.425,
+      0.669
+    ],
+    "code_present": 0.95
+  },
+  {
+    "model": "aya-expanse-8b",
+    "cond": "stale",
+    "lever": "isolate",
+    "n": 60,
+    "confab": 0.017,
+    "wilson": [
+      0.003,
+      0.089
+    ],
+    "code_present": 0.017
+  },
+  {
+    "model": "gemma-3-12b",
+    "cond": "stale",
+    "lever": "orig",
+    "n": 60,
+    "confab": 1.0,
+    "wilson": [
+      0.94,
+      1.0
+    ],
+    "code_present": 1.0
+  },
+  {
+    "model": "gemma-3-12b",
+    "cond": "stale",
+    "lever": "absence",
+    "n": 60,
+    "confab": 0.783,
+    "wilson": [
+      0.664,
+      0.869
+    ],
+    "code_present": 0.917
+  },
+  {
+    "model": "gemma-3-12b",
+    "cond": "stale",
+    "lever": "isolate",
+    "n": 60,
+    "confab": 0.0,
+    "wilson": [
+      0.0,
+      0.06
+    ],
+    "code_present": 0.0
+  },
+  {
+    "model": "gemma-4-26b",
+    "cond": "stale",
+    "lever": "orig",
+    "n": 60,
+    "confab": 1.0,
+    "wilson": [
+      0.94,
+      1.0
+    ],
+    "code_present": 1.0
+  },
+  {
+    "model": "gemma-4-26b",
+    "cond": "stale",
+    "lever": "absence",
+    "n": 60,
+    "confab": 1.0,
+    "wilson": [
+      0.94,
+      1.0
+    ],
+    "code_present": 1.0
+  },
+  {
+    "model": "gemma-4-26b",
+    "cond": "stale",
+    "lever": "isolate",
+    "n": 60,
+    "confab": 0.0,
+    "wilson": [
+      0.0,
+      0.06
+    ],
+    "code_present": 0.0
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "cond": "stale",
+    "lever": "orig",
+    "n": 60,
+    "confab": 0.183,
+    "wilson": [
+      0.106,
+      0.299
+    ],
+    "code_present": 1.0
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "cond": "stale",
+    "lever": "absence",
+    "n": 60,
+    "confab": 0.0,
+    "wilson": [
+      0.0,
+      0.06
+    ],
+    "code_present": 1.0
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "cond": "stale",
+    "lever": "isolate",
+    "n": 60,
+    "confab": 0.0,
+    "wilson": [
+      0.0,
+      0.06
+    ],
+    "code_present": 0.0
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "cond": "stale",
+    "lever": "orig",
+    "n": 60,
+    "confab": 0.917,
+    "wilson": [
+      0.819,
+      0.964
+    ],
+    "code_present": 0.983
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "cond": "stale",
+    "lever": "absence",
+    "n": 60,
+    "confab": 0.15,
+    "wilson": [
+      0.081,
+      0.261
+    ],
+    "code_present": 0.15
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "cond": "stale",
+    "lever": "isolate",
+    "n": 60,
+    "confab": 0.0,
+    "wilson": [
+      0.0,
+      0.06
+    ],
+    "code_present": 0.0
+  },
+  {
+    "model": "Phi-4",
+    "cond": "stale",
+    "lever": "orig",
+    "n": 60,
+    "confab": 0.3,
+    "wilson": [
+      0.199,
+      0.425
+    ],
+    "code_present": 0.633
+  },
+  {
+    "model": "Phi-4",
+    "cond": "stale",
+    "lever": "absence",
+    "n": 60,
+    "confab": 0.0,
+    "wilson": [
+      0.0,
+      0.06
+    ],
+    "code_present": 0.283
+  },
+  {
+    "model": "Phi-4",
+    "cond": "stale",
+    "lever": "isolate",
+    "n": 60,
+    "confab": 0.0,
+    "wilson": [
+      0.0,
+      0.06
+    ],
+    "code_present": 0.0
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "cond": "stale",
+    "lever": "orig",
+    "n": 60,
+    "confab": 0.6,
+    "wilson": [
+      0.474,
+      0.714
+    ],
+    "code_present": 0.967
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "cond": "stale",
+    "lever": "absence",
+    "n": 60,
+    "confab": 0.0,
+    "wilson": [
+      0.0,
+      0.06
+    ],
+    "code_present": 0.783
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "cond": "stale",
+    "lever": "isolate",
+    "n": 60,
+    "confab": 0.0,
+    "wilson": [
+      0.0,
+      0.06
+    ],
+    "code_present": 0.0
+  },
+  {
+    "model": "Phi-4-mini",
+    "cond": "good",
+    "lever": "orig",
+    "n": 60,
+    "util": 0.883,
+    "wilson": [
+      0.778,
+      0.942
+    ],
+    "code_present": 0.883
+  },
+  {
+    "model": "Phi-4-mini",
+    "cond": "good",
+    "lever": "isolate",
+    "n": 60,
+    "util": 0.883,
+    "wilson": [
+      0.778,
+      0.942
+    ],
+    "code_present": 0.883
+  },
+  {
+    "model": "aya-expanse-8b",
+    "cond": "good",
+    "lever": "orig",
+    "n": 60,
+    "util": 1.0,
+    "wilson": [
+      0.94,
+      1.0
+    ],
+    "code_present": 1.0
+  },
+  {
+    "model": "aya-expanse-8b",
+    "cond": "good",
+    "lever": "isolate",
+    "n": 60,
+    "util": 1.0,
+    "wilson": [
+      0.94,
+      1.0
+    ],
+    "code_present": 1.0
+  },
+  {
+    "model": "gemma-3-12b",
+    "cond": "good",
+    "lever": "orig",
+    "n": 60,
+    "util": 1.0,
+    "wilson": [
+      0.94,
+      1.0
+    ],
+    "code_present": 1.0
+  },
+  {
+    "model": "gemma-3-12b",
+    "cond": "good",
+    "lever": "isolate",
+    "n": 60,
+    "util": 1.0,
+    "wilson": [
+      0.94,
+      1.0
+    ],
+    "code_present": 1.0
+  },
+  {
+    "model": "gemma-4-26b",
+    "cond": "good",
+    "lever": "orig",
+    "n": 60,
+    "util": 1.0,
+    "wilson": [
+      0.94,
+      1.0
+    ],
+    "code_present": 1.0
+  },
+  {
+    "model": "gemma-4-26b",
+    "cond": "good",
+    "lever": "isolate",
+    "n": 60,
+    "util": 1.0,
+    "wilson": [
+      0.94,
+      1.0
+    ],
+    "code_present": 1.0
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "cond": "good",
+    "lever": "orig",
+    "n": 60,
+    "util": 1.0,
+    "wilson": [
+      0.94,
+      1.0
+    ],
+    "code_present": 1.0
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "cond": "good",
+    "lever": "isolate",
+    "n": 60,
+    "util": 1.0,
+    "wilson": [
+      0.94,
+      1.0
+    ],
+    "code_present": 1.0
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "cond": "good",
+    "lever": "orig",
+    "n": 60,
+    "util": 0.983,
+    "wilson": [
+      0.911,
+      0.997
+    ],
+    "code_present": 0.983
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "cond": "good",
+    "lever": "isolate",
+    "n": 60,
+    "util": 0.983,
+    "wilson": [
+      0.911,
+      0.997
+    ],
+    "code_present": 0.983
+  },
+  {
+    "model": "Phi-4",
+    "cond": "good",
+    "lever": "orig",
+    "n": 60,
+    "util": 1.0,
+    "wilson": [
+      0.94,
+      1.0
+    ],
+    "code_present": 1.0
+  },
+  {
+    "model": "Phi-4",
+    "cond": "good",
+    "lever": "isolate",
+    "n": 60,
+    "util": 1.0,
+    "wilson": [
+      0.94,
+      1.0
+    ],
+    "code_present": 1.0
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "cond": "good",
+    "lever": "orig",
+    "n": 60,
+    "util": 1.0,
+    "wilson": [
+      0.94,
+      1.0
+    ],
+    "code_present": 1.0
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "cond": "good",
+    "lever": "isolate",
+    "n": 60,
+    "util": 1.0,
+    "wilson": [
+      0.94,
+      1.0
+    ],
+    "code_present": 1.0
+  }
+]

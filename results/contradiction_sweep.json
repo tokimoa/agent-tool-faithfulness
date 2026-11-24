@@ -1,0 +1,310 @@
+{
+  "config": {
+    "K": 6,
+    "N": 1,
+    "n": 20
+  },
+  "elapsed_sec": 790.4,
+  "rows": [
+    {
+      "n_facts": 20,
+      "n_instances": 20,
+      "uptake_rate": 1.0,
+      "coverage": 1.0,
+      "ond_share": {
+        "omission": 0.0,
+        "neglect": 0.0,
+        "distraction": 0.0
+      },
+      "contradiction_following_rate": 0.25,
+      "contradiction": {
+        "right_only": 0.75,
+        "wrong_only": 0.0,
+        "both": 0.25,
+        "neither": 0.0
+      },
+      "mode": "passive",
+      "k": 6,
+      "avg_tokens": 370.6,
+      "avg_steps": 1.0,
+      "model": "Phi-4-mini",
+      "size_b": 3.8,
+      "authority_cue": true
+    },
+    {
+      "n_facts": 20,
+      "n_instances": 20,
+      "uptake_rate": 0.95,
+      "coverage": 0.95,
+      "ond_share": {
+        "omission": 0.05,
+        "neglect": 0.0,
+        "distraction": 0.0
+      },
+      "contradiction_following_rate": 0.0,
+      "contradiction": {
+        "right_only": 0.95,
+        "wrong_only": 0.0,
+        "both": 0.0,
+        "neither": 0.05
+      },
+      "mode": "agentic",
+      "k": 6,
+      "avg_tokens": 1310.5,
+      "avg_steps": 2.95,
+      "model": "Phi-4-mini",
+      "size_b": 3.8,
+      "authority_cue": true
+    },
+    {
+      "n_facts": 20,
+      "n_instances": 20,
+      "uptake_rate": 0.85,
+      "coverage": 0.85,
+      "ond_share": {
+        "omission": 0.0,
+        "neglect": 0.05,
+        "distraction": 0.1
+      },
+      "contradiction_following_rate": 0.3,
+      "contradiction": {
+        "right_only": 0.65,
+        "wrong_only": 0.1,
+        "both": 0.2,
+        "neither": 0.05
+      },
+      "mode": "passive",
+      "k": 6,
+      "avg_tokens": 367.4,
+      "avg_steps": 1.0,
+      "model": "Phi-4-mini",
+      "size_b": 3.8,
+      "authority_cue": false
+    },
+    {
+      "n_facts": 20,
+      "n_instances": 20,
+      "uptake_rate": 0.7,
+      "coverage": 0.7,
+      "ond_share": {
+        "omission": 0.2,
+        "neglect": 0.05,
+        "distraction": 0.05
+      },
+      "contradiction_following_rate": 0.05,
+      "contradiction": {
+        "right_only": 0.7,
+        "wrong_only": 0.05,
+        "both": 0.0,
+        "neither": 0.25
+      },
+      "mode": "agentic",
+      "k": 6,
+      "avg_tokens": 1196.8,
+      "avg_steps": 2.8,
+      "model": "Phi-4-mini",
+      "size_b": 3.8,
+      "authority_cue": false
+    },
+    {
+      "n_facts": 20,
+      "n_instances": 20,
+      "uptake_rate": 1.0,
+      "coverage": 1.0,
+      "ond_share": {
+        "omission": 0.0,
+        "neglect": 0.0,
+        "distraction": 0.0
+      },
+      "contradiction_following_rate": 0.0,
+      "contradiction": {
+        "right_only": 1.0,
+        "wrong_only": 0.0,
+        "both": 0.0,
+        "neither": 0.0
+      },
+      "mode": "passive",
+      "k": 6,
+      "avg_tokens": 484.5,
+      "avg_steps": 1.0,
+      "model": "Qwen3.5-9B",
+      "size_b": 9.0,
+      "authority_cue": true
+    },
+    {
+      "n_facts": 20,
+      "n_instances": 20,
+      "uptake_rate": 1.0,
+      "coverage": 1.0,
+      "ond_share": {
+        "omission": 0.0,
+        "neglect": 0.0,
+        "distraction": 0.0
+      },
+      "contradiction_following_rate": 0.0,
+      "contradiction": {
+        "right_only": 1.0,
+        "wrong_only": 0.0,
+        "both": 0.0,
+        "neither": 0.0
+      },
+      "mode": "agentic",
+      "k": 6,
+      "avg_tokens": 1428.3,
+      "avg_steps": 3.2,
+      "model": "Qwen3.5-9B",
+      "size_b": 9.0,
+      "authority_cue": true
+    },
+    {
+      "n_facts": 20,
+      "n_instances": 20,
+      "uptake_rate": 0.95,
+      "coverage": 0.95,
+      "ond_share": {
+        "omission": 0.0,
+        "neglect": 0.0,
+        "distraction": 0.05
+      },
+      "contradiction_following_rate": 0.05,
+      "contradiction": {
+        "right_only": 0.95,
+        "wrong_only": 0.05,
+        "both": 0.0,
+        "neither": 0.0
+      },
+      "mode": "passive",
+      "k": 6,
+      "avg_tokens": 507.4,
+      "avg_steps": 1.0,
+      "model": "Qwen3.5-9B",
+      "size_b": 9.0,
+      "authority_cue": false
+    },
+    {
+      "n_facts": 20,
+      "n_instances": 20,
+      "uptake_rate": 1.0,
+      "coverage": 1.0,
+      "ond_share": {
+        "omission": 0.0,
+        "neglect": 0.0,
+        "distraction": 0.0
+      },
+      "contradiction_following_rate": 0.75,
+      "contradiction": {
+        "right_only": 0.25,
+        "wrong_only": 0.0,
+        "both": 0.75,
+        "neither": 0.0
+      },
+      "mode": "agentic",
+      "k": 6,
+      "avg_tokens": 1828.0,
+      "avg_steps": 3.85,
+      "model": "Qwen3.5-9B",
+      "size_b": 9.0,
+      "authority_cue": false
+    },
+    {
+      "n_facts": 20,
+      "n_instances": 20,
+      "uptake_rate": 1.0,
+      "coverage": 1.0,
+      "ond_share": {
+        "omission": 0.0,
+        "neglect": 0.0,
+        "distraction": 0.0
+      },
+      "contradiction_following_rate": 0.0,
+      "contradiction": {
+        "right_only": 1.0,
+        "wrong_only": 0.0,
+        "both": 0.0,
+        "neither": 0.0
+      },
+      "mode": "passive",
+      "k": 6,
+      "avg_tokens": 464.6,
+      "avg_steps": 1.0,
+      "model": "Phi-4",
+      "size_b": 14.0,
+      "authority_cue": true
+    },
+    {
+      "n_facts": 20,
+      "n_instances": 20,
+      "uptake_rate": 1.0,
+      "coverage": 1.0,
+      "ond_share": {
+        "omission": 0.0,
+        "neglect": 0.0,
+        "distraction": 0.0
+      },
+      "contradiction_following_rate": 0.0,
+      "contradiction": {
+        "right_only": 1.0,
+        "wrong_only": 0.0,
+        "both": 0.0,
+        "neither": 0.0
+      },
+      "mode": "agentic",
+      "k": 6,
+      "avg_tokens": 1287.8,
+      "avg_steps": 3.0,
+      "model": "Phi-4",
+      "size_b": 14.0,
+      "authority_cue": true
+    },
+    {
+      "n_facts": 20,
+      "n_instances": 20,
+      "uptake_rate": 1.0,
+      "coverage": 1.0,
+      "ond_share": {
+        "omission": 0.0,
+        "neglect": 0.0,
+        "distraction": 0.0
+      },
+      "contradiction_following_rate": 0.0,
+      "contradiction": {
+        "right_only": 1.0,
+        "wrong_only": 0.0,
+        "both": 0.0,
+        "neither": 0.0
+      },
+      "mode": "passive",
+      "k": 6,
+      "avg_tokens": 496.5,
+      "avg_steps": 1.0,
+      "model": "Phi-4",
+      "size_b": 14.0,
+      "authority_cue": false
+    },
+    {
+      "n_facts": 20,
+      "n_instances": 20,
+      "uptake_rate": 1.0,
+      "coverage": 1.0,
+      "ond_share": {
+        "omission": 0.0,
+        "neglect": 0.0,
+        "distraction": 0.0
+      },
+      "contradiction_following_rate": 0.2,
+      "contradiction": {
+        "right_only": 0.8,
+        "wrong_only": 0.0,
+        "both": 0.2,
+        "neither": 0.0
+      },
+      "mode": "agentic",
+      "k": 6,
+      "avg_tokens": 1428.6,
+      "avg_steps": 3.2,
+      "model": "Phi-4",
+      "size_b": 14.0,
+      "authority_cue": false
+    }
+  ]
+}

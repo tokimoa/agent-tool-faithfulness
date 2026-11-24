@@ -1,0 +1,442 @@
+[
+  {
+    "model": "Phi-4-mini",
+    "size_b": 3.8,
+    "cond": "attr_mismatch",
+    "confab_rate": 0.9,
+    "n_confab": 18,
+    "decoy": 18,
+    "novel": 0,
+    "decoy_share": 1.0
+  },
+  {
+    "model": "Phi-4-mini",
+    "size_b": 3.8,
+    "cond": "irrelevant",
+    "confab_rate": 0.9,
+    "n_confab": 18,
+    "decoy": 18,
+    "novel": 0,
+    "decoy_share": 1.0
+  },
+  {
+    "model": "Phi-4-mini",
+    "size_b": 3.8,
+    "cond": "partial",
+    "confab_rate": 0.0,
+    "n_confab": 0,
+    "decoy": 0,
+    "novel": 0,
+    "decoy_share": null
+  },
+  {
+    "model": "Phi-4-mini",
+    "size_b": 3.8,
+    "cond": "stale",
+    "confab_rate": 0.15,
+    "n_confab": 3,
+    "decoy": 3,
+    "novel": 0,
+    "decoy_share": 1.0
+  },
+  {
+    "model": "aya-expanse-8b",
+    "size_b": 8.0,
+    "cond": "attr_mismatch",
+    "confab_rate": 0.7,
+    "n_confab": 14,
+    "decoy": 14,
+    "novel": 0,
+    "decoy_share": 1.0
+  },
+  {
+    "model": "aya-expanse-8b",
+    "size_b": 8.0,
+    "cond": "irrelevant",
+    "confab_rate": 0.5,
+    "n_confab": 10,
+    "decoy": 10,
+    "novel": 0,
+    "decoy_share": 1.0
+  },
+  {
+    "model": "aya-expanse-8b",
+    "size_b": 8.0,
+    "cond": "partial",
+    "confab_rate": 0.0,
+    "n_confab": 0,
+    "decoy": 0,
+    "novel": 0,
+    "decoy_share": null
+  },
+  {
+    "model": "aya-expanse-8b",
+    "size_b": 8.0,
+    "cond": "stale",
+    "confab_rate": 0.05,
+    "n_confab": 1,
+    "decoy": 1,
+    "novel": 0,
+    "decoy_share": 1.0
+  },
+  {
+    "model": "Qwen3.5-9B",
+    "size_b": 9.0,
+    "cond": "attr_mismatch",
+    "confab_rate": 0.35,
+    "n_confab": 7,
+    "decoy": 7,
+    "novel": 0,
+    "decoy_share": 1.0
+  },
+  {
+    "model": "Qwen3.5-9B",
+    "size_b": 9.0,
+    "cond": "irrelevant",
+    "confab_rate": 0.0,
+    "n_confab": 0,
+    "decoy": 0,
+    "novel": 0,
+    "decoy_share": null
+  },
+  {
+    "model": "Qwen3.5-9B",
+    "size_b": 9.0,
+    "cond": "partial",
+    "confab_rate": 0.0,
+    "n_confab": 0,
+    "decoy": 0,
+    "novel": 0,
+    "decoy_share": null
+  },
+  {
+    "model": "Qwen3.5-9B",
+    "size_b": 9.0,
+    "cond": "stale",
+    "confab_rate": 0.75,
+    "n_confab": 15,
+    "decoy": 15,
+    "novel": 0,
+    "decoy_share": 1.0
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "cond": "attr_mismatch",
+    "confab_rate": 1.0,
+    "n_confab": 20,
+    "decoy": 20,
+    "novel": 0,
+    "decoy_share": 1.0
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "cond": "irrelevant",
+    "confab_rate": 0.9,
+    "n_confab": 18,
+    "decoy": 18,
+    "novel": 0,
+    "decoy_share": 1.0
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "cond": "partial",
+    "confab_rate": 0.0,
+    "n_confab": 0,
+    "decoy": 0,
+    "novel": 0,
+    "decoy_share": null
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "cond": "stale",
+    "confab_rate": 1.0,
+    "n_confab": 20,
+    "decoy": 20,
+    "novel": 0,
+    "decoy_share": 1.0
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "cond": "attr_mismatch",
+    "confab_rate": 1.0,
+    "n_confab": 20,
+    "decoy": 20,
+    "novel": 0,
+    "decoy_share": 1.0
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "cond": "irrelevant",
+    "confab_rate": 0.2,
+    "n_confab": 4,
+    "decoy": 4,
+    "novel": 0,
+    "decoy_share": 1.0
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "cond": "partial",
+    "confab_rate": 0.0,
+    "n_confab": 0,
+    "decoy": 0,
+    "novel": 0,
+    "decoy_share": null
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "cond": "stale",
+    "confab_rate": 0.35,
+    "n_confab": 7,
+    "decoy": 7,
+    "novel": 0,
+    "decoy_share": 1.0
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "cond": "attr_mismatch",
+    "confab_rate": 0.8,
+    "n_confab": 16,
+    "decoy": 16,
+    "novel": 0,
+    "decoy_share": 1.0
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "cond": "irrelevant",
+    "confab_rate": 0.1,
+    "n_confab": 2,
+    "decoy": 2,
+    "novel": 0,
+    "decoy_share": 1.0
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "cond": "partial",
+    "confab_rate": 0.0,
+    "n_confab": 0,
+    "decoy": 0,
+    "novel": 0,
+    "decoy_share": null
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "cond": "stale",
+    "confab_rate": 0.4,
+    "n_confab": 8,
+    "decoy": 8,
+    "novel": 0,
+    "decoy_share": 1.0
+  },
+  {
+    "model": "gemma-4-26b",
+    "size_b": 26.0,
+    "cond": "attr_mismatch",
+    "confab_rate": 1.0,
+    "n_confab": 20,
+    "decoy": 20,
+    "novel": 0,
+    "decoy_share": 1.0
+  },
+  {
+    "model": "gemma-4-26b",
+    "size_b": 26.0,
+    "cond": "irrelevant",
+    "confab_rate": 0.0,
+    "n_confab": 0,
+    "decoy": 0,
+    "novel": 0,
+    "decoy_share": null
+  },
+  {
+    "model": "gemma-4-26b",
+    "size_b": 26.0,
+    "cond": "partial",
+    "confab_rate": 0.0,
+    "n_confab": 0,
+    "decoy": 0,
+    "novel": 0,
+    "decoy_share": null
+  },
+  {
+    "model": "gemma-4-26b",
+    "size_b": 26.0,
+    "cond": "stale",
+    "confab_rate": 0.75,
+    "n_confab": 15,
+    "decoy": 15,
+    "novel": 0,
+    "decoy_share": 1.0
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "cond": "attr_mismatch",
+    "confab_rate": 0.4,
+    "n_confab": 8,
+    "decoy": 8,
+    "novel": 0,
+    "decoy_share": 1.0
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "cond": "irrelevant",
+    "confab_rate": 0.0,
+    "n_confab": 0,
+    "decoy": 0,
+    "novel": 0,
+    "decoy_share": null
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "cond": "partial",
+    "confab_rate": 0.0,
+    "n_confab": 0,
+    "decoy": 0,
+    "novel": 0,
+    "decoy_share": null
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "cond": "stale",
+    "confab_rate": 0.0,
+    "n_confab": 0,
+    "decoy": 0,
+    "novel": 0,
+    "decoy_share": null
+  },
+  {
+    "model": "Qwen3-32B",
+    "size_b": 32.0,
+    "cond": "attr_mismatch",
+    "confab_rate": 0.9,
+    "n_confab": 18,
+    "decoy": 18,
+    "novel": 0,
+    "decoy_share": 1.0
+  },
+  {
+    "model": "Qwen3-32B",
+    "size_b": 32.0,
+    "cond": "irrelevant",
+    "confab_rate": 0.4,
+    "n_confab": 8,
+    "decoy": 8,
+    "novel": 0,
+    "decoy_share": 1.0
+  },
+  {
+    "model": "Qwen3-32B",
+    "size_b": 32.0,
+    "cond": "partial",
+    "confab_rate": 0.0,
+    "n_confab": 0,
+    "decoy": 0,
+    "novel": 0,
+    "decoy_share": null
+  },
+  {
+    "model": "Qwen3-32B",
+    "size_b": 32.0,
+    "cond": "stale",
+    "confab_rate": 0.15,
+    "n_confab": 3,
+    "decoy": 3,
+    "novel": 0,
+    "decoy_share": 1.0
+  },
+  {
+    "model": "Yi-1.5-34B",
+    "size_b": 34.0,
+    "cond": "attr_mismatch",
+    "confab_rate": 0.95,
+    "n_confab": 19,
+    "decoy": 19,
+    "novel": 0,
+    "decoy_share": 1.0
+  },
+  {
+    "model": "Yi-1.5-34B",
+    "size_b": 34.0,
+    "cond": "irrelevant",
+    "confab_rate": 0.9,
+    "n_confab": 18,
+    "decoy": 18,
+    "novel": 0,
+    "decoy_share": 1.0
+  },
+  {
+    "model": "Yi-1.5-34B",
+    "size_b": 34.0,
+    "cond": "partial",
+    "confab_rate": 0.0,
+    "n_confab": 0,
+    "decoy": 0,
+    "novel": 0,
+    "decoy_share": null
+  },
+  {
+    "model": "Yi-1.5-34B",
+    "size_b": 34.0,
+    "cond": "stale",
+    "confab_rate": 0.15,
+    "n_confab": 3,
+    "decoy": 3,
+    "novel": 0,
+    "decoy_share": 1.0
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "size_b": 35.0,
+    "cond": "attr_mismatch",
+    "confab_rate": 0.9,
+    "n_confab": 18,
+    "decoy": 18,
+    "novel": 0,
+    "decoy_share": 1.0
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "size_b": 35.0,
+    "cond": "irrelevant",
+    "confab_rate": 0.1,
+    "n_confab": 2,
+    "decoy": 2,
+    "novel": 0,
+    "decoy_share": 1.0
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "size_b": 35.0,
+    "cond": "partial",
+    "confab_rate": 0.0,
+    "n_confab": 0,
+    "decoy": 0,
+    "novel": 0,
+    "decoy_share": null
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "size_b": 35.0,
+    "cond": "stale",
+    "confab_rate": 0.25,
+    "n_confab": 5,
+    "decoy": 5,
+    "novel": 0,
+    "decoy_share": 1.0
+  }
+]

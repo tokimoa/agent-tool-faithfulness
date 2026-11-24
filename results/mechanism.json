@@ -1,0 +1,266 @@
+[
+  {
+    "model": "Phi-4-mini",
+    "size_b": 3.8,
+    "cond": "irrelevant_near",
+    "confab_rate": 0.94,
+    "n_confab": 47,
+    "decoy_share": 0.979
+  },
+  {
+    "model": "Phi-4-mini",
+    "size_b": 3.8,
+    "cond": "irrelevant",
+    "confab_rate": 0.9,
+    "n_confab": 45,
+    "decoy_share": 1.0
+  },
+  {
+    "model": "Phi-4-mini",
+    "size_b": 3.8,
+    "cond": "irrelevant_far",
+    "confab_rate": 0.5,
+    "n_confab": 25,
+    "decoy_share": 1.0
+  },
+  {
+    "model": "aya-expanse-8b",
+    "size_b": 8.0,
+    "cond": "irrelevant_near",
+    "confab_rate": 0.9,
+    "n_confab": 45,
+    "decoy_share": 1.0
+  },
+  {
+    "model": "aya-expanse-8b",
+    "size_b": 8.0,
+    "cond": "irrelevant",
+    "confab_rate": 0.46,
+    "n_confab": 23,
+    "decoy_share": 1.0
+  },
+  {
+    "model": "aya-expanse-8b",
+    "size_b": 8.0,
+    "cond": "irrelevant_far",
+    "confab_rate": 0.16,
+    "n_confab": 8,
+    "decoy_share": 1.0
+  },
+  {
+    "model": "Qwen3.5-9B",
+    "size_b": 9.0,
+    "cond": "irrelevant_near",
+    "confab_rate": 0.0,
+    "n_confab": 0,
+    "decoy_share": null
+  },
+  {
+    "model": "Qwen3.5-9B",
+    "size_b": 9.0,
+    "cond": "irrelevant",
+    "confab_rate": 0.0,
+    "n_confab": 0,
+    "decoy_share": null
+  },
+  {
+    "model": "Qwen3.5-9B",
+    "size_b": 9.0,
+    "cond": "irrelevant_far",
+    "confab_rate": 0.0,
+    "n_confab": 0,
+    "decoy_share": null
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "cond": "irrelevant_near",
+    "confab_rate": 1.0,
+    "n_confab": 50,
+    "decoy_share": 1.0
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "cond": "irrelevant",
+    "confab_rate": 0.96,
+    "n_confab": 48,
+    "decoy_share": 1.0
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "cond": "irrelevant_far",
+    "confab_rate": 0.58,
+    "n_confab": 29,
+    "decoy_share": 1.0
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "cond": "irrelevant_near",
+    "confab_rate": 0.14,
+    "n_confab": 7,
+    "decoy_share": 1.0
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "cond": "irrelevant",
+    "confab_rate": 0.22,
+    "n_confab": 11,
+    "decoy_share": 1.0
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "cond": "irrelevant_far",
+    "confab_rate": 0.16,
+    "n_confab": 8,
+    "decoy_share": 1.0
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "cond": "irrelevant_near",
+    "confab_rate": 0.44,
+    "n_confab": 22,
+    "decoy_share": 1.0
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "cond": "irrelevant",
+    "confab_rate": 0.08,
+    "n_confab": 4,
+    "decoy_share": 1.0
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "cond": "irrelevant_far",
+    "confab_rate": 0.02,
+    "n_confab": 1,
+    "decoy_share": 1.0
+  },
+  {
+    "model": "gemma-4-26b",
+    "size_b": 26.0,
+    "cond": "irrelevant_near",
+    "confab_rate": 0.02,
+    "n_confab": 1,
+    "decoy_share": 1.0
+  },
+  {
+    "model": "gemma-4-26b",
+    "size_b": 26.0,
+    "cond": "irrelevant",
+    "confab_rate": 0.0,
+    "n_confab": 0,
+    "decoy_share": null
+  },
+  {
+    "model": "gemma-4-26b",
+    "size_b": 26.0,
+    "cond": "irrelevant_far",
+    "confab_rate": 0.0,
+    "n_confab": 0,
+    "decoy_share": null
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "cond": "irrelevant_near",
+    "confab_rate": 0.14,
+    "n_confab": 7,
+    "decoy_share": 1.0
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "cond": "irrelevant",
+    "confab_rate": 0.0,
+    "n_confab": 0,
+    "decoy_share": null
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "cond": "irrelevant_far",
+    "confab_rate": 0.0,
+    "n_confab": 0,
+    "decoy_share": null
+  },
+  {
+    "model": "Qwen3-32B",
+    "size_b": 32.0,
+    "cond": "irrelevant_near",
+    "confab_rate": 0.84,
+    "n_confab": 42,
+    "decoy_share": 1.0
+  },
+  {
+    "model": "Qwen3-32B",
+    "size_b": 32.0,
+    "cond": "irrelevant",
+    "confab_rate": 0.22,
+    "n_confab": 11,
+    "decoy_share": 1.0
+  },
+  {
+    "model": "Qwen3-32B",
+    "size_b": 32.0,
+    "cond": "irrelevant_far",
+    "confab_rate": 0.02,
+    "n_confab": 1,
+    "decoy_share": 1.0
+  },
+  {
+    "model": "Yi-1.5-34B",
+    "size_b": 34.0,
+    "cond": "irrelevant_near",
+    "confab_rate": 0.92,
+    "n_confab": 46,
+    "decoy_share": 1.0
+  },
+  {
+    "model": "Yi-1.5-34B",
+    "size_b": 34.0,
+    "cond": "irrelevant",
+    "confab_rate": 0.82,
+    "n_confab": 41,
+    "decoy_share": 1.0
+  },
+  {
+    "model": "Yi-1.5-34B",
+    "size_b": 34.0,
+    "cond": "irrelevant_far",
+    "confab_rate": 0.34,
+    "n_confab": 17,
+    "decoy_share": 0.941
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "size_b": 35.0,
+    "cond": "irrelevant_near",
+    "confab_rate": 0.26,
+    "n_confab": 13,
+    "decoy_share": 1.0
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "size_b": 35.0,
+    "cond": "irrelevant",
+    "confab_rate": 0.06,
+    "n_confab": 3,
+    "decoy_share": 1.0
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "size_b": 35.0,
+    "cond": "irrelevant_far",
+    "confab_rate": 0.08,
+    "n_confab": 4,
+    "decoy_share": 1.0
+  }
+]

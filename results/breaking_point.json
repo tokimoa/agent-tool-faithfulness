@@ -1,0 +1,196 @@
+{
+  "extra_distractors": 4,
+  "n_instances": 10,
+  "elapsed_sec": 1415.8,
+  "rows": [
+    {
+      "n_facts": 120,
+      "n_instances": 10,
+      "uptake_rate": 1.0,
+      "coverage": 1.0,
+      "ond_share": {
+        "omission": 0.0,
+        "neglect": 0.0,
+        "distraction": 0.0
+      },
+      "contradiction_following_rate": null,
+      "contradiction": null,
+      "mode": "passive",
+      "k": 16,
+      "avg_tokens": 1774.0,
+      "avg_steps": 1.0,
+      "model": "Qwen3.5-9B",
+      "size_b": 9.0,
+      "N": 12,
+      "K": 16
+    },
+    {
+      "n_facts": 160,
+      "n_instances": 10,
+      "uptake_rate": 1.0,
+      "coverage": 1.0,
+      "ond_share": {
+        "omission": 0.0,
+        "neglect": 0.0,
+        "distraction": 0.0
+      },
+      "contradiction_following_rate": null,
+      "contradiction": null,
+      "mode": "passive",
+      "k": 20,
+      "avg_tokens": 2355.1,
+      "avg_steps": 1.0,
+      "model": "Qwen3.5-9B",
+      "size_b": 9.0,
+      "N": 16,
+      "K": 20
+    },
+    {
+      "n_facts": 200,
+      "n_instances": 10,
+      "uptake_rate": 1.0,
+      "coverage": 1.0,
+      "ond_share": {
+        "omission": 0.0,
+        "neglect": 0.0,
+        "distraction": 0.0
+      },
+      "contradiction_following_rate": null,
+      "contradiction": null,
+      "mode": "passive",
+      "k": 24,
+      "avg_tokens": 2713.8,
+      "avg_steps": 1.0,
+      "model": "Qwen3.5-9B",
+      "size_b": 9.0,
+      "N": 20,
+      "K": 24
+    },
+    {
+      "n_facts": 120,
+      "n_instances": 10,
+      "uptake_rate": 1.0,
+      "coverage": 1.0,
+      "ond_share": {
+        "omission": 0.0,
+        "neglect": 0.0,
+        "distraction": 0.0
+      },
+      "contradiction_following_rate": null,
+      "contradiction": null,
+      "mode": "passive",
+      "k": 16,
+      "avg_tokens": 1538.9,
+      "avg_steps": 1.0,
+      "model": "Phi-4",
+      "size_b": 14.0,
+      "N": 12,
+      "K": 16
+    },
+    {
+      "n_facts": 160,
+      "n_instances": 10,
+      "uptake_rate": 1.0,
+      "coverage": 1.0,
+      "ond_share": {
+        "omission": 0.0,
+        "neglect": 0.0,
+        "distraction": 0.0
+      },
+      "contradiction_following_rate": null,
+      "contradiction": null,
+      "mode": "passive",
+      "k": 20,
+      "avg_tokens": 1961.5,
+      "avg_steps": 1.0,
+      "model": "Phi-4",
+      "size_b": 14.0,
+      "N": 16,
+      "K": 20
+    },
+    {
+      "n_facts": 200,
+      "n_instances": 10,
+      "uptake_rate": 1.0,
+      "coverage": 1.0,
+      "ond_share": {
+        "omission": 0.0,
+        "neglect": 0.0,
+        "distraction": 0.0
+      },
+      "contradiction_following_rate": null,
+      "contradiction": null,
+      "mode": "passive",
+      "k": 24,
+      "avg_tokens": 2385.9,
+      "avg_steps": 1.0,
+      "model": "Phi-4",
+      "size_b": 14.0,
+      "N": 20,
+      "K": 24
+    },
+    {
+      "n_facts": 120,
+      "n_instances": 10,
+      "uptake_rate": 1.0,
+      "coverage": 1.0,
+      "ond_share": {
+        "omission": 0.0,
+        "neglect": 0.0,
+        "distraction": 0.0
+      },
+      "contradiction_following_rate": null,
+      "contradiction": null,
+      "mode": "passive",
+      "k": 16,
+      "avg_tokens": 1681.5,
+      "avg_steps": 1.0,
+      "model": "gemma-4-26b",
+      "size_b": 26.0,
+      "N": 12,
+      "K": 16
+    },
+    {
+      "n_facts": 160,
+      "n_instances": 10,
+      "uptake_rate": 1.0,
+      "coverage": 1.0,
+      "ond_share": {
+        "omission": 0.0,
+        "neglect": 0.0,
+        "distraction": 0.0
+      },
+      "contradiction_following_rate": null,
+      "contradiction": null,
+      "mode": "passive",
+      "k": 20,
+      "avg_tokens": 2135.9,
+      "avg_steps": 1.0,
+      "model": "gemma-4-26b",
+      "size_b": 26.0,
+      "N": 16,
+      "K": 20
+    },
+    {
+      "n_facts": 200,
+      "n_instances": 10,
+      "uptake_rate": 1.0,
+      "coverage": 1.0,
+      "ond_share": {
+        "omission": 0.0,
+        "neglect": 0.0,
+        "distraction": 0.0
+      },
+      "contradiction_following_rate": null,
+      "contradiction": null,
+      "mode": "passive",
+      "k": 24,
+      "avg_tokens": 2576.7,
+      "avg_steps": 1.0,
+      "model": "gemma-4-26b",
+      "size_b": 26.0,
+      "N": 20,
+      "K": 24
+    }
+  ]
+}

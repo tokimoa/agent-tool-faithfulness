@@ -1,0 +1,244 @@
+{
+  "Phi-4-mini": {
+    "good": [
+      "USE",
+      "USE"
+    ],
+    "attr_mismatch": [
+      "CONFAB",
+      "CONFAB"
+    ],
+    "irrelevant": [
+      "CONFAB",
+      "CONFAB"
+    ],
+    "stale": [
+      "CONFAB",
+      "SAFE"
+    ],
+    "partial": [
+      "SAFE",
+      "SAFE"
+    ]
+  },
+  "aya-expanse-8b": {
+    "good": [
+      "USE",
+      "USE"
+    ],
+    "attr_mismatch": [
+      "CONFAB",
+      "CONFAB"
+    ],
+    "irrelevant": [
+      "CONFAB",
+      "CONFAB"
+    ],
+    "stale": [
+      "CONFAB",
+      "CONFAB"
+    ],
+    "partial": [
+      "SAFE",
+      "SAFE"
+    ]
+  },
+  "Qwen3.5-9B": {
+    "good": [
+      "USE",
+      "USE"
+    ],
+    "attr_mismatch": [
+      "CONFAB",
+      "CONFAB"
+    ],
+    "irrelevant": [
+      "SAFE",
+      "CONFAB"
+    ],
+    "stale": [
+      "SAFE",
+      "CONFAB"
+    ],
+    "partial": [
+      "SAFE",
+      "SAFE"
+    ]
+  },
+  "gemma-3-12b": {
+    "good": [
+      "USE",
+      "USE"
+    ],
+    "attr_mismatch": [
+      "CONFAB",
+      "SAFE"
+    ],
+    "irrelevant": [
+      "CONFAB",
+      "CONFAB"
+    ],
+    "stale": [
+      "CONFAB",
+      "CONFAB"
+    ],
+    "partial": [
+      "SAFE",
+      "SAFE"
+    ]
+  },
+  "Phi-4": {
+    "good": [
+      "USE",
+      "USE"
+    ],
+    "attr_mismatch": [
+      "CONFAB",
+      "CONFAB"
+    ],
+    "irrelevant": [
+      "SAFE",
+      "CONFAB"
+    ],
+    "stale": [
+      "SAFE",
+      "SAFE"
+    ],
+    "partial": [
+      "SAFE",
+      "SAFE"
+    ]
+  },
+  "Mistral-Small-24B": {
+    "good": [
+      "USE",
+      "USE"
+    ],
+    "attr_mismatch": [
+      "CONFAB",
+      "SAFE"
+    ],
+    "irrelevant": [
+      "SAFE",
+      "CONFAB"
+    ],
+    "stale": [
+      "SAFE",
+      "CONFAB"
+    ],
+    "partial": [
+      "SAFE",
+      "SAFE"
+    ]
+  },
+  "gemma-4-26b": {
+    "good": [
+      "USE",
+      "USE"
+    ],
+    "attr_mismatch": [
+      "CONFAB",
+      "SAFE"
+    ],
+    "irrelevant": [
+      "CONFAB",
+      "CONFAB"
+    ],
+    "stale": [
+      "CONFAB",
+      "CONFAB"
+    ],
+    "partial": [
+      "SAFE",
+      "SAFE"
+    ]
+  },
+  "Qwen3.5-27B": {
+    "good": [
+      "USE",
+      "USE"
+    ],
+    "attr_mismatch": [
+      "SAFE",
+      "SAFE"
+    ],
+    "irrelevant": [
+      "SAFE",
+      "CONFAB"
+    ],
+    "stale": [
+      "SAFE",
+      "SAFE"
+    ],
+    "partial": [
+      "SAFE",
+      "SAFE"
+    ]
+  },
+  "Qwen3-32B": {
+    "good": [
+      "USE",
+      "USE"
+    ],
+    "attr_mismatch": [
+      "CONFAB",
+      "SAFE"
+    ],
+    "irrelevant": [
+      "CONFAB",
+      "CONFAB"
+    ],
+    "stale": [
+      "CONFAB",
+      "CONFAB"
+    ],
+    "partial": [
+      "SAFE",
+      "SAFE"
+    ]
+  },
+  "Yi-1.5-34B": {
+    "good": [
+      "USE",
+      "USE"
+    ],
+    "attr_mismatch": [
+      "CONFAB",
+      "CONFAB"
+    ],
+    "irrelevant": [
+      "CONFAB",
+      "CONFAB"
+    ],
+    "stale": [
+      "CONFAB",
+      "CONFAB"
+    ],
+    "partial": [
+      "SAFE",
+      "SAFE"
+    ]
+  },
+  "Qwen3.6-35B": {
+    "good": [
+      "USE",
+      "USE"
+    ],
+    "attr_mismatch": [
+      "CONFAB",
+      "SAFE"
+    ],
+    "irrelevant": [
+      "SAFE",
+      "CONFAB"
+    ],
+    "stale": [
+      "SAFE",
+      "CONFAB"
+    ],
+    "partial": [
+      "SAFE",
+      "SAFE"
+    ]
+  }
+}

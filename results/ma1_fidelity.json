@@ -1,0 +1,158 @@
+[
+  {
+    "model": "Qwen3.5-4B",
+    "size_b": 4.0,
+    "fidelity": [
+      {
+        "hop": 0,
+        "role": "retriever",
+        "fact_survival": 1.0
+      },
+      {
+        "hop": 1,
+        "role": "relay",
+        "fact_survival": 1.0
+      },
+      {
+        "hop": 2,
+        "role": "relay",
+        "fact_survival": 1.0
+      },
+      {
+        "hop": 3,
+        "role": "answerer",
+        "fact_survival": 1.0
+      }
+    ]
+  },
+  {
+    "model": "Qwen3.5-9B",
+    "size_b": 9.0,
+    "fidelity": [
+      {
+        "hop": 0,
+        "role": "retriever",
+        "fact_survival": 1.0
+      },
+      {
+        "hop": 1,
+        "role": "relay",
+        "fact_survival": 1.0
+      },
+      {
+        "hop": 2,
+        "role": "relay",
+        "fact_survival": 1.0
+      },
+      {
+        "hop": 3,
+        "role": "answerer",
+        "fact_survival": 1.0
+      }
+    ]
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "fidelity": [
+      {
+        "hop": 0,
+        "role": "retriever",
+        "fact_survival": 1.0
+      },
+      {
+        "hop": 1,
+        "role": "relay",
+        "fact_survival": 1.0
+      },
+      {
+        "hop": 2,
+        "role": "relay",
+        "fact_survival": 1.0
+      },
+      {
+        "hop": 3,
+        "role": "answerer",
+        "fact_survival": 1.0
+      }
+    ]
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "fidelity": [
+      {
+        "hop": 0,
+        "role": "retriever",
+        "fact_survival": 1.0
+      },
+      {
+        "hop": 1,
+        "role": "relay",
+        "fact_survival": 1.0
+      },
+      {
+        "hop": 2,
+        "role": "relay",
+        "fact_survival": 1.0
+      },
+      {
+        "hop": 3,
+        "role": "answerer",
+        "fact_survival": 1.0
+      }
+    ]
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "fidelity": [
+      {
+        "hop": 0,
+        "role": "retriever",
+        "fact_survival": 1.0
+      },
+      {
+        "hop": 1,
+        "role": "relay",
+        "fact_survival": 1.0
+      },
+      {
+        "hop": 2,
+        "role": "relay",
+        "fact_survival": 1.0
+      },
+      {
+        "hop": 3,
+        "role": "answerer",
+        "fact_survival": 1.0
+      }
+    ]
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "fidelity": [
+      {
+        "hop": 0,
+        "role": "retriever",
+        "fact_survival": 1.0
+      },
+      {
+        "hop": 1,
+        "role": "relay",
+        "fact_survival": 1.0
+      },
+      {
+        "hop": 2,
+        "role": "relay",
+        "fact_survival": 1.0
+      },
+      {
+        "hop": 3,
+        "role": "answerer",
+        "fact_survival": 1.0
+      }
+    ]
+  }
+]

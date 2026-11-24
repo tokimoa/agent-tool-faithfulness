@@ -1,0 +1,146 @@
+[
+  {
+    "model": "Phi-4-mini",
+    "variant": "orig",
+    "cond": "irrelevant",
+    "confab_rate": 0.9
+  },
+  {
+    "model": "Phi-4-mini",
+    "variant": "orig",
+    "cond": "attr_mismatch",
+    "confab_rate": 0.9
+  },
+  {
+    "model": "Phi-4-mini",
+    "variant": "reword_B",
+    "cond": "irrelevant",
+    "confab_rate": 0.75
+  },
+  {
+    "model": "Phi-4-mini",
+    "variant": "reword_B",
+    "cond": "attr_mismatch",
+    "confab_rate": 0.9
+  },
+  {
+    "model": "Phi-4-mini",
+    "variant": "reword_C",
+    "cond": "irrelevant",
+    "confab_rate": 0.2
+  },
+  {
+    "model": "Phi-4-mini",
+    "variant": "reword_C",
+    "cond": "attr_mismatch",
+    "confab_rate": 0.8
+  },
+  {
+    "model": "Qwen3.5-9B",
+    "variant": "orig",
+    "cond": "irrelevant",
+    "confab_rate": 0.0
+  },
+  {
+    "model": "Qwen3.5-9B",
+    "variant": "orig",
+    "cond": "attr_mismatch",
+    "confab_rate": 0.35
+  },
+  {
+    "model": "Qwen3.5-9B",
+    "variant": "reword_B",
+    "cond": "irrelevant",
+    "confab_rate": 0.05
+  },
+  {
+    "model": "Qwen3.5-9B",
+    "variant": "reword_B",
+    "cond": "attr_mismatch",
+    "confab_rate": 0.65
+  },
+  {
+    "model": "Qwen3.5-9B",
+    "variant": "reword_C",
+    "cond": "irrelevant",
+    "confab_rate": 0.0
+  },
+  {
+    "model": "Qwen3.5-9B",
+    "variant": "reword_C",
+    "cond": "attr_mismatch",
+    "confab_rate": 0.35
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "variant": "orig",
+    "cond": "irrelevant",
+    "confab_rate": 0.1
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "variant": "orig",
+    "cond": "attr_mismatch",
+    "confab_rate": 0.75
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "variant": "reword_B",
+    "cond": "irrelevant",
+    "confab_rate": 0.0
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "variant": "reword_B",
+    "cond": "attr_mismatch",
+    "confab_rate": 0.5
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "variant": "reword_C",
+    "cond": "irrelevant",
+    "confab_rate": 0.0
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "variant": "reword_C",
+    "cond": "attr_mismatch",
+    "confab_rate": 0.1
+  },
+  {
+    "model": "gemma-4-26b",
+    "variant": "orig",
+    "cond": "irrelevant",
+    "confab_rate": 0.0
+  },
+  {
+    "model": "gemma-4-26b",
+    "variant": "orig",
+    "cond": "attr_mismatch",
+    "confab_rate": 1.0
+  },
+  {
+    "model": "gemma-4-26b",
+    "variant": "reword_B",
+    "cond": "irrelevant",
+    "confab_rate": 0.0
+  },
+  {
+    "model": "gemma-4-26b",
+    "variant": "reword_B",
+    "cond": "attr_mismatch",
+    "confab_rate": 0.65
+  },
+  {
+    "model": "gemma-4-26b",
+    "variant": "reword_C",
+    "cond": "irrelevant",
+    "confab_rate": 0.0
+  },
+  {
+    "model": "gemma-4-26b",
+    "variant": "reword_C",
+    "cond": "attr_mismatch",
+    "confab_rate": 0.6
+  }
+]

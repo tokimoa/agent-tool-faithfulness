@@ -1,0 +1,490 @@
+[
+  {
+    "model": "Ministral-3-3B",
+    "size_b": 3.0,
+    "cond": "error",
+    "dist": {
+      "vague": 0.75,
+      "recover": 0.15,
+      "no_answer": 0.05,
+      "abstain": 0.05
+    }
+  },
+  {
+    "model": "Ministral-3-3B",
+    "size_b": 3.0,
+    "cond": "good",
+    "dist": {
+      "correct": 1.0
+    }
+  },
+  {
+    "model": "Ministral-3-3B",
+    "size_b": 3.0,
+    "cond": "irrelevant",
+    "dist": {
+      "vague": 0.25,
+      "confabulate": 0.15,
+      "recover": 0.35,
+      "abstain": 0.25
+    }
+  },
+  {
+    "model": "Phi-3.5-mini",
+    "size_b": 3.8,
+    "cond": "error",
+    "dist": {
+      "no_answer": 0.85,
+      "recover": 0.05,
+      "abstain": 0.1
+    }
+  },
+  {
+    "model": "Phi-3.5-mini",
+    "size_b": 3.8,
+    "cond": "good",
+    "dist": {
+      "miss": 0.5,
+      "correct": 0.5
+    }
+  },
+  {
+    "model": "Phi-3.5-mini",
+    "size_b": 3.8,
+    "cond": "irrelevant",
+    "dist": {
+      "confabulate": 0.55,
+      "no_answer": 0.4,
+      "abstain": 0.05
+    }
+  },
+  {
+    "model": "Phi-4-mini",
+    "size_b": 3.8,
+    "cond": "error",
+    "dist": {
+      "vague": 0.3,
+      "abstain": 0.7
+    }
+  },
+  {
+    "model": "Phi-4-mini",
+    "size_b": 3.8,
+    "cond": "good",
+    "dist": {
+      "miss": 0.1,
+      "correct": 0.9
+    }
+  },
+  {
+    "model": "Phi-4-mini",
+    "size_b": 3.8,
+    "cond": "irrelevant",
+    "dist": {
+      "vague": 0.3,
+      "confabulate": 0.65,
+      "abstain": 0.05
+    }
+  },
+  {
+    "model": "Qwen3-4B-2507",
+    "size_b": 4.0,
+    "cond": "error",
+    "dist": {
+      "abstain": 0.9,
+      "vague": 0.05,
+      "recover": 0.05
+    }
+  },
+  {
+    "model": "Qwen3-4B-2507",
+    "size_b": 4.0,
+    "cond": "good",
+    "dist": {
+      "correct": 1.0
+    }
+  },
+  {
+    "model": "Qwen3-4B-2507",
+    "size_b": 4.0,
+    "cond": "irrelevant",
+    "dist": {
+      "abstain": 0.9,
+      "vague": 0.05,
+      "confabulate": 0.05
+    }
+  },
+  {
+    "model": "Qwen3.5-4B",
+    "size_b": 4.0,
+    "cond": "error",
+    "dist": {
+      "abstain": 1.0
+    }
+  },
+  {
+    "model": "Qwen3.5-4B",
+    "size_b": 4.0,
+    "cond": "good",
+    "dist": {
+      "correct": 0.95,
+      "miss": 0.05
+    }
+  },
+  {
+    "model": "Qwen3.5-4B",
+    "size_b": 4.0,
+    "cond": "irrelevant",
+    "dist": {
+      "confabulate": 0.05,
+      "abstain": 0.85,
+      "vague": 0.1
+    }
+  },
+  {
+    "model": "gemma-3-4b",
+    "size_b": 4.0,
+    "cond": "error",
+    "dist": {
+      "vague": 0.35,
+      "recover": 0.65
+    }
+  },
+  {
+    "model": "gemma-3-4b",
+    "size_b": 4.0,
+    "cond": "good",
+    "dist": {
+      "correct": 1.0
+    }
+  },
+  {
+    "model": "gemma-3-4b",
+    "size_b": 4.0,
+    "cond": "irrelevant",
+    "dist": {
+      "vague": 0.65,
+      "abstain": 0.1,
+      "confabulate": 0.25
+    }
+  },
+  {
+    "model": "Ministral-8B",
+    "size_b": 8.0,
+    "cond": "error",
+    "dist": {
+      "no_answer": 1.0
+    }
+  },
+  {
+    "model": "Ministral-8B",
+    "size_b": 8.0,
+    "cond": "good",
+    "dist": {
+      "correct": 1.0
+    }
+  },
+  {
+    "model": "Ministral-8B",
+    "size_b": 8.0,
+    "cond": "irrelevant",
+    "dist": {
+      "vague": 0.15,
+      "abstain": 0.55,
+      "confabulate": 0.3
+    }
+  },
+  {
+    "model": "Qwen3-8B",
+    "size_b": 8.0,
+    "cond": "error",
+    "dist": {
+      "no_answer": 0.95,
+      "abstain": 0.05
+    }
+  },
+  {
+    "model": "Qwen3-8B",
+    "size_b": 8.0,
+    "cond": "good",
+    "dist": {
+      "correct": 1.0
+    }
+  },
+  {
+    "model": "Qwen3-8B",
+    "size_b": 8.0,
+    "cond": "irrelevant",
+    "dist": {
+      "vague": 0.2,
+      "abstain": 0.55,
+      "confabulate": 0.25
+    }
+  },
+  {
+    "model": "aya-expanse-8b",
+    "size_b": 8.0,
+    "cond": "error",
+    "dist": {
+      "vague": 0.55,
+      "abstain": 0.45
+    }
+  },
+  {
+    "model": "aya-expanse-8b",
+    "size_b": 8.0,
+    "cond": "good",
+    "dist": {
+      "correct": 1.0
+    }
+  },
+  {
+    "model": "aya-expanse-8b",
+    "size_b": 8.0,
+    "cond": "irrelevant",
+    "dist": {
+      "abstain": 0.65,
+      "confabulate": 0.2,
+      "vague": 0.15
+    }
+  },
+  {
+    "model": "GLM-4-9B",
+    "size_b": 9.0,
+    "cond": "error",
+    "dist": {
+      "no_answer": 0.3,
+      "abstain": 0.65,
+      "recover": 0.05
+    }
+  },
+  {
+    "model": "GLM-4-9B",
+    "size_b": 9.0,
+    "cond": "good",
+    "dist": {
+      "miss": 0.9,
+      "correct": 0.1
+    }
+  },
+  {
+    "model": "GLM-4-9B",
+    "size_b": 9.0,
+    "cond": "irrelevant",
+    "dist": {
+      "no_answer": 1.0
+    }
+  },
+  {
+    "model": "Qwen3.5-9B",
+    "size_b": 9.0,
+    "cond": "error",
+    "dist": {
+      "no_answer": 0.6,
+      "recover": 0.35,
+      "abstain": 0.05
+    }
+  },
+  {
+    "model": "Qwen3.5-9B",
+    "size_b": 9.0,
+    "cond": "good",
+    "dist": {
+      "correct": 1.0
+    }
+  },
+  {
+    "model": "Qwen3.5-9B",
+    "size_b": 9.0,
+    "cond": "irrelevant",
+    "dist": {
+      "no_answer": 0.95,
+      "abstain": 0.05
+    }
+  },
+  {
+    "model": "Yi-1.5-9B",
+    "size_b": 9.0,
+    "cond": "error",
+    "dist": {
+      "no_answer": 0.95,
+      "recover": 0.05
+    }
+  },
+  {
+    "model": "Yi-1.5-9B",
+    "size_b": 9.0,
+    "cond": "good",
+    "dist": {
+      "correct": 0.5,
+      "miss": 0.5
+    }
+  },
+  {
+    "model": "Yi-1.5-9B",
+    "size_b": 9.0,
+    "cond": "irrelevant",
+    "dist": {
+      "no_answer": 0.45,
+      "recover": 0.2,
+      "confabulate": 0.35
+    }
+  },
+  {
+    "model": "Mistral-Nemo",
+    "size_b": 12.0,
+    "cond": "error",
+    "dist": {
+      "abstain": 0.55,
+      "vague": 0.45
+    }
+  },
+  {
+    "model": "Mistral-Nemo",
+    "size_b": 12.0,
+    "cond": "good",
+    "dist": {
+      "correct": 1.0
+    }
+  },
+  {
+    "model": "Mistral-Nemo",
+    "size_b": 12.0,
+    "cond": "irrelevant",
+    "dist": {
+      "abstain": 0.7,
+      "confabulate": 0.3
+    }
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "cond": "error",
+    "dist": {
+      "vague": 0.35,
+      "recover": 0.65
+    }
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "cond": "good",
+    "dist": {
+      "correct": 1.0
+    }
+  },
+  {
+    "model": "gemma-3-12b",
+    "size_b": 12.0,
+    "cond": "irrelevant",
+    "dist": {
+      "vague": 0.1,
+      "confabulate": 0.85,
+      "abstain": 0.05
+    }
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "cond": "error",
+    "dist": {
+      "recover": 0.85,
+      "vague": 0.15
+    }
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "cond": "good",
+    "dist": {
+      "correct": 1.0
+    }
+  },
+  {
+    "model": "Phi-4",
+    "size_b": 14.0,
+    "cond": "irrelevant",
+    "dist": {
+      "abstain": 0.2,
+      "no_answer": 0.25,
+      "recover": 0.4,
+      "confabulate": 0.15
+    }
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "cond": "error",
+    "dist": {
+      "abstain": 0.9,
+      "vague": 0.1
+    }
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "cond": "good",
+    "dist": {
+      "correct": 1.0
+    }
+  },
+  {
+    "model": "Mistral-Small-24B",
+    "size_b": 24.0,
+    "cond": "irrelevant",
+    "dist": {
+      "recover": 0.25,
+      "abstain": 0.7,
+      "confabulate": 0.05
+    }
+  },
+  {
+    "model": "gemma-4-26b",
+    "size_b": 26.0,
+    "cond": "error",
+    "dist": {
+      "abstain": 1.0
+    }
+  },
+  {
+    "model": "gemma-4-26b",
+    "size_b": 26.0,
+    "cond": "good",
+    "dist": {
+      "correct": 1.0
+    }
+  },
+  {
+    "model": "gemma-4-26b",
+    "size_b": 26.0,
+    "cond": "irrelevant",
+    "dist": {
+      "abstain": 1.0
+    }
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "cond": "error",
+    "dist": {
+      "abstain": 1.0
+    }
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "cond": "good",
+    "dist": {
+      "correct": 1.0
+    }
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "size_b": 27.0,
+    "cond": "irrelevant",
+    "dist": {
+      "abstain": 0.85,
+      "recover": 0.15
+    }
+  }
+]

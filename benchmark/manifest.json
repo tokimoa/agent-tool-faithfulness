@@ -1,0 +1,53 @@
+{
+  "n_per_cell": 50,
+  "k": 5,
+  "seed_base": 20000,
+  "m3b_seed_base": 60000,
+  "modules": {
+    "M2_calibration": [
+      "attr_mismatch",
+      "empty",
+      "error",
+      "good",
+      "irrelevant",
+      "irrelevant_far",
+      "irrelevant_near",
+      "partial",
+      "redacted",
+      "stale"
+    ],
+    "M3_curability": [
+      "good_verify",
+      "irrelevant_sig_hard",
+      "irrelevant_sig_soft",
+      "irrelevant_verify"
+    ],
+    "M3b_interface": [
+      "attr_absence",
+      "attr_isolate",
+      "attr_label_bare",
+      "attr_label_neutral",
+      "attr_label_warn",
+      "attr_tags",
+      "entity_absence",
+      "entity_isolate",
+      "good_isolate",
+      "stale_absence",
+      "stale_isolate"
+    ]
+  },
+  "domains": {
+    "access": 700,
+    "devops": 1098,
+    "logistics": 1100,
+    "payments": 1099,
+    "support": 1100
+  },
+  "qc_judge": "mlx-community/gemma-4-26b-a4b-it-4bit",
+  "frame_pool_author": "mlx-community/gemma-4-26b-a4b-it-4bit",
+  "qc_dropped": 3,
+  "structural_dropped": 0,
+  "total_instances": 5097,
+  "scoring": "judge-free exact-match on gold_values; abstention via regex (human-validated kappa=0.93 development, 0.94 held-out). No LLM at evaluation time.",
+  "regenerate": "uptake_probe.synth.make_instance(seed=20000+i, ...) reproduces every M2/M3 instance; M3b applies the named deterministic transform (debug/input_cure.py or debug/ladder_dims.py mutate) to make_instance(seed=60000+i, ...). Use a fresh seed_base for a contamination-free pull."
+}

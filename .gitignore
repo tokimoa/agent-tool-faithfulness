@@ -1,0 +1,35 @@
+# environments / caches
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.uv-cache/
+*.egg-info/
+build/
+dist/
+.DS_Store
+.claude/
+
+# LaTeX / editor leftovers
+texput.log
+*.bak
+
+# private working material (reviews, submission forms, drafts, internal notes)
+peer_review/
+eacl2027/
+docs/
+paper/
+
+# results: ship aggregated JSONs, annotation sheets and per-instance raw logs;
+# keep console logs, retired archives and figure scratch local
+results/*
+!results/*.json
+!results/detector_validation_sheet.jsonl
+!results/detector_heldout_sheet.jsonl
+!results/raw/
+
+# one-off submission tooling and local run wrappers
+debug/make_supplementary.py
+debug/check_pdf_layout.py
+debug/run_*.sh

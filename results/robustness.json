@@ -1,0 +1,850 @@
+[
+  {
+    "exp": "config",
+    "model": "Phi-4-mini",
+    "cond": "irrelevant",
+    "k": 3,
+    "position": "early",
+    "n": 15,
+    "confab_rate": 0.867
+  },
+  {
+    "exp": "config",
+    "model": "Phi-4-mini",
+    "cond": "irrelevant",
+    "k": 3,
+    "position": "center",
+    "n": 15,
+    "confab_rate": 0.8
+  },
+  {
+    "exp": "config",
+    "model": "Phi-4-mini",
+    "cond": "irrelevant",
+    "k": 3,
+    "position": "late",
+    "n": 15,
+    "confab_rate": 0.533
+  },
+  {
+    "exp": "config",
+    "model": "Phi-4-mini",
+    "cond": "irrelevant",
+    "k": 5,
+    "position": "early",
+    "n": 15,
+    "confab_rate": 0.933
+  },
+  {
+    "exp": "config",
+    "model": "Phi-4-mini",
+    "cond": "irrelevant",
+    "k": 5,
+    "position": "center",
+    "n": 15,
+    "confab_rate": 0.867
+  },
+  {
+    "exp": "config",
+    "model": "Phi-4-mini",
+    "cond": "irrelevant",
+    "k": 5,
+    "position": "late",
+    "n": 15,
+    "confab_rate": 0.8
+  },
+  {
+    "exp": "config",
+    "model": "Phi-4-mini",
+    "cond": "irrelevant",
+    "k": 8,
+    "position": "early",
+    "n": 15,
+    "confab_rate": 0.8
+  },
+  {
+    "exp": "config",
+    "model": "Phi-4-mini",
+    "cond": "irrelevant",
+    "k": 8,
+    "position": "center",
+    "n": 15,
+    "confab_rate": 0.933
+  },
+  {
+    "exp": "config",
+    "model": "Phi-4-mini",
+    "cond": "irrelevant",
+    "k": 8,
+    "position": "late",
+    "n": 15,
+    "confab_rate": 0.733
+  },
+  {
+    "exp": "config",
+    "model": "Phi-4-mini",
+    "cond": "attr_mismatch",
+    "k": 3,
+    "position": "early",
+    "n": 15,
+    "confab_rate": 0.8
+  },
+  {
+    "exp": "config",
+    "model": "Phi-4-mini",
+    "cond": "attr_mismatch",
+    "k": 3,
+    "position": "center",
+    "n": 15,
+    "confab_rate": 0.4
+  },
+  {
+    "exp": "config",
+    "model": "Phi-4-mini",
+    "cond": "attr_mismatch",
+    "k": 3,
+    "position": "late",
+    "n": 15,
+    "confab_rate": 0.4
+  },
+  {
+    "exp": "config",
+    "model": "Phi-4-mini",
+    "cond": "attr_mismatch",
+    "k": 5,
+    "position": "early",
+    "n": 15,
+    "confab_rate": 0.933
+  },
+  {
+    "exp": "config",
+    "model": "Phi-4-mini",
+    "cond": "attr_mismatch",
+    "k": 5,
+    "position": "center",
+    "n": 15,
+    "confab_rate": 0.867
+  },
+  {
+    "exp": "config",
+    "model": "Phi-4-mini",
+    "cond": "attr_mismatch",
+    "k": 5,
+    "position": "late",
+    "n": 15,
+    "confab_rate": 0.733
+  },
+  {
+    "exp": "config",
+    "model": "Phi-4-mini",
+    "cond": "attr_mismatch",
+    "k": 8,
+    "position": "early",
+    "n": 15,
+    "confab_rate": 0.933
+  },
+  {
+    "exp": "config",
+    "model": "Phi-4-mini",
+    "cond": "attr_mismatch",
+    "k": 8,
+    "position": "center",
+    "n": 15,
+    "confab_rate": 0.933
+  },
+  {
+    "exp": "config",
+    "model": "Phi-4-mini",
+    "cond": "attr_mismatch",
+    "k": 8,
+    "position": "late",
+    "n": 15,
+    "confab_rate": 0.667
+  },
+  {
+    "exp": "delivery",
+    "model": "Phi-4-mini",
+    "cond": "irrelevant",
+    "delivery": "agentic",
+    "n": 20,
+    "confab_rate": 0.9
+  },
+  {
+    "exp": "delivery",
+    "model": "Phi-4-mini",
+    "cond": "irrelevant",
+    "delivery": "passive",
+    "n": 20,
+    "confab_rate": 1.0
+  },
+  {
+    "exp": "delivery",
+    "model": "Phi-4-mini",
+    "cond": "attr_mismatch",
+    "delivery": "agentic",
+    "n": 20,
+    "confab_rate": 0.9
+  },
+  {
+    "exp": "delivery",
+    "model": "Phi-4-mini",
+    "cond": "attr_mismatch",
+    "delivery": "passive",
+    "n": 20,
+    "confab_rate": 1.0
+  },
+  {
+    "exp": "temp",
+    "model": "Phi-4-mini",
+    "cond": "irrelevant",
+    "n": 15,
+    "ksamp": 5,
+    "mean_confab": 0.707,
+    "passk_consistency": 0.467
+  },
+  {
+    "exp": "temp",
+    "model": "Phi-4-mini",
+    "cond": "attr_mismatch",
+    "n": 15,
+    "ksamp": 5,
+    "mean_confab": 0.733,
+    "passk_consistency": 0.533
+  },
+  {
+    "exp": "config",
+    "model": "Qwen3.5-9B",
+    "cond": "irrelevant",
+    "k": 3,
+    "position": "early",
+    "n": 15,
+    "confab_rate": 0.0
+  },
+  {
+    "exp": "config",
+    "model": "Qwen3.5-9B",
+    "cond": "irrelevant",
+    "k": 3,
+    "position": "center",
+    "n": 15,
+    "confab_rate": 0.067
+  },
+  {
+    "exp": "config",
+    "model": "Qwen3.5-9B",
+    "cond": "irrelevant",
+    "k": 3,
+    "position": "late",
+    "n": 15,
+    "confab_rate": 0.0
+  },
+  {
+    "exp": "config",
+    "model": "Qwen3.5-9B",
+    "cond": "irrelevant",
+    "k": 5,
+    "position": "early",
+    "n": 15,
+    "confab_rate": 0.0
+  },
+  {
+    "exp": "config",
+    "model": "Qwen3.5-9B",
+    "cond": "irrelevant",
+    "k": 5,
+    "position": "center",
+    "n": 15,
+    "confab_rate": 0.0
+  },
+  {
+    "exp": "config",
+    "model": "Qwen3.5-9B",
+    "cond": "irrelevant",
+    "k": 5,
+    "position": "late",
+    "n": 15,
+    "confab_rate": 0.0
+  },
+  {
+    "exp": "config",
+    "model": "Qwen3.5-9B",
+    "cond": "irrelevant",
+    "k": 8,
+    "position": "early",
+    "n": 15,
+    "confab_rate": 0.0
+  },
+  {
+    "exp": "config",
+    "model": "Qwen3.5-9B",
+    "cond": "irrelevant",
+    "k": 8,
+    "position": "center",
+    "n": 15,
+    "confab_rate": 0.0
+  },
+  {
+    "exp": "config",
+    "model": "Qwen3.5-9B",
+    "cond": "irrelevant",
+    "k": 8,
+    "position": "late",
+    "n": 15,
+    "confab_rate": 0.0
+  },
+  {
+    "exp": "config",
+    "model": "Qwen3.5-9B",
+    "cond": "attr_mismatch",
+    "k": 3,
+    "position": "early",
+    "n": 15,
+    "confab_rate": 0.6
+  },
+  {
+    "exp": "config",
+    "model": "Qwen3.5-9B",
+    "cond": "attr_mismatch",
+    "k": 3,
+    "position": "center",
+    "n": 15,
+    "confab_rate": 0.667
+  },
+  {
+    "exp": "config",
+    "model": "Qwen3.5-9B",
+    "cond": "attr_mismatch",
+    "k": 3,
+    "position": "late",
+    "n": 15,
+    "confab_rate": 0.8
+  },
+  {
+    "exp": "config",
+    "model": "Qwen3.5-9B",
+    "cond": "attr_mismatch",
+    "k": 5,
+    "position": "early",
+    "n": 15,
+    "confab_rate": 0.467
+  },
+  {
+    "exp": "config",
+    "model": "Qwen3.5-9B",
+    "cond": "attr_mismatch",
+    "k": 5,
+    "position": "center",
+    "n": 15,
+    "confab_rate": 0.467
+  },
+  {
+    "exp": "config",
+    "model": "Qwen3.5-9B",
+    "cond": "attr_mismatch",
+    "k": 5,
+    "position": "late",
+    "n": 15,
+    "confab_rate": 0.667
+  },
+  {
+    "exp": "config",
+    "model": "Qwen3.5-9B",
+    "cond": "attr_mismatch",
+    "k": 8,
+    "position": "early",
+    "n": 15,
+    "confab_rate": 0.533
+  },
+  {
+    "exp": "config",
+    "model": "Qwen3.5-9B",
+    "cond": "attr_mismatch",
+    "k": 8,
+    "position": "center",
+    "n": 15,
+    "confab_rate": 0.6
+  },
+  {
+    "exp": "config",
+    "model": "Qwen3.5-9B",
+    "cond": "attr_mismatch",
+    "k": 8,
+    "position": "late",
+    "n": 15,
+    "confab_rate": 0.4
+  },
+  {
+    "exp": "delivery",
+    "model": "Qwen3.5-9B",
+    "cond": "irrelevant",
+    "delivery": "agentic",
+    "n": 20,
+    "confab_rate": 0.0
+  },
+  {
+    "exp": "delivery",
+    "model": "Qwen3.5-9B",
+    "cond": "irrelevant",
+    "delivery": "passive",
+    "n": 20,
+    "confab_rate": 0.0
+  },
+  {
+    "exp": "delivery",
+    "model": "Qwen3.5-9B",
+    "cond": "attr_mismatch",
+    "delivery": "agentic",
+    "n": 20,
+    "confab_rate": 0.35
+  },
+  {
+    "exp": "delivery",
+    "model": "Qwen3.5-9B",
+    "cond": "attr_mismatch",
+    "delivery": "passive",
+    "n": 20,
+    "confab_rate": 0.75
+  },
+  {
+    "exp": "temp",
+    "model": "Qwen3.5-9B",
+    "cond": "irrelevant",
+    "n": 15,
+    "ksamp": 5,
+    "mean_confab": 0.0,
+    "passk_consistency": 1.0
+  },
+  {
+    "exp": "temp",
+    "model": "Qwen3.5-9B",
+    "cond": "attr_mismatch",
+    "n": 15,
+    "ksamp": 5,
+    "mean_confab": 0.587,
+    "passk_consistency": 0.467
+  },
+  {
+    "exp": "config",
+    "model": "Mistral-Small-24B",
+    "cond": "irrelevant",
+    "k": 3,
+    "position": "early",
+    "n": 15,
+    "confab_rate": 0.0
+  },
+  {
+    "exp": "config",
+    "model": "Mistral-Small-24B",
+    "cond": "irrelevant",
+    "k": 3,
+    "position": "center",
+    "n": 15,
+    "confab_rate": 0.0
+  },
+  {
+    "exp": "config",
+    "model": "Mistral-Small-24B",
+    "cond": "irrelevant",
+    "k": 3,
+    "position": "late",
+    "n": 15,
+    "confab_rate": 0.133
+  },
+  {
+    "exp": "config",
+    "model": "Mistral-Small-24B",
+    "cond": "irrelevant",
+    "k": 5,
+    "position": "early",
+    "n": 15,
+    "confab_rate": 0.067
+  },
+  {
+    "exp": "config",
+    "model": "Mistral-Small-24B",
+    "cond": "irrelevant",
+    "k": 5,
+    "position": "center",
+    "n": 15,
+    "confab_rate": 0.067
+  },
+  {
+    "exp": "config",
+    "model": "Mistral-Small-24B",
+    "cond": "irrelevant",
+    "k": 5,
+    "position": "late",
+    "n": 15,
+    "confab_rate": 0.267
+  },
+  {
+    "exp": "config",
+    "model": "Mistral-Small-24B",
+    "cond": "irrelevant",
+    "k": 8,
+    "position": "early",
+    "n": 15,
+    "confab_rate": 0.0
+  },
+  {
+    "exp": "config",
+    "model": "Mistral-Small-24B",
+    "cond": "irrelevant",
+    "k": 8,
+    "position": "center",
+    "n": 15,
+    "confab_rate": 0.0
+  },
+  {
+    "exp": "config",
+    "model": "Mistral-Small-24B",
+    "cond": "irrelevant",
+    "k": 8,
+    "position": "late",
+    "n": 15,
+    "confab_rate": 0.133
+  },
+  {
+    "exp": "config",
+    "model": "Mistral-Small-24B",
+    "cond": "attr_mismatch",
+    "k": 3,
+    "position": "early",
+    "n": 15,
+    "confab_rate": 0.667
+  },
+  {
+    "exp": "config",
+    "model": "Mistral-Small-24B",
+    "cond": "attr_mismatch",
+    "k": 3,
+    "position": "center",
+    "n": 15,
+    "confab_rate": 0.8
+  },
+  {
+    "exp": "config",
+    "model": "Mistral-Small-24B",
+    "cond": "attr_mismatch",
+    "k": 3,
+    "position": "late",
+    "n": 15,
+    "confab_rate": 0.867
+  },
+  {
+    "exp": "config",
+    "model": "Mistral-Small-24B",
+    "cond": "attr_mismatch",
+    "k": 5,
+    "position": "early",
+    "n": 15,
+    "confab_rate": 0.867
+  },
+  {
+    "exp": "config",
+    "model": "Mistral-Small-24B",
+    "cond": "attr_mismatch",
+    "k": 5,
+    "position": "center",
+    "n": 15,
+    "confab_rate": 0.8
+  },
+  {
+    "exp": "config",
+    "model": "Mistral-Small-24B",
+    "cond": "attr_mismatch",
+    "k": 5,
+    "position": "late",
+    "n": 15,
+    "confab_rate": 0.867
+  },
+  {
+    "exp": "config",
+    "model": "Mistral-Small-24B",
+    "cond": "attr_mismatch",
+    "k": 8,
+    "position": "early",
+    "n": 15,
+    "confab_rate": 0.667
+  },
+  {
+    "exp": "config",
+    "model": "Mistral-Small-24B",
+    "cond": "attr_mismatch",
+    "k": 8,
+    "position": "center",
+    "n": 15,
+    "confab_rate": 0.667
+  },
+  {
+    "exp": "config",
+    "model": "Mistral-Small-24B",
+    "cond": "attr_mismatch",
+    "k": 8,
+    "position": "late",
+    "n": 15,
+    "confab_rate": 0.8
+  },
+  {
+    "exp": "delivery",
+    "model": "Mistral-Small-24B",
+    "cond": "irrelevant",
+    "delivery": "agentic",
+    "n": 20,
+    "confab_rate": 0.1
+  },
+  {
+    "exp": "delivery",
+    "model": "Mistral-Small-24B",
+    "cond": "irrelevant",
+    "delivery": "passive",
+    "n": 20,
+    "confab_rate": 0.0
+  },
+  {
+    "exp": "delivery",
+    "model": "Mistral-Small-24B",
+    "cond": "attr_mismatch",
+    "delivery": "agentic",
+    "n": 20,
+    "confab_rate": 0.8
+  },
+  {
+    "exp": "delivery",
+    "model": "Mistral-Small-24B",
+    "cond": "attr_mismatch",
+    "delivery": "passive",
+    "n": 20,
+    "confab_rate": 0.7
+  },
+  {
+    "exp": "temp",
+    "model": "Mistral-Small-24B",
+    "cond": "irrelevant",
+    "n": 15,
+    "ksamp": 5,
+    "mean_confab": 0.093,
+    "passk_consistency": 0.667
+  },
+  {
+    "exp": "temp",
+    "model": "Mistral-Small-24B",
+    "cond": "attr_mismatch",
+    "n": 15,
+    "ksamp": 5,
+    "mean_confab": 0.693,
+    "passk_consistency": 0.4
+  },
+  {
+    "exp": "config",
+    "model": "gemma-4-26b",
+    "cond": "irrelevant",
+    "k": 3,
+    "position": "early",
+    "n": 15,
+    "confab_rate": 0.0
+  },
+  {
+    "exp": "config",
+    "model": "gemma-4-26b",
+    "cond": "irrelevant",
+    "k": 3,
+    "position": "center",
+    "n": 15,
+    "confab_rate": 0.0
+  },
+  {
+    "exp": "config",
+    "model": "gemma-4-26b",
+    "cond": "irrelevant",
+    "k": 3,
+    "position": "late",
+    "n": 15,
+    "confab_rate": 0.0
+  },
+  {
+    "exp": "config",
+    "model": "gemma-4-26b",
+    "cond": "irrelevant",
+    "k": 5,
+    "position": "early",
+    "n": 15,
+    "confab_rate": 0.0
+  },
+  {
+    "exp": "config",
+    "model": "gemma-4-26b",
+    "cond": "irrelevant",
+    "k": 5,
+    "position": "center",
+    "n": 15,
+    "confab_rate": 0.0
+  },
+  {
+    "exp": "config",
+    "model": "gemma-4-26b",
+    "cond": "irrelevant",
+    "k": 5,
+    "position": "late",
+    "n": 15,
+    "confab_rate": 0.0
+  },
+  {
+    "exp": "config",
+    "model": "gemma-4-26b",
+    "cond": "irrelevant",
+    "k": 8,
+    "position": "early",
+    "n": 15,
+    "confab_rate": 0.0
+  },
+  {
+    "exp": "config",
+    "model": "gemma-4-26b",
+    "cond": "irrelevant",
+    "k": 8,
+    "position": "center",
+    "n": 15,
+    "confab_rate": 0.0
+  },
+  {
+    "exp": "config",
+    "model": "gemma-4-26b",
+    "cond": "irrelevant",
+    "k": 8,
+    "position": "late",
+    "n": 15,
+    "confab_rate": 0.0
+  },
+  {
+    "exp": "config",
+    "model": "gemma-4-26b",
+    "cond": "attr_mismatch",
+    "k": 3,
+    "position": "early",
+    "n": 15,
+    "confab_rate": 0.867
+  },
+  {
+    "exp": "config",
+    "model": "gemma-4-26b",
+    "cond": "attr_mismatch",
+    "k": 3,
+    "position": "center",
+    "n": 15,
+    "confab_rate": 0.933
+  },
+  {
+    "exp": "config",
+    "model": "gemma-4-26b",
+    "cond": "attr_mismatch",
+    "k": 3,
+    "position": "late",
+    "n": 15,
+    "confab_rate": 0.867
+  },
+  {
+    "exp": "config",
+    "model": "gemma-4-26b",
+    "cond": "attr_mismatch",
+    "k": 5,
+    "position": "early",
+    "n": 15,
+    "confab_rate": 0.933
+  },
+  {
+    "exp": "config",
+    "model": "gemma-4-26b",
+    "cond": "attr_mismatch",
+    "k": 5,
+    "position": "center",
+    "n": 15,
+    "confab_rate": 1.0
+  },
+  {
+    "exp": "config",
+    "model": "gemma-4-26b",
+    "cond": "attr_mismatch",
+    "k": 5,
+    "position": "late",
+    "n": 15,
+    "confab_rate": 1.0
+  },
+  {
+    "exp": "config",
+    "model": "gemma-4-26b",
+    "cond": "attr_mismatch",
+    "k": 8,
+    "position": "early",
+    "n": 15,
+    "confab_rate": 0.933
+  },
+  {
+    "exp": "config",
+    "model": "gemma-4-26b",
+    "cond": "attr_mismatch",
+    "k": 8,
+    "position": "center",
+    "n": 15,
+    "confab_rate": 0.933
+  },
+  {
+    "exp": "config",
+    "model": "gemma-4-26b",
+    "cond": "attr_mismatch",
+    "k": 8,
+    "position": "late",
+    "n": 15,
+    "confab_rate": 0.933
+  },
+  {
+    "exp": "delivery",
+    "model": "gemma-4-26b",
+    "cond": "irrelevant",
+    "delivery": "agentic",
+    "n": 20,
+    "confab_rate": 0.0
+  },
+  {
+    "exp": "delivery",
+    "model": "gemma-4-26b",
+    "cond": "irrelevant",
+    "delivery": "passive",
+    "n": 20,
+    "confab_rate": 0.0
+  },
+  {
+    "exp": "delivery",
+    "model": "gemma-4-26b",
+    "cond": "attr_mismatch",
+    "delivery": "agentic",
+    "n": 20,
+    "confab_rate": 1.0
+  },
+  {
+    "exp": "delivery",
+    "model": "gemma-4-26b",
+    "cond": "attr_mismatch",
+    "delivery": "passive",
+    "n": 20,
+    "confab_rate": 0.85
+  },
+  {
+    "exp": "temp",
+    "model": "gemma-4-26b",
+    "cond": "irrelevant",
+    "n": 15,
+    "ksamp": 5,
+    "mean_confab": 0.0,
+    "passk_consistency": 1.0
+  },
+  {
+    "exp": "temp",
+    "model": "gemma-4-26b",
+    "cond": "attr_mismatch",
+    "n": 15,
+    "ksamp": 5,
+    "mean_confab": 0.987,
+    "passk_consistency": 0.933
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "worker": "gemma-3-12b",
+    "size_b": 12.0,
+    "n_confab": 12,
+    "n_good": 15,
+    "catch_self": 0.083,
+    "catch_cross": 1.0,
+    "fa_self": 0.0,
+    "fa_cross": 0.0
+  },
+  {
+    "worker": "aya-expanse-8b",
+    "size_b": 8.0,
+    "n_confab": 11,
+    "n_good": 15,
+    "catch_self": 0.909,
+    "catch_cross": 1.0,
+    "fa_self": 0.0,
+    "fa_cross": 0.0
+  },
+  {
+    "worker": "Phi-4-mini",
+    "size_b": 3.8,
+    "n_confab": 10,
+    "n_good": 14,
+    "catch_self": 0.2,
+    "catch_cross": 1.0,
+    "fa_self": 0.0,
+    "fa_cross": 0.0
+  }
+]

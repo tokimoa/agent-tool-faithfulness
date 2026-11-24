@@ -1,0 +1,200 @@
+[
+  {
+    "model": "Phi-4-mini",
+    "rung": "orig",
+    "n": 32,
+    "mean_margin": -8.019,
+    "frac_commit_decoy": 1.0,
+    "wilson_commit": [
+      0.893,
+      1.0
+    ]
+  },
+  {
+    "model": "Phi-4-mini",
+    "rung": "absence",
+    "n": 32,
+    "mean_margin": -7.98,
+    "frac_commit_decoy": 1.0,
+    "wilson_commit": [
+      0.893,
+      1.0
+    ]
+  },
+  {
+    "model": "Phi-4-mini",
+    "rung": "isolate",
+    "n": 32,
+    "mean_margin": -2.225,
+    "frac_commit_decoy": 0.906,
+    "wilson_commit": [
+      0.758,
+      0.968
+    ]
+  },
+  {
+    "model": "aya-expanse-8b",
+    "rung": "orig",
+    "n": 32,
+    "mean_margin": -19.024,
+    "frac_commit_decoy": 1.0,
+    "wilson_commit": [
+      0.893,
+      1.0
+    ]
+  },
+  {
+    "model": "aya-expanse-8b",
+    "rung": "absence",
+    "n": 32,
+    "mean_margin": -19.801,
+    "frac_commit_decoy": 1.0,
+    "wilson_commit": [
+      0.893,
+      1.0
+    ]
+  },
+  {
+    "model": "aya-expanse-8b",
+    "rung": "isolate",
+    "n": 32,
+    "mean_margin": -13.099,
+    "frac_commit_decoy": 1.0,
+    "wilson_commit": [
+      0.893,
+      1.0
+    ]
+  },
+  {
+    "model": "gemma-3-12b",
+    "rung": "orig",
+    "n": 32,
+    "mean_margin": -12.36,
+    "frac_commit_decoy": 1.0,
+    "wilson_commit": [
+      0.893,
+      1.0
+    ]
+  },
+  {
+    "model": "gemma-3-12b",
+    "rung": "absence",
+    "n": 32,
+    "mean_margin": -8.855,
+    "frac_commit_decoy": 1.0,
+    "wilson_commit": [
+      0.893,
+      1.0
+    ]
+  },
+  {
+    "model": "gemma-3-12b",
+    "rung": "isolate",
+    "n": 32,
+    "mean_margin": -5.763,
+    "frac_commit_decoy": 1.0,
+    "wilson_commit": [
+      0.893,
+      1.0
+    ]
+  },
+  {
+    "model": "gemma-4-26b",
+    "rung": "orig",
+    "n": 32,
+    "mean_margin": -15.342,
+    "frac_commit_decoy": 1.0,
+    "wilson_commit": [
+      0.893,
+      1.0
+    ]
+  },
+  {
+    "model": "gemma-4-26b",
+    "rung": "absence",
+    "n": 32,
+    "mean_margin": -21.945,
+    "frac_commit_decoy": 1.0,
+    "wilson_commit": [
+      0.893,
+      1.0
+    ]
+  },
+  {
+    "model": "gemma-4-26b",
+    "rung": "isolate",
+    "n": 32,
+    "mean_margin": -11.637,
+    "frac_commit_decoy": 1.0,
+    "wilson_commit": [
+      0.893,
+      1.0
+    ]
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "rung": "orig",
+    "n": 32,
+    "mean_margin": -7.271,
+    "frac_commit_decoy": 1.0,
+    "wilson_commit": [
+      0.893,
+      1.0
+    ]
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "rung": "absence",
+    "n": 32,
+    "mean_margin": -7.869,
+    "frac_commit_decoy": 1.0,
+    "wilson_commit": [
+      0.893,
+      1.0
+    ]
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "rung": "isolate",
+    "n": 32,
+    "mean_margin": -4.861,
+    "frac_commit_decoy": 1.0,
+    "wilson_commit": [
+      0.893,
+      1.0
+    ]
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "rung": "orig",
+    "n": 32,
+    "mean_margin": -11.107,
+    "frac_commit_decoy": 1.0,
+    "wilson_commit": [
+      0.893,
+      1.0
+    ]
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "rung": "absence",
+    "n": 32,
+    "mean_margin": -7.612,
+    "frac_commit_decoy": 1.0,
+    "wilson_commit": [
+      0.893,
+      1.0
+    ]
+  },
+  {
+    "model": "Qwen3.6-35B",
+    "rung": "isolate",
+    "n": 32,
+    "mean_margin": -7.36,
+    "frac_commit_decoy": 1.0,
+    "wilson_commit": [
+      0.893,
+      1.0
+    ]
+  }
+]

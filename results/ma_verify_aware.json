@@ -1,0 +1,326 @@
+[
+  {
+    "prompt": "presence",
+    "cond": "irrelevant",
+    "group": "sens",
+    "kind": "catch",
+    "k": 277,
+    "n": 282,
+    "rate": 0.982
+  },
+  {
+    "prompt": "presence",
+    "cond": "irrelevant",
+    "group": "insens",
+    "kind": "catch",
+    "k": 43,
+    "n": 283,
+    "rate": 0.152
+  },
+  {
+    "prompt": "presence",
+    "cond": "attr_mismatch",
+    "group": "sens",
+    "kind": "catch",
+    "k": 144,
+    "n": 144,
+    "rate": 1.0
+  },
+  {
+    "prompt": "presence",
+    "cond": "attr_mismatch",
+    "group": "insens",
+    "kind": "catch",
+    "k": 21,
+    "n": 111,
+    "rate": 0.189
+  },
+  {
+    "prompt": "presence",
+    "cond": "stale",
+    "group": "sens",
+    "kind": "catch",
+    "k": 17,
+    "n": 252,
+    "rate": 0.067
+  },
+  {
+    "prompt": "presence",
+    "cond": "stale",
+    "group": "insens",
+    "kind": "catch",
+    "k": 22,
+    "n": 238,
+    "rate": 0.092
+  },
+  {
+    "prompt": "presence",
+    "cond": "attr_mismatch",
+    "group": "insens",
+    "kind": "clean-abstain",
+    "k": 21,
+    "n": 51,
+    "rate": 0.412
+  },
+  {
+    "prompt": "presence",
+    "cond": "attr_mismatch",
+    "group": "insens",
+    "kind": "clean-abstain+code",
+    "k": 33,
+    "n": 83,
+    "rate": 0.398
+  },
+  {
+    "prompt": "presence",
+    "cond": "attr_mismatch",
+    "group": "insens",
+    "kind": "clean-vague",
+    "k": 28,
+    "n": 55,
+    "rate": 0.509
+  },
+  {
+    "prompt": "presence",
+    "cond": "irrelevant",
+    "group": "insens",
+    "kind": "clean-abstain+code",
+    "k": 8,
+    "n": 9,
+    "rate": 0.889
+  },
+  {
+    "prompt": "presence",
+    "cond": "irrelevant",
+    "group": "insens",
+    "kind": "clean-vague",
+    "k": 5,
+    "n": 6,
+    "rate": 0.833
+  },
+  {
+    "prompt": "presence",
+    "cond": "stale",
+    "group": "insens",
+    "kind": "clean-abstain+code",
+    "k": 2,
+    "n": 60,
+    "rate": 0.033
+  },
+  {
+    "prompt": "presence",
+    "cond": "attr_mismatch",
+    "group": "sens",
+    "kind": "clean-abstain",
+    "k": 8,
+    "n": 39,
+    "rate": 0.205
+  },
+  {
+    "prompt": "presence",
+    "cond": "attr_mismatch",
+    "group": "sens",
+    "kind": "clean-abstain+code",
+    "k": 4,
+    "n": 57,
+    "rate": 0.07
+  },
+  {
+    "prompt": "presence",
+    "cond": "attr_mismatch",
+    "group": "sens",
+    "kind": "clean-vague",
+    "k": 60,
+    "n": 60,
+    "rate": 1.0
+  },
+  {
+    "prompt": "presence",
+    "cond": "irrelevant",
+    "group": "sens",
+    "kind": "clean-abstain+code",
+    "k": 6,
+    "n": 6,
+    "rate": 1.0
+  },
+  {
+    "prompt": "presence",
+    "cond": "irrelevant",
+    "group": "sens",
+    "kind": "clean-vague",
+    "k": 9,
+    "n": 9,
+    "rate": 1.0
+  },
+  {
+    "prompt": "presence",
+    "cond": "stale",
+    "group": "sens",
+    "kind": "clean-abstain+code",
+    "k": 0,
+    "n": 45,
+    "rate": 0.0
+  },
+  {
+    "prompt": "aware",
+    "cond": "irrelevant",
+    "group": "sens",
+    "kind": "catch",
+    "k": 276,
+    "n": 282,
+    "rate": 0.979
+  },
+  {
+    "prompt": "aware",
+    "cond": "irrelevant",
+    "group": "insens",
+    "kind": "catch",
+    "k": 58,
+    "n": 283,
+    "rate": 0.205
+  },
+  {
+    "prompt": "aware",
+    "cond": "attr_mismatch",
+    "group": "sens",
+    "kind": "catch",
+    "k": 144,
+    "n": 144,
+    "rate": 1.0
+  },
+  {
+    "prompt": "aware",
+    "cond": "attr_mismatch",
+    "group": "insens",
+    "kind": "catch",
+    "k": 32,
+    "n": 111,
+    "rate": 0.288
+  },
+  {
+    "prompt": "aware",
+    "cond": "stale",
+    "group": "sens",
+    "kind": "catch",
+    "k": 252,
+    "n": 252,
+    "rate": 1.0
+  },
+  {
+    "prompt": "aware",
+    "cond": "stale",
+    "group": "insens",
+    "kind": "catch",
+    "k": 60,
+    "n": 238,
+    "rate": 0.252
+  },
+  {
+    "prompt": "aware",
+    "cond": "attr_mismatch",
+    "group": "insens",
+    "kind": "clean-abstain",
+    "k": 21,
+    "n": 51,
+    "rate": 0.412
+  },
+  {
+    "prompt": "aware",
+    "cond": "attr_mismatch",
+    "group": "insens",
+    "kind": "clean-abstain+code",
+    "k": 27,
+    "n": 83,
+    "rate": 0.325
+  },
+  {
+    "prompt": "aware",
+    "cond": "attr_mismatch",
+    "group": "insens",
+    "kind": "clean-vague",
+    "k": 29,
+    "n": 55,
+    "rate": 0.527
+  },
+  {
+    "prompt": "aware",
+    "cond": "irrelevant",
+    "group": "insens",
+    "kind": "clean-abstain+code",
+    "k": 8,
+    "n": 9,
+    "rate": 0.889
+  },
+  {
+    "prompt": "aware",
+    "cond": "irrelevant",
+    "group": "insens",
+    "kind": "clean-vague",
+    "k": 5,
+    "n": 6,
+    "rate": 0.833
+  },
+  {
+    "prompt": "aware",
+    "cond": "stale",
+    "group": "insens",
+    "kind": "clean-abstain+code",
+    "k": 0,
+    "n": 60,
+    "rate": 0.0
+  },
+  {
+    "prompt": "aware",
+    "cond": "attr_mismatch",
+    "group": "sens",
+    "kind": "clean-abstain",
+    "k": 10,
+    "n": 39,
+    "rate": 0.256
+  },
+  {
+    "prompt": "aware",
+    "cond": "attr_mismatch",
+    "group": "sens",
+    "kind": "clean-abstain+code",
+    "k": 8,
+    "n": 57,
+    "rate": 0.14
+  },
+  {
+    "prompt": "aware",
+    "cond": "attr_mismatch",
+    "group": "sens",
+    "kind": "clean-vague",
+    "k": 60,
+    "n": 60,
+    "rate": 1.0
+  },
+  {
+    "prompt": "aware",
+    "cond": "irrelevant",
+    "group": "sens",
+    "kind": "clean-abstain+code",
+    "k": 6,
+    "n": 6,
+    "rate": 1.0
+  },
+  {
+    "prompt": "aware",
+    "cond": "irrelevant",
+    "group": "sens",
+    "kind": "clean-vague",
+    "k": 9,
+    "n": 9,
+    "rate": 1.0
+  },
+  {
+    "prompt": "aware",
+    "cond": "stale",
+    "group": "sens",
+    "kind": "clean-abstain+code",
+    "k": 34,
+    "n": 45,
+    "rate": 0.756
+  }
+]

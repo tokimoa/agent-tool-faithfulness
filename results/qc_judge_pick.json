@@ -1,0 +1,37 @@
+[
+  {
+    "model": "gemma-4-26b",
+    "good_natural_rate": 1.0,
+    "broken_awkward_rate": 1.0,
+    "borderline_keep_rate": 1.0,
+    "balanced": 1.0
+  },
+  {
+    "model": "Qwen3.5-27B",
+    "good_natural_rate": 1.0,
+    "broken_awkward_rate": 1.0,
+    "borderline_keep_rate": 1.0,
+    "balanced": 1.0
+  },
+  {
+    "model": "Phi-4-14B",
+    "good_natural_rate": 1.0,
+    "broken_awkward_rate": 1.0,
+    "borderline_keep_rate": 0.917,
+    "balanced": 0.972
+  },
+  {
+    "model": "Mistral-24B",
+    "good_natural_rate": 1.0,
+    "broken_awkward_rate": 1.0,
+    "borderline_keep_rate": 0.917,
+    "balanced": 0.972
+  },
+  {
+    "model": "Qwen3.5-9B",
+    "good_natural_rate": 1.0,
+    "broken_awkward_rate": 1.0,
+    "borderline_keep_rate": 0.5,
+    "balanced": 0.833
+  }
+]

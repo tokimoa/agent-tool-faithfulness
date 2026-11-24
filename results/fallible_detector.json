@@ -1,0 +1,830 @@
+{
+  "lexical": {
+    "detector": "lexical",
+    "detector_rates": {
+      "irrelevant": {
+        "false_negative": 0.0,
+        "n": 60,
+        "wilson": [
+          0.0,
+          0.06
+        ]
+      },
+      "attr_mismatch": {
+        "false_negative": 0.0,
+        "n": 60,
+        "wilson": [
+          0.0,
+          0.06
+        ]
+      },
+      "stale": {
+        "false_negative": 0.167,
+        "n": 60,
+        "wilson": [
+          0.093,
+          0.28
+        ]
+      },
+      "good": {
+        "false_positive": 0.0,
+        "n": 60,
+        "wilson": [
+          0.0,
+          0.06
+        ]
+      }
+    },
+    "chained": {
+      "Phi-4-mini": {
+        "irrelevant": {
+          "orig": 0.9,
+          "chained": 0.0,
+          "chained_code_present": 0.0,
+          "n": 60
+        },
+        "attr_mismatch": {
+          "orig": 0.483,
+          "chained": 0.017,
+          "chained_code_present": 0.017,
+          "n": 60
+        },
+        "stale": {
+          "orig": 0.883,
+          "chained": 0.15,
+          "chained_code_present": 0.15,
+          "n": 60
+        },
+        "good": {
+          "orig_util": 0.883,
+          "chained_util": 0.883,
+          "n": 60
+        }
+      },
+      "aya-expanse-8b": {
+        "irrelevant": {
+          "orig": 1.0,
+          "chained": 0.0,
+          "chained_code_present": 0.0,
+          "n": 60
+        },
+        "attr_mismatch": {
+          "orig": 0.567,
+          "chained": 0.0,
+          "chained_code_present": 0.0,
+          "n": 60
+        },
+        "stale": {
+          "orig": 0.983,
+          "chained": 0.183,
+          "chained_code_present": 0.183,
+          "n": 60
+        },
+        "good": {
+          "orig_util": 1.0,
+          "chained_util": 1.0,
+          "n": 60
+        }
+      },
+      "gemma-3-12b": {
+        "irrelevant": {
+          "orig": 1.0,
+          "chained": 0.0,
+          "chained_code_present": 0.0,
+          "n": 60
+        },
+        "attr_mismatch": {
+          "orig": 0.633,
+          "chained": 0.0,
+          "chained_code_present": 0.0,
+          "n": 60
+        },
+        "stale": {
+          "orig": 1.0,
+          "chained": 0.167,
+          "chained_code_present": 0.167,
+          "n": 60
+        },
+        "good": {
+          "orig_util": 1.0,
+          "chained_util": 1.0,
+          "n": 60
+        }
+      },
+      "Phi-4": {
+        "irrelevant": {
+          "orig": 0.933,
+          "chained": 0.0,
+          "chained_code_present": 0.0,
+          "n": 60
+        },
+        "attr_mismatch": {
+          "orig": 0.383,
+          "chained": 0.0,
+          "chained_code_present": 0.0,
+          "n": 60
+        },
+        "stale": {
+          "orig": 0.3,
+          "chained": 0.0,
+          "chained_code_present": 0.033,
+          "n": 60
+        },
+        "good": {
+          "orig_util": 1.0,
+          "chained_util": 1.0,
+          "n": 60
+        }
+      },
+      "Mistral-Small-24B": {
+        "irrelevant": {
+          "orig": 0.983,
+          "chained": 0.0,
+          "chained_code_present": 0.0,
+          "n": 60
+        },
+        "attr_mismatch": {
+          "orig": 0.117,
+          "chained": 0.0,
+          "chained_code_present": 0.0,
+          "n": 60
+        },
+        "stale": {
+          "orig": 0.6,
+          "chained": 0.15,
+          "chained_code_present": 0.167,
+          "n": 60
+        },
+        "good": {
+          "orig_util": 1.0,
+          "chained_util": 1.0,
+          "n": 60
+        }
+      },
+      "gemma-4-26b": {
+        "irrelevant": {
+          "orig": 0.933,
+          "chained": 0.0,
+          "chained_code_present": 0.0,
+          "n": 60
+        },
+        "attr_mismatch": {
+          "orig": 0.167,
+          "chained": 0.0,
+          "chained_code_present": 0.0,
+          "n": 60
+        },
+        "stale": {
+          "orig": 1.0,
+          "chained": 0.167,
+          "chained_code_present": 0.167,
+          "n": 60
+        },
+        "good": {
+          "orig_util": 1.0,
+          "chained_util": 1.0,
+          "n": 60
+        }
+      },
+      "Qwen3.5-27B": {
+        "irrelevant": {
+          "orig": 0.9,
+          "chained": 0.0,
+          "chained_code_present": 0.0,
+          "n": 60
+        },
+        "attr_mismatch": {
+          "orig": 0.05,
+          "chained": 0.0,
+          "chained_code_present": 0.0,
+          "n": 60
+        },
+        "stale": {
+          "orig": 0.183,
+          "chained": 0.033,
+          "chained_code_present": 0.167,
+          "n": 60
+        },
+        "good": {
+          "orig_util": 1.0,
+          "chained_util": 1.0,
+          "n": 60
+        }
+      },
+      "Qwen3.6-35B": {
+        "irrelevant": {
+          "orig": 0.983,
+          "chained": 0.0,
+          "chained_code_present": 0.0,
+          "n": 60
+        },
+        "attr_mismatch": {
+          "orig": 0.2,
+          "chained": 0.0,
+          "chained_code_present": 0.0,
+          "n": 60
+        },
+        "stale": {
+          "orig": 0.917,
+          "chained": 0.167,
+          "chained_code_present": 0.167,
+          "n": 60
+        },
+        "good": {
+          "orig_util": 0.983,
+          "chained_util": 0.983,
+          "n": 60
+        }
+      }
+    },
+    "pooled": {
+      "irrelevant": {
+        "orig": 0.954,
+        "chained": 0.0,
+        "wilson": [
+          0.0,
+          0.008
+        ],
+        "chained_code_present": 0.0,
+        "n": 480
+      },
+      "attr_mismatch": {
+        "orig": 0.325,
+        "chained": 0.002,
+        "wilson": [
+          0.0,
+          0.012
+        ],
+        "chained_code_present": 0.002,
+        "n": 480
+      },
+      "stale": {
+        "orig": 0.733,
+        "chained": 0.127,
+        "wilson": [
+          0.1,
+          0.16
+        ],
+        "chained_code_present": 0.15,
+        "n": 480
+      },
+      "good": {
+        "orig_util": 0.983,
+        "chained_util": 0.983,
+        "n": 480
+      }
+    }
+  },
+  "Phi-4-mini": {
+    "detector": "Phi-4-mini",
+    "detector_rates": {
+      "irrelevant": {
+        "false_negative": 0.0,
+        "n": 60,
+        "wilson": [
+          0.0,
+          0.06
+        ]
+      },
+      "attr_mismatch": {
+        "false_negative": 0.0,
+        "n": 60,
+        "wilson": [
+          0.0,
+          0.06
+        ]
+      },
+      "stale": {
+        "false_negative": 0.0,
+        "n": 60,
+        "wilson": [
+          0.0,
+          0.06
+        ]
+      },
+      "good": {
+        "false_positive": 0.867,
+        "n": 60,
+        "wilson": [
+          0.758,
+          0.931
+        ]
+      }
+    },
+    "chained": {
+      "Phi-4-mini": {
+        "irrelevant": {
+          "orig": 0.9,
+          "chained": 0.0,
+          "chained_code_present": 0.0,
+          "n": 60
+        },
+        "attr_mismatch": {
+          "orig": 0.483,
+          "chained": 0.017,
+          "chained_code_present": 0.017,
+          "n": 60
+        },
+        "stale": {
+          "orig": 0.883,
+          "chained": 0.0,
+          "chained_code_present": 0.0,
+          "n": 60
+        },
+        "good": {
+          "orig_util": 0.883,
+          "chained_util": 0.133,
+          "n": 60
+        }
+      },
+      "aya-expanse-8b": {
+        "irrelevant": {
+          "orig": 1.0,
+          "chained": 0.0,
+          "chained_code_present": 0.0,
+          "n": 60
+        },
+        "attr_mismatch": {
+          "orig": 0.567,
+          "chained": 0.0,
+          "chained_code_present": 0.0,
+          "n": 60
+        },
+        "stale": {
+          "orig": 0.983,
+          "chained": 0.017,
+          "chained_code_present": 0.017,
+          "n": 60
+        },
+        "good": {
+          "orig_util": 1.0,
+          "chained_util": 0.133,
+          "n": 60
+        }
+      },
+      "gemma-3-12b": {
+        "irrelevant": {
+          "orig": 1.0,
+          "chained": 0.0,
+          "chained_code_present": 0.0,
+          "n": 60
+        },
+        "attr_mismatch": {
+          "orig": 0.633,
+          "chained": 0.0,
+          "chained_code_present": 0.0,
+          "n": 60
+        },
+        "stale": {
+          "orig": 1.0,
+          "chained": 0.0,
+          "chained_code_present": 0.0,
+          "n": 60
+        },
+        "good": {
+          "orig_util": 1.0,
+          "chained_util": 0.133,
+          "n": 60
+        }
+      },
+      "Phi-4": {
+        "irrelevant": {
+          "orig": 0.933,
+          "chained": 0.0,
+          "chained_code_present": 0.0,
+          "n": 60
+        },
+        "attr_mismatch": {
+          "orig": 0.383,
+          "chained": 0.0,
+          "chained_code_present": 0.0,
+          "n": 60
+        },
+        "stale": {
+          "orig": 0.3,
+          "chained": 0.0,
+          "chained_code_present": 0.0,
+          "n": 60
+        },
+        "good": {
+          "orig_util": 1.0,
+          "chained_util": 0.133,
+          "n": 60
+        }
+      },
+      "Mistral-Small-24B": {
+        "irrelevant": {
+          "orig": 0.983,
+          "chained": 0.0,
+          "chained_code_present": 0.0,
+          "n": 60
+        },
+        "attr_mismatch": {
+          "orig": 0.117,
+          "chained": 0.0,
+          "chained_code_present": 0.0,
+          "n": 60
+        },
+        "stale": {
+          "orig": 0.6,
+          "chained": 0.0,
+          "chained_code_present": 0.0,
+          "n": 60
+        },
+        "good": {
+          "orig_util": 1.0,
+          "chained_util": 0.133,
+          "n": 60
+        }
+      },
+      "gemma-4-26b": {
+        "irrelevant": {
+          "orig": 0.933,
+          "chained": 0.0,
+          "chained_code_present": 0.0,
+          "n": 60
+        },
+        "attr_mismatch": {
+          "orig": 0.167,
+          "chained": 0.0,
+          "chained_code_present": 0.0,
+          "n": 60
+        },
+        "stale": {
+          "orig": 1.0,
+          "chained": 0.0,
+          "chained_code_present": 0.0,
+          "n": 60
+        },
+        "good": {
+          "orig_util": 1.0,
+          "chained_util": 0.133,
+          "n": 60
+        }
+      },
+      "Qwen3.5-27B": {
+        "irrelevant": {
+          "orig": 0.9,
+          "chained": 0.0,
+          "chained_code_present": 0.0,
+          "n": 60
+        },
+        "attr_mismatch": {
+          "orig": 0.05,
+          "chained": 0.0,
+          "chained_code_present": 0.0,
+          "n": 60
+        },
+        "stale": {
+          "orig": 0.183,
+          "chained": 0.0,
+          "chained_code_present": 0.0,
+          "n": 60
+        },
+        "good": {
+          "orig_util": 1.0,
+          "chained_util": 0.133,
+          "n": 60
+        }
+      },
+      "Qwen3.6-35B": {
+        "irrelevant": {
+          "orig": 0.983,
+          "chained": 0.0,
+          "chained_code_present": 0.0,
+          "n": 60
+        },
+        "attr_mismatch": {
+          "orig": 0.2,
+          "chained": 0.0,
+          "chained_code_present": 0.0,
+          "n": 60
+        },
+        "stale": {
+          "orig": 0.917,
+          "chained": 0.0,
+          "chained_code_present": 0.0,
+          "n": 60
+        },
+        "good": {
+          "orig_util": 0.983,
+          "chained_util": 0.133,
+          "n": 60
+        }
+      }
+    },
+    "pooled": {
+      "irrelevant": {
+        "orig": 0.954,
+        "chained": 0.0,
+        "wilson": [
+          0.0,
+          0.008
+        ],
+        "chained_code_present": 0.0,
+        "n": 480
+      },
+      "attr_mismatch": {
+        "orig": 0.325,
+        "chained": 0.002,
+        "wilson": [
+          0.0,
+          0.012
+        ],
+        "chained_code_present": 0.002,
+        "n": 480
+      },
+      "stale": {
+        "orig": 0.733,
+        "chained": 0.002,
+        "wilson": [
+          0.0,
+          0.012
+        ],
+        "chained_code_present": 0.002,
+        "n": 480
+      },
+      "good": {
+        "orig_util": 0.983,
+        "chained_util": 0.133,
+        "n": 480
+      }
+    }
+  },
+  "gemma-4-26b": {
+    "detector": "gemma-4-26b",
+    "detector_rates": {
+      "irrelevant": {
+        "false_negative": 0.0,
+        "n": 60,
+        "wilson": [
+          0.0,
+          0.06
+        ]
+      },
+      "attr_mismatch": {
+        "false_negative": 0.0,
+        "n": 60,
+        "wilson": [
+          0.0,
+          0.06
+        ]
+      },
+      "stale": {
+        "false_negative": 0.0,
+        "n": 60,
+        "wilson": [
+          0.0,
+          0.06
+        ]
+      },
+      "good": {
+        "false_positive": 0.167,
+        "n": 60,
+        "wilson": [
+          0.093,
+          0.28
+        ]
+      }
+    },
+    "chained": {
+      "Phi-4-mini": {
+        "irrelevant": {
+          "orig": 0.9,
+          "chained": 0.0,
+          "chained_code_present": 0.0,
+          "n": 60
+        },
+        "attr_mismatch": {
+          "orig": 0.483,
+          "chained": 0.017,
+          "chained_code_present": 0.017,
+          "n": 60
+        },
+        "stale": {
+          "orig": 0.883,
+          "chained": 0.0,
+          "chained_code_present": 0.0,
+          "n": 60
+        },
+        "good": {
+          "orig_util": 0.883,
+          "chained_util": 0.75,
+          "n": 60
+        }
+      },
+      "aya-expanse-8b": {
+        "irrelevant": {
+          "orig": 1.0,
+          "chained": 0.0,
+          "chained_code_present": 0.0,
+          "n": 60
+        },
+        "attr_mismatch": {
+          "orig": 0.567,
+          "chained": 0.0,
+          "chained_code_present": 0.0,
+          "n": 60
+        },
+        "stale": {
+          "orig": 0.983,
+          "chained": 0.017,
+          "chained_code_present": 0.017,
+          "n": 60
+        },
+        "good": {
+          "orig_util": 1.0,
+          "chained_util": 0.833,
+          "n": 60
+        }
+      },
+      "gemma-3-12b": {
+        "irrelevant": {
+          "orig": 1.0,
+          "chained": 0.0,
+          "chained_code_present": 0.0,
+          "n": 60
+        },
+        "attr_mismatch": {
+          "orig": 0.633,
+          "chained": 0.0,
+          "chained_code_present": 0.0,
+          "n": 60
+        },
+        "stale": {
+          "orig": 1.0,
+          "chained": 0.0,
+          "chained_code_present": 0.0,
+          "n": 60
+        },
+        "good": {
+          "orig_util": 1.0,
+          "chained_util": 0.833,
+          "n": 60
+        }
+      },
+      "Phi-4": {
+        "irrelevant": {
+          "orig": 0.933,
+          "chained": 0.0,
+          "chained_code_present": 0.0,
+          "n": 60
+        },
+        "attr_mismatch": {
+          "orig": 0.383,
+          "chained": 0.0,
+          "chained_code_present": 0.0,
+          "n": 60
+        },
+        "stale": {
+          "orig": 0.3,
+          "chained": 0.0,
+          "chained_code_present": 0.0,
+          "n": 60
+        },
+        "good": {
+          "orig_util": 1.0,
+          "chained_util": 0.833,
+          "n": 60
+        }
+      },
+      "Mistral-Small-24B": {
+        "irrelevant": {
+          "orig": 0.983,
+          "chained": 0.0,
+          "chained_code_present": 0.0,
+          "n": 60
+        },
+        "attr_mismatch": {
+          "orig": 0.117,
+          "chained": 0.0,
+          "chained_code_present": 0.0,
+          "n": 60
+        },
+        "stale": {
+          "orig": 0.6,
+          "chained": 0.0,
+          "chained_code_present": 0.0,
+          "n": 60
+        },
+        "good": {
+          "orig_util": 1.0,
+          "chained_util": 0.833,
+          "n": 60
+        }
+      },
+      "gemma-4-26b": {
+        "irrelevant": {
+          "orig": 0.933,
+          "chained": 0.0,
+          "chained_code_present": 0.0,
+          "n": 60
+        },
+        "attr_mismatch": {
+          "orig": 0.167,
+          "chained": 0.0,
+          "chained_code_present": 0.0,
+          "n": 60
+        },
+        "stale": {
+          "orig": 1.0,
+          "chained": 0.0,
+          "chained_code_present": 0.0,
+          "n": 60
+        },
+        "good": {
+          "orig_util": 1.0,
+          "chained_util": 0.833,
+          "n": 60
+        }
+      },
+      "Qwen3.5-27B": {
+        "irrelevant": {
+          "orig": 0.9,
+          "chained": 0.0,
+          "chained_code_present": 0.0,
+          "n": 60
+        },
+        "attr_mismatch": {
+          "orig": 0.05,
+          "chained": 0.0,
+          "chained_code_present": 0.0,
+          "n": 60
+        },
+        "stale": {
+          "orig": 0.183,
+          "chained": 0.0,
+          "chained_code_present": 0.0,
+          "n": 60
+        },
+        "good": {
+          "orig_util": 1.0,
+          "chained_util": 0.833,
+          "n": 60
+        }
+      },
+      "Qwen3.6-35B": {
+        "irrelevant": {
+          "orig": 0.983,
+          "chained": 0.0,
+          "chained_code_present": 0.0,
+          "n": 60
+        },
+        "attr_mismatch": {
+          "orig": 0.2,
+          "chained": 0.0,
+          "chained_code_present": 0.0,
+          "n": 60
+        },
+        "stale": {
+          "orig": 0.917,
+          "chained": 0.0,
+          "chained_code_present": 0.0,
+          "n": 60
+        },
+        "good": {
+          "orig_util": 0.983,
+          "chained_util": 0.817,
+          "n": 60
+        }
+      }
+    },
+    "pooled": {
+      "irrelevant": {
+        "orig": 0.954,
+        "chained": 0.0,
+        "wilson": [
+          0.0,
+          0.008
+        ],
+        "chained_code_present": 0.0,
+        "n": 480
+      },
+      "attr_mismatch": {
+        "orig": 0.325,
+        "chained": 0.002,
+        "wilson": [
+          0.0,
+          0.012
+        ],
+        "chained_code_present": 0.002,
+        "n": 480
+      },
+      "stale": {
+        "orig": 0.733,
+        "chained": 0.002,
+        "wilson": [
+          0.0,
+          0.012
+        ],
+        "chained_code_present": 0.002,
+        "n": 480
+      },
+      "good": {
+        "orig_util": 0.983,
+        "chained_util": 0.821,
+        "n": 480
+      }
+    }
+  }
+}

@@ -1,0 +1,677 @@
+[
+  {
+    "worker": "Mistral-Small-24B",
+    "supervisor": "Mistral-Small-24B",
+    "cond": "attr_mismatch",
+    "n_confab": 15,
+    "catch_rate": 0.133,
+    "n_clean": 5,
+    "false_alarm": 0.0
+  },
+  {
+    "worker": "Mistral-Small-24B",
+    "supervisor": "Mistral-Small-24B",
+    "cond": "irrelevant",
+    "n_confab": 2,
+    "catch_rate": 1.0,
+    "n_clean": 18,
+    "false_alarm": 0.278
+  },
+  {
+    "worker": "Mistral-Small-24B",
+    "supervisor": "Mistral-Small-24B",
+    "cond": "stale",
+    "n_confab": 8,
+    "catch_rate": 0.0,
+    "n_clean": 12,
+    "false_alarm": 0.0
+  },
+  {
+    "worker": "Mistral-Small-24B",
+    "supervisor": "Phi-4-mini",
+    "cond": "attr_mismatch",
+    "n_confab": 15,
+    "catch_rate": 0.0,
+    "n_clean": 5,
+    "false_alarm": 0.8
+  },
+  {
+    "worker": "Mistral-Small-24B",
+    "supervisor": "Phi-4-mini",
+    "cond": "irrelevant",
+    "n_confab": 2,
+    "catch_rate": 0.0,
+    "n_clean": 18,
+    "false_alarm": 0.889
+  },
+  {
+    "worker": "Mistral-Small-24B",
+    "supervisor": "Phi-4-mini",
+    "cond": "stale",
+    "n_confab": 8,
+    "catch_rate": 0.625,
+    "n_clean": 12,
+    "false_alarm": 0.167
+  },
+  {
+    "worker": "Mistral-Small-24B",
+    "supervisor": "Qwen3.5-27B",
+    "cond": "attr_mismatch",
+    "n_confab": 15,
+    "catch_rate": 0.867,
+    "n_clean": 5,
+    "false_alarm": 0.0
+  },
+  {
+    "worker": "Mistral-Small-24B",
+    "supervisor": "Qwen3.5-27B",
+    "cond": "irrelevant",
+    "n_confab": 2,
+    "catch_rate": 1.0,
+    "n_clean": 18,
+    "false_alarm": 0.0
+  },
+  {
+    "worker": "Mistral-Small-24B",
+    "supervisor": "Qwen3.5-27B",
+    "cond": "stale",
+    "n_confab": 8,
+    "catch_rate": 0.25,
+    "n_clean": 12,
+    "false_alarm": 0.0
+  },
+  {
+    "worker": "Mistral-Small-24B",
+    "supervisor": "Qwen3.5-9B",
+    "cond": "attr_mismatch",
+    "n_confab": 15,
+    "catch_rate": 0.333,
+    "n_clean": 5,
+    "false_alarm": 1.0
+  },
+  {
+    "worker": "Mistral-Small-24B",
+    "supervisor": "Qwen3.5-9B",
+    "cond": "irrelevant",
+    "n_confab": 2,
+    "catch_rate": 1.0,
+    "n_clean": 18,
+    "false_alarm": 0.778
+  },
+  {
+    "worker": "Mistral-Small-24B",
+    "supervisor": "Qwen3.5-9B",
+    "cond": "stale",
+    "n_confab": 8,
+    "catch_rate": 1.0,
+    "n_clean": 12,
+    "false_alarm": 0.5
+  },
+  {
+    "worker": "Mistral-Small-24B",
+    "supervisor": "gemma-4-26b",
+    "cond": "attr_mismatch",
+    "n_confab": 15,
+    "catch_rate": 0.267,
+    "n_clean": 5,
+    "false_alarm": 0.0
+  },
+  {
+    "worker": "Mistral-Small-24B",
+    "supervisor": "gemma-4-26b",
+    "cond": "irrelevant",
+    "n_confab": 2,
+    "catch_rate": 1.0,
+    "n_clean": 18,
+    "false_alarm": 0.0
+  },
+  {
+    "worker": "Mistral-Small-24B",
+    "supervisor": "gemma-4-26b",
+    "cond": "stale",
+    "n_confab": 8,
+    "catch_rate": 0.0,
+    "n_clean": 12,
+    "false_alarm": 0.0
+  },
+  {
+    "worker": "Phi-4-mini",
+    "supervisor": "Mistral-Small-24B",
+    "cond": "attr_mismatch",
+    "n_confab": 18,
+    "catch_rate": 0.111,
+    "n_clean": 2,
+    "false_alarm": 1.0
+  },
+  {
+    "worker": "Phi-4-mini",
+    "supervisor": "Mistral-Small-24B",
+    "cond": "irrelevant",
+    "n_confab": 18,
+    "catch_rate": 0.944,
+    "n_clean": 2,
+    "false_alarm": 1.0
+  },
+  {
+    "worker": "Phi-4-mini",
+    "supervisor": "Mistral-Small-24B",
+    "cond": "stale",
+    "n_confab": 3,
+    "catch_rate": 0.0,
+    "n_clean": 17,
+    "false_alarm": 0.059
+  },
+  {
+    "worker": "Phi-4-mini",
+    "supervisor": "Phi-4-mini",
+    "cond": "attr_mismatch",
+    "n_confab": 18,
+    "catch_rate": 0.0,
+    "n_clean": 2,
+    "false_alarm": 0.5
+  },
+  {
+    "worker": "Phi-4-mini",
+    "supervisor": "Phi-4-mini",
+    "cond": "irrelevant",
+    "n_confab": 18,
+    "catch_rate": 0.056,
+    "n_clean": 2,
+    "false_alarm": 0.5
+  },
+  {
+    "worker": "Phi-4-mini",
+    "supervisor": "Phi-4-mini",
+    "cond": "stale",
+    "n_confab": 3,
+    "catch_rate": 0.667,
+    "n_clean": 17,
+    "false_alarm": 0.824
+  },
+  {
+    "worker": "Phi-4-mini",
+    "supervisor": "Qwen3.5-27B",
+    "cond": "attr_mismatch",
+    "n_confab": 18,
+    "catch_rate": 0.778,
+    "n_clean": 2,
+    "false_alarm": 1.0
+  },
+  {
+    "worker": "Phi-4-mini",
+    "supervisor": "Qwen3.5-27B",
+    "cond": "irrelevant",
+    "n_confab": 18,
+    "catch_rate": 1.0,
+    "n_clean": 2,
+    "false_alarm": 1.0
+  },
+  {
+    "worker": "Phi-4-mini",
+    "supervisor": "Qwen3.5-27B",
+    "cond": "stale",
+    "n_confab": 3,
+    "catch_rate": 0.667,
+    "n_clean": 17,
+    "false_alarm": 0.059
+  },
+  {
+    "worker": "Phi-4-mini",
+    "supervisor": "Qwen3.5-9B",
+    "cond": "attr_mismatch",
+    "n_confab": 18,
+    "catch_rate": 0.222,
+    "n_clean": 2,
+    "false_alarm": 1.0
+  },
+  {
+    "worker": "Phi-4-mini",
+    "supervisor": "Qwen3.5-9B",
+    "cond": "irrelevant",
+    "n_confab": 18,
+    "catch_rate": 1.0,
+    "n_clean": 2,
+    "false_alarm": 1.0
+  },
+  {
+    "worker": "Phi-4-mini",
+    "supervisor": "Qwen3.5-9B",
+    "cond": "stale",
+    "n_confab": 3,
+    "catch_rate": 0.667,
+    "n_clean": 17,
+    "false_alarm": 0.647
+  },
+  {
+    "worker": "Phi-4-mini",
+    "supervisor": "gemma-4-26b",
+    "cond": "attr_mismatch",
+    "n_confab": 18,
+    "catch_rate": 0.167,
+    "n_clean": 2,
+    "false_alarm": 1.0
+  },
+  {
+    "worker": "Phi-4-mini",
+    "supervisor": "gemma-4-26b",
+    "cond": "irrelevant",
+    "n_confab": 18,
+    "catch_rate": 1.0,
+    "n_clean": 2,
+    "false_alarm": 1.0
+  },
+  {
+    "worker": "Phi-4-mini",
+    "supervisor": "gemma-4-26b",
+    "cond": "stale",
+    "n_confab": 3,
+    "catch_rate": 0.0,
+    "n_clean": 17,
+    "false_alarm": 0.059
+  },
+  {
+    "worker": "Qwen3.5-27B",
+    "supervisor": "Mistral-Small-24B",
+    "cond": "attr_mismatch",
+    "n_confab": 7,
+    "catch_rate": 0.0,
+    "n_clean": 13,
+    "false_alarm": 0.0
+  },
+  {
+    "worker": "Qwen3.5-27B",
+    "supervisor": "Mistral-Small-24B",
+    "cond": "irrelevant",
+    "n_confab": 0,
+    "catch_rate": null,
+    "n_clean": 20,
+    "false_alarm": 0.0
+  },
+  {
+    "worker": "Qwen3.5-27B",
+    "supervisor": "Mistral-Small-24B",
+    "cond": "stale",
+    "n_confab": 0,
+    "catch_rate": null,
+    "n_clean": 20,
+    "false_alarm": 0.0
+  },
+  {
+    "worker": "Qwen3.5-27B",
+    "supervisor": "Phi-4-mini",
+    "cond": "attr_mismatch",
+    "n_confab": 7,
+    "catch_rate": 0.0,
+    "n_clean": 13,
+    "false_alarm": 0.308
+  },
+  {
+    "worker": "Qwen3.5-27B",
+    "supervisor": "Phi-4-mini",
+    "cond": "irrelevant",
+    "n_confab": 0,
+    "catch_rate": null,
+    "n_clean": 20,
+    "false_alarm": 0.85
+  },
+  {
+    "worker": "Qwen3.5-27B",
+    "supervisor": "Phi-4-mini",
+    "cond": "stale",
+    "n_confab": 0,
+    "catch_rate": null,
+    "n_clean": 20,
+    "false_alarm": 0.05
+  },
+  {
+    "worker": "Qwen3.5-27B",
+    "supervisor": "Qwen3.5-27B",
+    "cond": "attr_mismatch",
+    "n_confab": 7,
+    "catch_rate": 0.714,
+    "n_clean": 13,
+    "false_alarm": 0.0
+  },
+  {
+    "worker": "Qwen3.5-27B",
+    "supervisor": "Qwen3.5-27B",
+    "cond": "irrelevant",
+    "n_confab": 0,
+    "catch_rate": null,
+    "n_clean": 20,
+    "false_alarm": 0.0
+  },
+  {
+    "worker": "Qwen3.5-27B",
+    "supervisor": "Qwen3.5-27B",
+    "cond": "stale",
+    "n_confab": 0,
+    "catch_rate": null,
+    "n_clean": 20,
+    "false_alarm": 0.0
+  },
+  {
+    "worker": "Qwen3.5-27B",
+    "supervisor": "Qwen3.5-9B",
+    "cond": "attr_mismatch",
+    "n_confab": 7,
+    "catch_rate": 0.286,
+    "n_clean": 13,
+    "false_alarm": 1.0
+  },
+  {
+    "worker": "Qwen3.5-27B",
+    "supervisor": "Qwen3.5-9B",
+    "cond": "irrelevant",
+    "n_confab": 0,
+    "catch_rate": null,
+    "n_clean": 20,
+    "false_alarm": 0.55
+  },
+  {
+    "worker": "Qwen3.5-27B",
+    "supervisor": "Qwen3.5-9B",
+    "cond": "stale",
+    "n_confab": 0,
+    "catch_rate": null,
+    "n_clean": 20,
+    "false_alarm": 0.25
+  },
+  {
+    "worker": "Qwen3.5-27B",
+    "supervisor": "gemma-4-26b",
+    "cond": "attr_mismatch",
+    "n_confab": 7,
+    "catch_rate": 0.0,
+    "n_clean": 13,
+    "false_alarm": 0.0
+  },
+  {
+    "worker": "Qwen3.5-27B",
+    "supervisor": "gemma-4-26b",
+    "cond": "irrelevant",
+    "n_confab": 0,
+    "catch_rate": null,
+    "n_clean": 20,
+    "false_alarm": 0.0
+  },
+  {
+    "worker": "Qwen3.5-27B",
+    "supervisor": "gemma-4-26b",
+    "cond": "stale",
+    "n_confab": 0,
+    "catch_rate": null,
+    "n_clean": 20,
+    "false_alarm": 0.0
+  },
+  {
+    "worker": "Qwen3.5-9B",
+    "supervisor": "Mistral-Small-24B",
+    "cond": "attr_mismatch",
+    "n_confab": 7,
+    "catch_rate": 0.286,
+    "n_clean": 13,
+    "false_alarm": 0.615
+  },
+  {
+    "worker": "Qwen3.5-9B",
+    "supervisor": "Mistral-Small-24B",
+    "cond": "irrelevant",
+    "n_confab": 0,
+    "catch_rate": null,
+    "n_clean": 20,
+    "false_alarm": 0.75
+  },
+  {
+    "worker": "Qwen3.5-9B",
+    "supervisor": "Mistral-Small-24B",
+    "cond": "stale",
+    "n_confab": 15,
+    "catch_rate": 0.133,
+    "n_clean": 5,
+    "false_alarm": 0.0
+  },
+  {
+    "worker": "Qwen3.5-9B",
+    "supervisor": "Phi-4-mini",
+    "cond": "attr_mismatch",
+    "n_confab": 7,
+    "catch_rate": 0.0,
+    "n_clean": 13,
+    "false_alarm": 0.462
+  },
+  {
+    "worker": "Qwen3.5-9B",
+    "supervisor": "Phi-4-mini",
+    "cond": "irrelevant",
+    "n_confab": 0,
+    "catch_rate": null,
+    "n_clean": 20,
+    "false_alarm": 0.85
+  },
+  {
+    "worker": "Qwen3.5-9B",
+    "supervisor": "Phi-4-mini",
+    "cond": "stale",
+    "n_confab": 15,
+    "catch_rate": 0.933,
+    "n_clean": 5,
+    "false_alarm": 0.4
+  },
+  {
+    "worker": "Qwen3.5-9B",
+    "supervisor": "Qwen3.5-27B",
+    "cond": "attr_mismatch",
+    "n_confab": 7,
+    "catch_rate": 0.714,
+    "n_clean": 13,
+    "false_alarm": 0.615
+  },
+  {
+    "worker": "Qwen3.5-9B",
+    "supervisor": "Qwen3.5-27B",
+    "cond": "irrelevant",
+    "n_confab": 0,
+    "catch_rate": null,
+    "n_clean": 20,
+    "false_alarm": 0.7
+  },
+  {
+    "worker": "Qwen3.5-9B",
+    "supervisor": "Qwen3.5-27B",
+    "cond": "stale",
+    "n_confab": 15,
+    "catch_rate": 0.867,
+    "n_clean": 5,
+    "false_alarm": 0.0
+  },
+  {
+    "worker": "Qwen3.5-9B",
+    "supervisor": "Qwen3.5-9B",
+    "cond": "attr_mismatch",
+    "n_confab": 7,
+    "catch_rate": 0.143,
+    "n_clean": 13,
+    "false_alarm": 0.769
+  },
+  {
+    "worker": "Qwen3.5-9B",
+    "supervisor": "Qwen3.5-9B",
+    "cond": "irrelevant",
+    "n_confab": 0,
+    "catch_rate": null,
+    "n_clean": 20,
+    "false_alarm": 1.0
+  },
+  {
+    "worker": "Qwen3.5-9B",
+    "supervisor": "Qwen3.5-9B",
+    "cond": "stale",
+    "n_confab": 15,
+    "catch_rate": 0.933,
+    "n_clean": 5,
+    "false_alarm": 0.8
+  },
+  {
+    "worker": "Qwen3.5-9B",
+    "supervisor": "gemma-4-26b",
+    "cond": "attr_mismatch",
+    "n_confab": 7,
+    "catch_rate": 0.286,
+    "n_clean": 13,
+    "false_alarm": 0.615
+  },
+  {
+    "worker": "Qwen3.5-9B",
+    "supervisor": "gemma-4-26b",
+    "cond": "irrelevant",
+    "n_confab": 0,
+    "catch_rate": null,
+    "n_clean": 20,
+    "false_alarm": 0.7
+  },
+  {
+    "worker": "Qwen3.5-9B",
+    "supervisor": "gemma-4-26b",
+    "cond": "stale",
+    "n_confab": 15,
+    "catch_rate": 0.0,
+    "n_clean": 5,
+    "false_alarm": 0.0
+  },
+  {
+    "worker": "gemma-4-26b",
+    "supervisor": "Mistral-Small-24B",
+    "cond": "attr_mismatch",
+    "n_confab": 20,
+    "catch_rate": 0.15,
+    "n_clean": 0,
+    "false_alarm": null
+  },
+  {
+    "worker": "gemma-4-26b",
+    "supervisor": "Mistral-Small-24B",
+    "cond": "irrelevant",
+    "n_confab": 0,
+    "catch_rate": null,
+    "n_clean": 20,
+    "false_alarm": 0.3
+  },
+  {
+    "worker": "gemma-4-26b",
+    "supervisor": "Mistral-Small-24B",
+    "cond": "stale",
+    "n_confab": 15,
+    "catch_rate": 0.0,
+    "n_clean": 5,
+    "false_alarm": 0.0
+  },
+  {
+    "worker": "gemma-4-26b",
+    "supervisor": "Phi-4-mini",
+    "cond": "attr_mismatch",
+    "n_confab": 20,
+    "catch_rate": 0.0,
+    "n_clean": 0,
+    "false_alarm": null
+  },
+  {
+    "worker": "gemma-4-26b",
+    "supervisor": "Phi-4-mini",
+    "cond": "irrelevant",
+    "n_confab": 0,
+    "catch_rate": null,
+    "n_clean": 20,
+    "false_alarm": 0.9
+  },
+  {
+    "worker": "gemma-4-26b",
+    "supervisor": "Phi-4-mini",
+    "cond": "stale",
+    "n_confab": 15,
+    "catch_rate": 0.933,
+    "n_clean": 5,
+    "false_alarm": 0.2
+  },
+  {
+    "worker": "gemma-4-26b",
+    "supervisor": "Qwen3.5-27B",
+    "cond": "attr_mismatch",
+    "n_confab": 20,
+    "catch_rate": 0.9,
+    "n_clean": 0,
+    "false_alarm": null
+  },
+  {
+    "worker": "gemma-4-26b",
+    "supervisor": "Qwen3.5-27B",
+    "cond": "irrelevant",
+    "n_confab": 0,
+    "catch_rate": null,
+    "n_clean": 20,
+    "false_alarm": 0.1
+  },
+  {
+    "worker": "gemma-4-26b",
+    "supervisor": "Qwen3.5-27B",
+    "cond": "stale",
+    "n_confab": 15,
+    "catch_rate": 0.667,
+    "n_clean": 5,
+    "false_alarm": 0.0
+  },
+  {
+    "worker": "gemma-4-26b",
+    "supervisor": "Qwen3.5-9B",
+    "cond": "attr_mismatch",
+    "n_confab": 20,
+    "catch_rate": 0.4,
+    "n_clean": 0,
+    "false_alarm": null
+  },
+  {
+    "worker": "gemma-4-26b",
+    "supervisor": "Qwen3.5-9B",
+    "cond": "irrelevant",
+    "n_confab": 0,
+    "catch_rate": null,
+    "n_clean": 20,
+    "false_alarm": 0.7
+  },
+  {
+    "worker": "gemma-4-26b",
+    "supervisor": "Qwen3.5-9B",
+    "cond": "stale",
+    "n_confab": 15,
+    "catch_rate": 0.867,
+    "n_clean": 5,
+    "false_alarm": 0.6
+  },
+  {
+    "worker": "gemma-4-26b",
+    "supervisor": "gemma-4-26b",
+    "cond": "attr_mismatch",
+    "n_confab": 20,
+    "catch_rate": 0.25,
+    "n_clean": 0,
+    "false_alarm": null
+  },
+  {
+    "worker": "gemma-4-26b",
+    "supervisor": "gemma-4-26b",
+    "cond": "irrelevant",
+    "n_confab": 0,
+    "catch_rate": null,
+    "n_clean": 20,
+    "false_alarm": 0.0
+  },
+  {
+    "worker": "gemma-4-26b",
+    "supervisor": "gemma-4-26b",
+    "cond": "stale",
+    "n_confab": 15,
+    "catch_rate": 0.0,
+    "n_clean": 5,
+    "false_alarm": 0.0
+  }
+]
