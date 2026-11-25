@@ -99,7 +99,7 @@ class MyBackend:
 
 instance = make_instance(seed=1, k=5, necessary_quality=ResultQuality.STALE,
                          style="record", domain="payments")
-record = run(instance, MyBackend(), DeliveryMode.AGENTIC, max_steps=14)
+record = run(instance, MyBackend(), DeliveryMode.AGENTIC, max_steps=20)
 print(record.answer)
 ```
 
