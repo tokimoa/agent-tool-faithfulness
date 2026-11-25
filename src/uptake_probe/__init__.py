@@ -1,4 +1,4 @@
-"""uptake-probe: a judge-free instrument for tool-result reliance in LLM agents.
+"""uptake-probe: a judge-free benchmark for tool-result reliance in LLM agents.
 
 The package plants un-memorizable nonce values into tool results, so whether an
 agent relied on a result is scored by exact match. It contains the deterministic

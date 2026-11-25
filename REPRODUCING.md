@@ -21,7 +21,7 @@ reproduces the mis-grounding label each study originally recorded.
 ## Re-running the experiments
 
 The runners need Apple Silicon and `uv sync --extra mlx`. All models are 4-bit
-MLX conversions from the `mlx-community` namespace on the Hugging Face Hub; the
+MLX conversions (the precision check adds one 8-bit conversion) from the `mlx-community` namespace on the Hugging Face Hub; the
 identifiers are listed at the top of each runner (for example
 `debug/baseline.py`) and in the paper's reproducibility statement. The
 baseline runner appends to its raw log and skips episodes that are already
@@ -29,8 +29,8 @@ present, so an interrupted run can be resumed.
 
 ## Which script produced which result
 
-All studies use the multi-field *record* version of the instrument unless
-marked otherwise. Table numbers refer to the camera-ready version; result files
+All studies use the multi-field *record* version of the benchmark unless
+marked otherwise. Every runner caps the agent loop at 20 steps (`max_steps=20`). Table numbers refer to the camera-ready version; result files
 are in `results/` and raw logs in `results/raw/`.
 
 | study (paper table) | runner | aggregated result | raw log in `results/raw/` |
@@ -45,7 +45,7 @@ are in `results/` and raw logs in `results/raw/`.
 | Multi-agent verification (Table 11) | `debug/ma_dimensions_record.py`, `debug/ma_verify_aware.py` | `ma_dimensions_record.json`, `ma_verify_aware.json` | `ma_workers_record.jsonl`, `ma_record_supervision.jsonl`, `ma_aware_supervision.jsonl` |
 | Commit framing (Tables 13, 14) | `debug/commit_contrast.py` | `commit_contrast.json` | `commit_contrast_raw.jsonl` |
 | Outcome splits (Tables 3, 16, 17) | `debug/outcome_split.py` (offline) | `outcome_split.json` | all of the above |
-| 4-bit vs 8-bit check (Limitations) | `debug/precision_check.py` | `precision_check.json` | `precision_check_raw.jsonl` |
+| 4-bit vs 8-bit check (Table 19, caption) | `debug/precision_check.py` | `precision_check.json` | `precision_check_raw.jsonl` |
 | Detector validation (Appendix E) | `debug/validate_detector.py`, `debug/detector_heldout.py` | the two `detector_*_sheet.jsonl` files | |
 | Larger roster, single-field version (Table 15) | `debug/suite_full.py` | `suite_full.json` | `suite_full_raw.jsonl` |
 | Surface form, single-field version (Appendix D) | `debug/realistic_replication.py` | `realistic.json` | `realistic_raw.jsonl` |
@@ -66,5 +66,5 @@ kept stable so that the logs remain reproducible.
 | `uptake`, `used` | utilization |
 | `irrelevant` | wrong entity |
 | "Tool-Trust Card" (script output) | per-model profile |
-| `uptake_probe` (package name) | the instrument |
+| `uptake_probe` (package name) | the benchmark |
 | `M2_calibration`, `M3b_interface` (dataset modules) | baseline grid, input-ladder transforms |

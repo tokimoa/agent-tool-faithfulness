@@ -38,6 +38,12 @@ def s2(x):
     return "1.0" if s == "1.00" else s[1:]
 
 
+def rate(r, c):
+    """Rate of outcome ``c`` from the stored counts, so that a rate already
+    rounded to three decimals in the JSON is not rounded a second time."""
+    return r[c + "_k"] / r["n"] if r.get("n") and (c + "_k") in r else r[c]
+
+
 def ci(k, n):
     lo, hi = wilson_ci(k, n)
     return f"{k / n:.2f}\\,[{s2(lo)},{s2(hi)}]"
@@ -53,7 +59,7 @@ rows = []
 for cond, dim in DIMS:
     r = OS["baseline"]["pooled"][f"{cond}|orig"]
     exposed = (r["asserted_k"] + r["caveated_k"]) / r["n"]
-    rows.append(f"{dim} & " + " & ".join(f2(r[c]) for c in CATS) + f" & {f2(exposed)} \\\\")
+    rows.append(f"{dim} & " + " & ".join(f2(rate(r, c)) for c in CATS) + f" & {f2(exposed)} \\\\")
 write("outcome_pooled.tex", rows)
 
 # --- appendix: per-model five-way split on the baseline grid -----------------
@@ -62,13 +68,13 @@ for m in MODELS:
     cells = []
     for cond, _ in DIMS[:3]:
         r = OS["baseline"]["per_model"][f"{m}|{cond}|orig"]
-        cells += [s2(r[c]) for c in CATS]
+        cells += [s2(rate(r, c)) for c in CATS]
     rows.append(f"{m} & " + " & ".join(cells) + " \\\\")
 rows.append("\\midrule")
 cells = []
 for cond, _ in DIMS[:3]:
     r = OS["baseline"]["pooled"][f"{cond}|orig"]
-    cells += [s2(r[c]) for c in CATS]
+    cells += [s2(rate(r, c)) for c in CATS]
 rows.append("pooled & " + " & ".join(cells) + " \\\\")
 write("outcome_per_model.tex", rows)
 
@@ -101,7 +107,7 @@ for title, study, cond, arms in STUDIES:
     rows.append(f"\\multicolumn{{7}}{{l}}{{\\emph{{{title}}}}} \\\\")
     for label, arm, key in arms:
         r = OS[study]["pooled"][key or f"{cond}|{arm}"]
-        rows.append(f"\\quad {label} & {r['n']} & " + " & ".join(f2(r[c]) for c in CATS) + " \\\\")
+        rows.append(f"\\quad {label} & {r['n']} & " + " & ".join(f2(rate(r, c)) for c in CATS) + " \\\\")
     rows.append("\\addlinespace[2pt]")
 write("outcome_studies.tex", rows[:-1])
 
